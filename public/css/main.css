@@ -150,14 +150,10 @@ img {
 }
 
 /* ==========================================
-   3. CUSTOM INVERTED CURSOR FOLLOWERS
+   3. CUSTOM INVERTED CURSOR FOLLOWERS (DISABLED)
    ========================================== */
-body {
-  cursor: none;
-}
-
-a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag {
-  cursor: none !important;
+.custom-cursor, .custom-cursor-ring {
+  display: none !important;
 }
 
 .custom-cursor {

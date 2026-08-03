@@ -1307,12 +1307,12 @@
   font-weight: 900 !important;
   line-height: 1.1 !important;
   margin-bottom: 8px !important;
-  color: #ffffff !important;
+  color: var(--color-black) !important;
   text-transform: uppercase !important;
 }
 
 .product-page-brand {
-  color: #00ff66 !important;
+  color: var(--color-success) !important;
   font-size: 0.85rem !important;
   font-weight: 800 !important;
   letter-spacing: 0.15em !important;
@@ -1324,7 +1324,7 @@
   font-family: 'Outfit', sans-serif !important;
   font-size: 1.8rem !important;
   font-weight: 800 !important;
-  color: #ffffff !important;
+  color: var(--color-black) !important;
   margin-bottom: 24px !important;
 }
 
@@ -1332,10 +1332,36 @@
   font-family: sans-serif !important;
   font-size: 0.88rem !important;
   line-height: 1.7 !important;
-  color: #c0c0c0 !important;
+  color: var(--color-dark-gray) !important;
   margin-bottom: 30px !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
   padding-bottom: 24px !important;
+}
+
+/* Dedicated size overrides for product page (since main page body is light) */
+.product-page-details .size-select-label {
+  color: var(--color-black) !important;
+}
+
+.product-page-details .size-chart-link {
+  color: var(--color-gray) !important;
+}
+
+.product-page-details .size-select-btn {
+  background: transparent !important;
+  border: 1px solid var(--color-light-gray) !important;
+  color: var(--color-black) !important;
+  transition: all 0.2s ease !important;
+}
+
+.product-page-details .size-select-btn:hover {
+  border-color: var(--color-black) !important;
+}
+
+.product-page-details .size-select-btn.selected {
+  background: var(--color-black) !important;
+  color: #ffffff !important;
+  border-color: var(--color-black) !important;
 }
 
 @media (max-width: 768px) {
