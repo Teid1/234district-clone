@@ -23,6 +23,7 @@
   "rewrites": [
     { "source": "/shop", "destination": "/shop.html" },
     { "source": "/checkout", "destination": "/checkout.html" },
+    { "source": "/product", "destination": "/product.html" },
     { "source": "/en", "destination": "/index.html" },
     { "source": "/en/:path*", "destination": "/index.html" },
     { "source": "/((?!.*\\.).*)", "destination": "/index.html" }

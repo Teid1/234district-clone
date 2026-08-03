@@ -1277,3 +1277,88 @@
   }
 }
 
+/* ==========================================
+   22. PRODUCT DETAILS PAGE LAYOUT (2-COL / 1-COL)
+   ========================================== */
+.product-page-content {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 48px !important;
+  margin-top: 40px !important;
+  margin-bottom: 80px !important;
+}
+
+.product-page-visual {
+  flex: 0 0 50% !important;
+  max-width: 50% !important;
+  width: 50% !important;
+}
+
+.product-page-details {
+  flex: 0 0 50% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+}
+
+.product-page-name {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 2.2rem !important;
+  font-weight: 900 !important;
+  line-height: 1.1 !important;
+  margin-bottom: 8px !important;
+  color: #ffffff !important;
+  text-transform: uppercase !important;
+}
+
+.product-page-brand {
+  color: #00ff66 !important;
+  font-size: 0.85rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.15em !important;
+  text-transform: uppercase !important;
+  margin-bottom: 16px !important;
+}
+
+.product-page-price {
+  font-family: 'Outfit', sans-serif !important;
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  margin-bottom: 24px !important;
+}
+
+.product-page-description {
+  font-family: sans-serif !important;
+  font-size: 0.88rem !important;
+  line-height: 1.7 !important;
+  color: #c0c0c0 !important;
+  margin-bottom: 30px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  padding-bottom: 24px !important;
+}
+
+@media (max-width: 768px) {
+  .product-page-content {
+    flex-direction: column !important;
+    gap: 30px !important;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+  }
+  .product-page-visual {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .product-page-details {
+    flex: 0 0 100% !important;
+    width: 100% !important;
+  }
+  .product-page-name {
+    font-size: 1.6rem !important;
+  }
+  .product-page-price {
+    font-size: 1.4rem !important;
+  }
+}
+

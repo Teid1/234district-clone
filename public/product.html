@@ -184,94 +184,67 @@
   </header>
 
   <!-- Page Title Section -->
-  <section class="shop-page-title-section">
-    <div class="shop-page-title-slideshow">
-      <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM.jpeg" class="shop-slide active" alt="Shop Slide 1">
-      <img src="/images/WhatsApp-Image-2026-05-08-at-12.55.22-AM.jpeg" class="shop-slide" alt="Shop Slide 2" loading="lazy">
-      <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM-768x1024.jpeg" class="shop-slide" alt="Shop Slide 3" loading="lazy">
-      <img src="/images/WhatsApp-Image-2026-05-08-at-12.43.59-AM-3.jpeg" class="shop-slide" alt="Shop Slide 4" loading="lazy">
-    </div>
-    <div class="shop-page-title-container">
-      <h1 class="shop-page-title">Shop Catalog</h1>
+  <section class="shop-page-title-section" style="padding: 40px 0 20px 0 !important; min-height: auto !important; background: transparent !important;">
+    <div class="shop-page-title-container" style="position: relative; z-index: 10;">
+      <h1 class="shop-page-title" style="font-size: 1.8rem !important; text-transform: uppercase;">Product Details</h1>
       <hr class="section-divider">
     </div>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const slides = document.querySelectorAll('.shop-slide');
-        if (slides.length < 2) return;
-        let currentIndex = 0;
-        const showSlide = (index) => {
-          slides.forEach((slide, idx) => {
-            if (idx === index) {
-              slide.style.transition = 'none';
-              slide.style.transform = 'scale(1.02)';
-              slide.style.opacity = '0';
-              slide.offsetHeight; // force reflow
-              slide.style.transition = 'opacity 1.5s ease-in-out, transform 5.5s ease-in-out';
-              slide.classList.add('active');
-              slide.style.opacity = '1';
-              slide.style.transform = 'scale(1.12)';
-            } else {
-              slide.classList.remove('active');
-              slide.style.transition = 'opacity 1.5s ease-in-out';
-              slide.style.opacity = '0';
-            }
-          });
-        };
-        showSlide(currentIndex);
-        setInterval(() => {
-          currentIndex = (currentIndex + 1) % slides.length;
-          showSlide(currentIndex);
-        }, 5000);
-      });
-    </script>
   </section>
 
-  <!-- Dynamic Shop Catalog Section -->
-  <section class="section-padding shop-catalog-section" id="shop-all-section">
+  <!-- Product Details Section -->
+  <section class="section-padding" style="padding-top: 10px !important;">
     <div class="container">
-      
-      <!-- Catalog Toolbar (Filter, Search, Sort) -->
-      <div class="catalog-toolbar">
-        <!-- Category Filter Pills -->
-        <div class="catalog-filter-pills">
-          <button class="filter-pill active" data-filter="all">All</button>
-          <button class="filter-pill" data-filter="collections">New Arrivals</button>
-          <button class="filter-pill" data-filter="tops">Tops</button>
-          <button class="filter-pill" data-filter="bottoms">Bottoms</button>
-          <button class="filter-pill" data-filter="accessories">Accessories</button>
-          <button class="filter-pill" data-filter="home-decor">Home Decor</button>
-        </div>
-        
-        <!-- Search & Sort Controls -->
-        <div class="catalog-controls-right">
-          <div class="catalog-search-wrapper">
-            <svg class="search-icon" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            <input type="text" id="catalog-search-input" placeholder="Search shop...">
-          </div>
-          <div class="catalog-sort-wrapper">
-            <select id="catalog-sort-select" class="catalog-sort-select" title="Sort Products">
-              <option value="default">Default Sorting</option>
-              <option value="price-low">Price: Low to High</option>
-              <option value="price-high">Price: High to Low</option>
-              <option value="name-az">Name: A - Z</option>
-            </select>
+      <div class="product-page-content">
+        <!-- Left column: Visuals -->
+        <div class="product-page-visual">
+          <div class="modal-slideshow-container">
+            <div class="modal-slideshow-wrapper" id="product-page-slideshow-wrapper">
+              <!-- Dynamically inserted by home.js -->
+            </div>
+            <button class="modal-slide-prev" id="product-page-slide-prev">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+            </button>
+            <button class="modal-slide-next" id="product-page-slide-next">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>
+            </button>
+            <div class="modal-slide-dots" id="product-page-slide-dots">
+              <!-- Dynamically inserted by home.js -->
+            </div>
           </div>
         </div>
-      </div>
-      
-      <!-- Catalog Grid -->
-      <ul class="products-grid-custom" id="grid-shop-all">
-        <!-- Loaded dynamically by home.js -->
-      </ul>
-      
-      <!-- Pagination/Load More -->
-      <div class="catalog-load-more-wrapper">
-        <button class="btn-black-outline" id="load-more-catalog-btn">Load More Products</button>
+        <!-- Right column: Details -->
+        <div class="product-page-details">
+          <h1 class="product-page-name" id="product-page-name">Product Name</h1>
+          <div class="product-page-brand">234 DISTRICT</div>
+          <div class="product-page-price" id="product-page-price">₦0.00</div>
+          <p class="product-page-description" id="product-page-description">Loading product description...</p>
+          
+          <!-- Size selection -->
+          <div class="options-size-section">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span class="size-select-label">SIZE</span>
+              <a href="#" class="size-chart-link" id="product-page-size-chart-trigger">SIZE CHART</a>
+            </div>
+            <div class="size-btn-group" id="product-page-size-group">
+              <button class="size-select-btn" data-size="S">S</button>
+              <button class="size-select-btn" data-size="M">M</button>
+              <button class="size-select-btn" data-size="L">L</button>
+              <button class="size-select-btn" data-size="XL">XL</button>
+              <button class="size-select-btn" data-size="XXL">XXL</button>
+            </div>
+            <div class="size-error-text" id="product-page-size-error" style="color: #ff3b30; font-size: 0.75rem; margin-top: 6px; display: none;">Please select a size.</div>
+          </div>
+
+          <!-- Actions -->
+          <div class="options-actions-section" style="margin-top: 24px; display: flex; flex-direction: column; gap: 12px;">
+            <button class="btn-black options-add-to-cart-btn" id="product-page-add-to-cart-btn" style="width: 100%; height: 50px;">ADD TO CART</button>
+            <button class="btn-green" id="product-page-buy-now-btn" style="width: 100%; height: 50px; background: #00ff66; color: #000000; font-weight: 800; border: none; border-radius: 30px; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase;">BUY IT NOW</button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
+  
   <!-- Footer Section -->
   <footer class="main-footer" id="main-footer">
     <div class="container">
