@@ -1665,6 +1665,61 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    // Check URL parameters for initial filter
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('category');
+    if (categoryParam) {
+      const matchPill = document.querySelector(`.filter-pill[data-filter="${categoryParam}"]`);
+      if (matchPill) {
+        filterPills.forEach(p => p.classList.remove('active'));
+        matchPill.classList.add('active');
+        currentFilter = categoryParam;
+      }
+    }
+
+    // Intercept category navigation links on shop page to avoid full reload
+    document.querySelectorAll('a[href*="category="]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        const href = link.getAttribute('href');
+        const match = href.match(/category=([^&]+)/);
+        if (match) {
+          const category = match[1];
+          const matchPill = document.querySelector(`.filter-pill[data-filter="${category}"]`);
+          if (matchPill) {
+            e.preventDefault();
+            const newUrl = `${window.location.pathname}?category=${category}`;
+            window.history.pushState({ path: newUrl }, '', newUrl);
+            
+            filterPills.forEach(p => p.classList.remove('active'));
+            matchPill.classList.add('active');
+            currentFilter = category;
+            itemsLimit = 100;
+            renderCatalog();
+            
+            // Close mobile menu drawer if active
+            const drawer = document.getElementById('mobile-menu-drawer');
+            const overlay = document.getElementById('drawer-overlay');
+            if (drawer) drawer.classList.remove('active');
+            if (overlay) overlay.classList.remove('active');
+            document.body.classList.remove('scroll-locked');
+          }
+        }
+      });
+    });
+
+    window.addEventListener('popstate', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const categoryParam = urlParams.get('category') || 'all';
+      const matchPill = document.querySelector(`.filter-pill[data-filter="${categoryParam}"]`);
+      if (matchPill) {
+        filterPills.forEach(p => p.classList.remove('active'));
+        matchPill.classList.add('active');
+        currentFilter = categoryParam;
+        itemsLimit = 100;
+        renderCatalog();
+      }
+    });
+
     // Initial render
     renderCatalog();
   };

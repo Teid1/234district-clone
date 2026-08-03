@@ -98,6 +98,17 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', closeAllDrawers);
   });
 
+  // Close mobile menu drawer when any link inside it is clicked
+  const mobileMenuDrawer = document.getElementById('mobile-menu-drawer');
+  if (mobileMenuDrawer) {
+    mobileMenuDrawer.querySelectorAll('a').forEach(link => {
+      if (link.hasAttribute('data-drawer-trigger')) return;
+      link.addEventListener('click', () => {
+        closeAllDrawers();
+      });
+    });
+  }
+
   // Close Drawers on ESC Key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
