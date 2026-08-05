@@ -1329,13 +1329,14 @@
 }
 
 .product-page-description {
-  font-family: sans-serif !important;
+  font-family: var(--font-body), sans-serif !important;
   font-size: 0.88rem !important;
   line-height: 1.7 !important;
   color: var(--color-dark-gray) !important;
   margin-bottom: 30px !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
   padding-bottom: 24px !important;
+  white-space: pre-line !important;
 }
 
 /* Dedicated size overrides for product page (since main page body is light) */
