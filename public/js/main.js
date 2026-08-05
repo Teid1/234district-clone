@@ -483,4 +483,138 @@ document.addEventListener('DOMContentLoaded', () => {
     chatToggle.addEventListener('click', openChat);
     chatClose.addEventListener('click', closeChat);
   }
+
+  // ==========================================
+  // 11. PREMIUM FULLSCREEN IMAGE LIGHTBOX
+  // ==========================================
+  const createLightbox = () => {
+    if (document.getElementById('lightbox-overlay')) return;
+
+    // Create lightbox markup
+    const overlay = document.createElement('div');
+    overlay.id = 'lightbox-overlay';
+    overlay.className = 'lightbox-overlay';
+    overlay.innerHTML = `
+      <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close lightbox">&times;</button>
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn" aria-label="Previous image">&#10094;</button>
+      <img class="lightbox-content" id="lightbox-img" src="" alt="Expanded View">
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn" aria-label="Next image">&#10095;</button>
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    `;
+
+    document.body.appendChild(overlay);
+
+    const img = overlay.querySelector('#lightbox-img');
+    const caption = overlay.querySelector('#lightbox-caption');
+    const closeBtn = overlay.querySelector('#lightbox-close-btn');
+    const prevBtn = overlay.querySelector('#lightbox-prev-btn');
+    const nextBtn = overlay.querySelector('#lightbox-next-btn');
+
+    let currentImagesList = [];
+    let currentIdx = 0;
+
+    const openLightbox = (srcList, startIdx, productTitle) => {
+      currentImagesList = srcList;
+      currentIdx = startIdx;
+
+      img.src = currentImagesList[currentIdx];
+      caption.textContent = productTitle || '';
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+
+      updateNavButtons();
+    };
+
+    const closeLightbox = () => {
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
+    const updateNavButtons = () => {
+      if (currentImagesList.length <= 1) {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+      } else {
+        prevBtn.style.display = 'flex';
+        nextBtn.style.display = 'flex';
+      }
+    };
+
+    const showPrev = (e) => {
+      if (e) e.stopPropagation();
+      currentIdx = (currentIdx - 1 + currentImagesList.length) % currentImagesList.length;
+      img.src = currentImagesList[currentIdx];
+    };
+
+    const showNext = (e) => {
+      if (e) e.stopPropagation();
+      currentIdx = (currentIdx + 1) % currentImagesList.length;
+      img.src = currentImagesList[currentIdx];
+    };
+
+    // Close when clicking overlay backdrop
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        closeLightbox();
+      }
+    });
+
+    closeBtn.addEventListener('click', closeLightbox);
+    prevBtn.addEventListener('click', showPrev);
+    nextBtn.addEventListener('click', showNext);
+
+    // Keyboard bindings
+    document.addEventListener('keydown', (e) => {
+      if (!overlay.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') showPrev();
+      if (e.key === 'ArrowRight') showNext();
+    });
+
+    // Global click delegation for all images
+    document.addEventListener('click', (e) => {
+      const targetImg = e.target.closest('.modal-slide-img, .journal-img, .gallery-item img, .product-card-custom img');
+      if (!targetImg) return;
+
+      // Only handle if they aren't inside card buttons or overlay anchors
+      if (e.target.closest('a') && !e.target.closest('.gallery-item')) return;
+
+      e.preventDefault();
+
+      let imgList = [];
+      let startIdx = 0;
+      let title = '';
+
+      // Check structural contexts
+      const slideshowContainer = targetImg.closest('#product-page-slideshow-wrapper, #modal-slideshow-wrapper');
+      const galleryContainer = targetImg.closest('.lookbook-gallery-grid');
+      const journalContainer = targetImg.closest('.journal-post-card');
+
+      if (slideshowContainer) {
+        const slideImages = Array.from(slideshowContainer.querySelectorAll('.modal-slide-img'));
+        imgList = slideImages.map(el => el.src);
+        startIdx = slideImages.indexOf(targetImg);
+        const nameEl = document.getElementById('product-page-name') || document.getElementById('options-product-name');
+        if (nameEl) title = nameEl.textContent;
+      } else if (galleryContainer) {
+        const galleryImages = Array.from(galleryContainer.querySelectorAll('img'));
+        imgList = galleryImages.map(el => el.src);
+        startIdx = galleryImages.indexOf(targetImg);
+        title = 'Style Journal Gallery';
+      } else if (journalContainer) {
+        imgList = [targetImg.src];
+        startIdx = 0;
+        const titleEl = journalContainer.querySelector('.journal-title');
+        if (titleEl) title = titleEl.textContent;
+      } else {
+        imgList = [targetImg.src];
+        startIdx = 0;
+        title = targetImg.alt || '234 District';
+      }
+
+      openLightbox(imgList, startIdx, title);
+    });
+  };
+
+  createLightbox();
 });
