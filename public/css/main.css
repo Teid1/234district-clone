@@ -2330,10 +2330,7 @@ img {
   max-width: 80%;
 }
 
-/* Tactile zoom-in cursor on hoverable images */
-.modal-slide-img, .journal-img, .gallery-item img, .product-card-custom img {
-  cursor: zoom-in !important;
-}
+
 
 @media (max-width: 768px) {
   .lightbox-close {

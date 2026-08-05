@@ -349,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Butter-smooth dynamic hover delegation
     document.addEventListener('mouseover', (e) => {
-      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close');
+      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close, .modal-slide-img, .journal-img, .gallery-item img, .product-card-custom img');
       if (interactive) {
         cursor.classList.add('hovered');
         ring.classList.add('hovered');
@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.addEventListener('mouseout', (e) => {
-      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close');
+      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close, .modal-slide-img, .journal-img, .gallery-item img, .product-card-custom img');
       if (interactive) {
         cursor.classList.remove('hovered');
         ring.classList.remove('hovered');
