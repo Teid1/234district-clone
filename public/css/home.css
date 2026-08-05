@@ -1347,21 +1347,55 @@
   color: var(--color-gray) !important;
 }
 
-.product-page-details .size-select-btn {
-  background: transparent !important;
+/* Button Group layout for product page and modal details */
+.size-btn-group {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  margin-top: 12px !important;
+  margin-bottom: 20px !important;
+}
+
+.size-select-btn {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-width: 46px !important;
+  height: 44px !important;
+  padding: 0 14px !important;
+  font-family: var(--font-body) !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border-radius: 8px !important;
   border: 1px solid var(--color-light-gray) !important;
   color: var(--color-black) !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
   transition: all 0.2s ease !important;
 }
 
-.product-page-details .size-select-btn:hover {
+.size-select-btn:hover {
+  border-color: var(--color-black) !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
+.size-select-btn.selected {
+  background-color: var(--color-black) !important;
+  color: #ffffff !important;
   border-color: var(--color-black) !important;
 }
 
-.product-page-details .size-select-btn.selected {
-  background: var(--color-black) !important;
-  color: #ffffff !important;
-  border-color: var(--color-black) !important;
+.product-page-visual .modal-slideshow-container {
+  height: 480px !important;
+  min-height: 480px !important;
+  background-color: var(--color-bg-white) !important;
+  border: 1px solid var(--color-light-gray) !important;
+}
+
+.product-page-visual .modal-slide-img {
+  object-fit: contain !important;
+  background-color: var(--color-bg-white) !important;
 }
 
 @media (max-width: 768px) {
@@ -1375,6 +1409,10 @@
     flex: 0 0 100% !important;
     max-width: 100% !important;
     width: 100% !important;
+  }
+  .product-page-visual .modal-slideshow-container {
+    height: 320px !important;
+    min-height: 320px !important;
   }
   .product-page-details {
     flex: 0 0 100% !important;
