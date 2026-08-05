@@ -347,32 +347,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     requestAnimationFrame(tick);
 
-    // Helper to bind hover classes
-    const bindHoverListeners = () => {
-      document.querySelectorAll('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option').forEach(item => {
-        item.removeEventListener('mouseenter', addHoverState);
-        item.removeEventListener('mouseleave', removeHoverState);
-        
-        item.addEventListener('mouseenter', addHoverState);
-        item.addEventListener('mouseleave', removeHoverState);
-      });
-    };
+    // Butter-smooth dynamic hover delegation
+    document.addEventListener('mouseover', (e) => {
+      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close');
+      if (interactive) {
+        cursor.classList.add('hovered');
+        ring.classList.add('hovered');
+      }
+    });
 
-    const addHoverState = () => {
-      cursor.classList.add('hovered');
-      ring.classList.add('hovered');
-    };
+    document.addEventListener('mouseout', (e) => {
+      const interactive = e.target.closest('a, button, select, input, textarea, .lookbook-dot, .qty-btn, .copy-acc-btn, .close-cart, .star-select-btn, .size-select-tag, .size-btn-option, .size-select-btn, [role="button"], .cart-item-remove, .chat-toggle-trigger, .social-capsule-btn, .drawer-close, .modal-close');
+      if (interactive) {
+        cursor.classList.remove('hovered');
+        ring.classList.remove('hovered');
+      }
+    });
 
-    const removeHoverState = () => {
-      cursor.classList.remove('hovered');
-      ring.classList.remove('hovered');
-    };
+    // Hide cursor when leaving window, show when entering
+    document.addEventListener('mouseleave', () => {
+      cursor.style.opacity = '0';
+      ring.style.opacity = '0';
+    });
 
-    bindHoverListeners();
-
-    // Re-bind when dynamic content updates the DOM
-    document.addEventListener('DOMSubtreeModified', () => {
-      bindHoverListeners();
+    document.addEventListener('mouseenter', () => {
+      if (window.innerWidth > 1024) {
+        cursor.style.opacity = '1';
+        ring.style.opacity = '1';
+      }
     });
   }
 
