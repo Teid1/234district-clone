@@ -7,10 +7,18 @@ const PRODUCTS = [
     "name": "Aevis Bullet Hair Mule Clogs",
     "price": 200000,
     "category": "accessories",
-    "image": "/images/IMG_1455.jpg",
-    "secondaryImage": "/images/IMG_1457.jpg",
+    "image": "/images/acc-1_1.jpg",
+    "secondaryImage": "/images/acc-1_2.jpg",
     "badge": "",
-    "description": "The Aevis Bullet Hair Mule Clogs merge luxury craftsmanship with contemporary streetwear design. Crafted with a textured hair-finish upper, these statement mules feature striking bullet-hole inspired metallic embellishments arranged across the vamp, creating a bold yet refined visual identity.\n\nBuilt on a comfortable clog-inspired silhouette, the design incorporates an adjustable buckle strap for a secure fit while maintaining effortless slip-on functionality. The monochromatic black finish is elevated by polished silver-tone hardware, making these mules versatile enough for both casual styling and elevated fashion-forward looks.\n\nThe soft textured upper delivers a premium tactile feel, while the durable outsole provides everyday comfort and stability. Designed for individuals who appreciate distinctive footwear that balances luxury, edge, and contemporary street culture.\n\nFeatures:\n\n• Premium hair-texture upper\n• Bullet-hole inspired metal embellishments\n• Adjustable buckle closure\n• Slip-on clog silhouette\n• Cushioned comfort footbed\n• Durable non-slip outsole\n• Silver-tone hardware detailing\n• Lightweight construction\n• Statement luxury streetwear design\n• Unisex styling\n\nStyle Notes:\n\nPair with wide-leg trousers, cargos, washed denim, or tailored black pants for a refined streetwear aesthetic. The metallic detailing creates a strong focal point while the monochrome palette remains easy to style.\n\nFit & Details:\n\n• Upper: Hair-Texture Synthetic Leather\n• Lining: Soft Textile\n• Outsole: Rubber\n• Closure: Adjustable Buckle Strap\n• Color: Black\n• Hardware: Silver Tone\n• Style: Luxury Streetwear / Casual / Contemporary\n• Gender: Unisex"
+    "description": "The Aevis Bullet Hair Mule Clogs merge luxury craftsmanship with contemporary streetwear design. Crafted with a textured hair-finish upper, these statement mules feature striking bullet-hole inspired metallic embellishments arranged across the vamp, creating a bold yet refined visual identity.\n\nBuilt on a comfortable clog-inspired silhouette, the design incorporates an adjustable buckle strap for a secure fit while maintaining effortless slip-on functionality. The monochromatic black finish is elevated by polished silver-tone hardware, making these mules versatile enough for both casual styling and elevated fashion-forward looks.\n\nThe soft textured upper delivers a premium tactile feel, while the durable outsole provides everyday comfort and stability. Designed for individuals who appreciate distinctive footwear that balances luxury, edge, and contemporary street culture.\n\nFeatures:\n\n• Premium hair-texture upper\n• Bullet-hole inspired metal embellishments\n• Adjustable buckle closure\n• Slip-on clog silhouette\n• Cushioned comfort footbed\n• Durable non-slip outsole\n• Silver-tone hardware detailing\n• Lightweight construction\n• Statement luxury streetwear design\n• Unisex styling\n\nStyle Notes:\n\nPair with wide-leg trousers, cargos, washed denim, or tailored black pants for a refined streetwear aesthetic. The metallic detailing creates a strong focal point while the monochrome palette remains easy to style.\n\nFit & Details:\n\n• Upper: Hair-Texture Synthetic Leather\n• Lining: Soft Textile\n• Outsole: Rubber\n• Closure: Adjustable Buckle Strap\n• Color: Black\n• Hardware: Silver Tone\n• Style: Luxury Streetwear / Casual / Contemporary\n• Gender: Unisex",
+    "gallery": [
+      "/images/acc-1_1.jpg",
+      "/images/acc-1_2.jpg",
+      "/images/acc-1_3.jpg",
+      "/images/acc-1_4.jpg",
+      "/images/acc-1_5.jpg",
+      "/images/acc-1_6.jpg"
+    ]
   },
   {
     "id": "acc-2",
@@ -67,20 +75,34 @@ const PRODUCTS = [
     "name": "Arque Sharp Hair-On Leather Belt",
     "price": 51480,
     "category": "accessories",
-    "image": "/images/IMG_1917.jpg",
-    "secondaryImage": "/images/IMG_1922.jpg",
+    "image": "/images/acc-7_1.jpg",
+    "secondaryImage": "/images/acc-7_2.jpg",
     "badge": "",
-    "description": "The ARGUE CULTURE Hair-On Leather Belt is a bold accessory created for modern streetwear styling and elevated everyday wear.\n\nCrafted from premium hair-on leather, this belt features a distinctive elongated silhouette and an oversized sculpted metal buckle engraved with the Arque logo. Designed to be worn with the extended strap hanging naturally, it delivers a strong visual statement inspired by contemporary fashion and alternative streetwear culture.\n\nAvailable in black and burgundy finishes, the belt pairs effortlessly with baggy denim, cargos, tailored trousers, and oversized tops. The premium construction and unique buckle design make it a standout piece for those who appreciate expressive accessories.\n\nFeatures:\n\n• Premium hair-on leather construction\n• Oversized sculpted Arque buckle\n• Extended tail design\n• Adjustable fit\n• Durable metal hardware\n• Contemporary streetwear aesthetic\n• Unisex styling\n• Statement accessory design\n\nStyle Notes:\n\nWear with wide-leg denim, oversized shirts, cargos, leather jackets, and layered streetwear outfits. The elongated strap is intended to hang naturally for a fashion-forward look.\n\nFit & Details:\n\n• Unisex design\n• Adjustable buckle closure\n• Hair-on leather finish\n• Premium metal buckle\n• Extended strap construction\n• Suitable for everyday wear"
+    "description": "The ARGUE CULTURE Hair-On Leather Belt is a bold accessory created for modern streetwear styling and elevated everyday wear.\n\nCrafted from premium hair-on leather, this belt features a distinctive elongated silhouette and an oversized sculpted metal buckle engraved with the Arque logo. Designed to be worn with the extended strap hanging naturally, it delivers a strong visual statement inspired by contemporary fashion and alternative streetwear culture.\n\nAvailable in black and burgundy finishes, the belt pairs effortlessly with baggy denim, cargos, tailored trousers, and oversized tops. The premium construction and unique buckle design make it a standout piece for those who appreciate expressive accessories.\n\nFeatures:\n\n• Premium hair-on leather construction\n• Oversized sculpted Arque buckle\n• Extended tail design\n• Adjustable fit\n• Durable metal hardware\n• Contemporary streetwear aesthetic\n• Unisex styling\n• Statement accessory design\n\nStyle Notes:\n\nWear with wide-leg denim, oversized shirts, cargos, leather jackets, and layered streetwear outfits. The elongated strap is intended to hang naturally for a fashion-forward look.\n\nFit & Details:\n\n• Unisex design\n• Adjustable buckle closure\n• Hair-on leather finish\n• Premium metal buckle\n• Extended strap construction\n• Suitable for everyday wear",
+    "gallery": [
+      "/images/acc-7_1.jpg",
+      "/images/acc-7_2.jpg",
+      "/images/acc-7_3.jpg",
+      "/images/acc-7_4.jpg",
+      "/images/acc-7_5.jpg",
+      "/images/acc-7_6.jpg"
+    ]
   },
   {
     "id": "acc-8",
     "name": "CS Online Graphic Statement Belt",
     "price": 51480,
     "category": "accessories",
-    "image": "/images/IMG_1913.jpg",
-    "secondaryImage": "/images/IMG_1915.jpg",
+    "image": "/images/acc-8_1.jpg",
+    "secondaryImage": "/images/acc-8_2.jpg",
     "badge": "",
-    "description": "The CS Online Graphic Statement Belt is designed for those who appreciate expressive accessories and contemporary streetwear culture.\n\nFeaturing an all-over collage-style graphic print inspired by digital art, underground design aesthetics, and early internet culture, this belt transforms a classic accessory into a statement piece. The contrasting black, white, and red artwork is paired with a vintage-finish metal buckle and reinforced eyelets for durability and everyday wear.\n\nWhether styled with washed denim, cargos, oversized tees, or layered streetwear fits, the CS Online Belt adds personality and visual impact to any outfit.\n\nFeatures:\n\n• Full graphic printed design\n• Cyber and streetwear-inspired artwork\n• Vintage-finish metal buckle\n• Reinforced metal eyelets\n• Durable construction\n• Adjustable fit\n• Statement accessory styling\n• Unisex design\n• Everyday wear versatility\n\nStyle Notes:\n\nPerfect with faded denim, baggy jeans, cargos, oversized tops, and alternative streetwear fits. Designed to stand out while complementing monochrome and vintage-inspired wardrobes.\n\nFit & Details:\n\n• Unisex design\n• Adjustable buckle closure\n• Standard belt width\n• Printed leather construction\n• Durable metal hardware"
+    "description": "The CS Online Graphic Statement Belt is designed for those who appreciate expressive accessories and contemporary streetwear culture.\n\nFeaturing an all-over collage-style graphic print inspired by digital art, underground design aesthetics, and early internet culture, this belt transforms a classic accessory into a statement piece. The contrasting black, white, and red artwork is paired with a vintage-finish metal buckle and reinforced eyelets for durability and everyday wear.\n\nWhether styled with washed denim, cargos, oversized tees, or layered streetwear fits, the CS Online Belt adds personality and visual impact to any outfit.\n\nFeatures:\n\n• Full graphic printed design\n• Cyber and streetwear-inspired artwork\n• Vintage-finish metal buckle\n• Reinforced metal eyelets\n• Durable construction\n• Adjustable fit\n• Statement accessory styling\n• Unisex design\n• Everyday wear versatility\n\nStyle Notes:\n\nPerfect with faded denim, baggy jeans, cargos, oversized tops, and alternative streetwear fits. Designed to stand out while complementing monochrome and vintage-inspired wardrobes.\n\nFit & Details:\n\n• Unisex design\n• Adjustable buckle closure\n• Standard belt width\n• Printed leather construction\n• Durable metal hardware",
+    "gallery": [
+      "/images/acc-8_1.jpg",
+      "/images/acc-8_2.jpg",
+      "/images/acc-8_3.jpg",
+      "/images/acc-8_4.jpg"
+    ]
   },
   {
     "id": "acc-9",
@@ -107,10 +129,18 @@ const PRODUCTS = [
     "name": "Alice Iron Cross Riding Gloves",
     "price": 80000,
     "category": "accessories",
-    "image": "/images/IMG_1111.jpg",
-    "secondaryImage": "/images/IMG_1892.jpg",
+    "image": "/images/acc-11_1.jpg",
+    "secondaryImage": "/images/acc-11_2.jpg",
     "badge": "",
-    "description": "The Alice Iron Cross Riding Gloves blend motorcycle-inspired aesthetics with everyday streetwear functionality.\n\nDesigned with a breathable mesh upper and flexible performance fabric, these gloves feature oversized iron cross graphics, embossed Alice branding, and reinforced grip panels for comfort and control. Their lightweight construction makes them suitable for riding, cycling, outdoor activities, or completing a biker-inspired streetwear look.\n\nThe fitted wrist cuff provides a secure feel while maintaining flexibility and ease of movement.\n\nFeatures:\n\n• Breathable mesh construction\n• Signature Alice iron cross graphics\n• Embossed logo detailing\n• Lightweight performance fabric\n• Reinforced grip zones\n• Stretch-fit construction\n• Comfortable wrist cuff\n• Touchscreen-compatible fingertips\n• Motorcycle-inspired design\n• Suitable for riding and daily wear\n\nStyle Notes:\n\nPair with cargos, denim, leather jackets, riding boots, and statement accessories for a complete biker and streetwear aesthetic.\n\nFit & Details:\n\n• Unisex design\n• Flexible ergonomic fit\n• Lightweight feel\n• Breathable construction\n• Suitable for all-season casual wear"
+    "description": "The Alice Iron Cross Riding Gloves blend motorcycle-inspired aesthetics with everyday streetwear functionality.\n\nDesigned with a breathable mesh upper and flexible performance fabric, these gloves feature oversized iron cross graphics, embossed Alice branding, and reinforced grip panels for comfort and control. Their lightweight construction makes them suitable for riding, cycling, outdoor activities, or completing a biker-inspired streetwear look.\n\nThe fitted wrist cuff provides a secure feel while maintaining flexibility and ease of movement.\n\nFeatures:\n\n• Breathable mesh construction\n• Signature Alice iron cross graphics\n• Embossed logo detailing\n• Lightweight performance fabric\n• Reinforced grip zones\n• Stretch-fit construction\n• Comfortable wrist cuff\n• Touchscreen-compatible fingertips\n• Motorcycle-inspired design\n• Suitable for riding and daily wear\n\nStyle Notes:\n\nPair with cargos, denim, leather jackets, riding boots, and statement accessories for a complete biker and streetwear aesthetic.\n\nFit & Details:\n\n• Unisex design\n• Flexible ergonomic fit\n• Lightweight feel\n• Breathable construction\n• Suitable for all-season casual wear",
+    "gallery": [
+      "/images/acc-11_1.jpg",
+      "/images/acc-11_2.jpg",
+      "/images/acc-11_3.jpg",
+      "/images/acc-11_4.jpg",
+      "/images/acc-11_5.jpg",
+      "/images/acc-11_6.jpg"
+    ]
   },
   {
     "id": "acc-12",
@@ -187,10 +217,18 @@ const PRODUCTS = [
     "name": "Black8Mob Spider Web Plush Slippers",
     "price": 65000,
     "category": "accessories",
-    "image": "/images/IMG_1841.jpg",
-    "secondaryImage": "/images/IMG_1840.jpg",
+    "image": "/images/acc-19_1.jpg",
+    "secondaryImage": "/images/acc-19_2.jpg",
     "badge": "",
-    "description": "The Black8Mob Spider Web Plush Slippers combine comfort, streetwear aesthetics, and playful graphic detailing in a unique indoor footwear silhouette.\n\nCrafted with a soft plush upper, these slippers feature oversized embroidered spider web artwork across both feet, creating a bold visual statement inspired by comic-book and alternative street culture. The cushioned footbed provides comfort for daily wear, while the lightweight construction makes them ideal for lounging at home or styling as part of a contemporary lifestyle setup.\n\nThe monochrome black-and-white color palette allows the design to stand out while remaining easy to pair with a variety of casual looks.\n\nFeatures:\n\n• Soft plush upper construction\n• Embroidered spider web graphics\n• Cushioned comfort footbed\n• Lightweight indoor sole\n• Slip-on design\n• Soft lining for everyday comfort\n• Streetwear-inspired aesthetic\n• Durable stitching throughout\n• Unisex design\n• Comfortable all-day wear\n\nStyle Notes:\n\nPerfect for home wear, content creation, gifting, or adding a playful statement piece to a streetwear-inspired lifestyle collection.\n\nFit & Sizing:\n\n• Regular fit\n• True-to-size\n• Slip-on construction\n• Unisex sizing"
+    "description": "The Black8Mob Spider Web Plush Slippers combine comfort, streetwear aesthetics, and playful graphic detailing in a unique indoor footwear silhouette.\n\nCrafted with a soft plush upper, these slippers feature oversized embroidered spider web artwork across both feet, creating a bold visual statement inspired by comic-book and alternative street culture. The cushioned footbed provides comfort for daily wear, while the lightweight construction makes them ideal for lounging at home or styling as part of a contemporary lifestyle setup.\n\nThe monochrome black-and-white color palette allows the design to stand out while remaining easy to pair with a variety of casual looks.\n\nFeatures:\n\n• Soft plush upper construction\n• Embroidered spider web graphics\n• Cushioned comfort footbed\n• Lightweight indoor sole\n• Slip-on design\n• Soft lining for everyday comfort\n• Streetwear-inspired aesthetic\n• Durable stitching throughout\n• Unisex design\n• Comfortable all-day wear\n\nStyle Notes:\n\nPerfect for home wear, content creation, gifting, or adding a playful statement piece to a streetwear-inspired lifestyle collection.\n\nFit & Sizing:\n\n• Regular fit\n• True-to-size\n• Slip-on construction\n• Unisex sizing",
+    "gallery": [
+      "/images/acc-19_1.jpg",
+      "/images/acc-19_2.jpg",
+      "/images/acc-19_3.jpg",
+      "/images/acc-19_4.jpg",
+      "/images/acc-19_5.jpg",
+      "/images/acc-19_6.jpg"
+    ]
   },
   {
     "id": "bot-20",
@@ -207,40 +245,69 @@ const PRODUCTS = [
     "name": "Athiri Convertible Camo Utility Cargo",
     "price": 140000,
     "category": "bottoms",
-    "image": "/images/IMG_1831.jpg",
-    "secondaryImage": "/images/IMG_1835.jpg",
+    "image": "/images/bot-21_1.jpg",
+    "secondaryImage": "/images/bot-21_2.jpg",
     "badge": "",
-    "description": "The Athiri Convertible Camo Utility Cargo is built for versatility, combining military-inspired aesthetics with practical functionality. Designed with a detachable lower-leg construction, the trousers can be worn as full-length cargos or converted into shorts depending on the occasion and weather.\n\nConstructed from durable camouflage cotton fabric, the silhouette features oversized proportions, multiple utility pockets, articulated knee panels, and reinforced seam construction for both comfort and durability. The detachable lower section creates a unique layered look when worn as trousers while offering two distinct styling options in a single garment.\n\nWhether paired with oversized graphic tees, hoodies, knitwear, or technical outerwear, the Athiri Convertible Camo Utility Cargo delivers a rugged streetwear aesthetic with everyday practicality.\n\nFeatures:\n\n• Convertible 2-in-1 design\n• Full-length cargo trouser and short option\n• Premium camouflage cotton construction\n• Oversized relaxed fit\n• Multiple utility cargo pockets\n• Reinforced panel construction\n• Articulated leg design\n• Heavy-duty stitching throughout\n• Functional front and rear pockets\n• Streetwear utility aesthetic\n\nStyle Notes:\n\nWear full-length with boots, sneakers, or chunky footwear for a tactical-inspired silhouette. Remove the lower-leg panels for a relaxed summer-ready cargo short look.\n\nFit & Sizing:\n\n• Oversized fit\n• Relaxed wide-leg profile\n• True-to-size waist\n• Designed for stacking over footwear\n• Unisex styling"
+    "description": "The Athiri Convertible Camo Utility Cargo is built for versatility, combining military-inspired aesthetics with practical functionality. Designed with a detachable lower-leg construction, the trousers can be worn as full-length cargos or converted into shorts depending on the occasion and weather.\n\nConstructed from durable camouflage cotton fabric, the silhouette features oversized proportions, multiple utility pockets, articulated knee panels, and reinforced seam construction for both comfort and durability. The detachable lower section creates a unique layered look when worn as trousers while offering two distinct styling options in a single garment.\n\nWhether paired with oversized graphic tees, hoodies, knitwear, or technical outerwear, the Athiri Convertible Camo Utility Cargo delivers a rugged streetwear aesthetic with everyday practicality.\n\nFeatures:\n\n• Convertible 2-in-1 design\n• Full-length cargo trouser and short option\n• Premium camouflage cotton construction\n• Oversized relaxed fit\n• Multiple utility cargo pockets\n• Reinforced panel construction\n• Articulated leg design\n• Heavy-duty stitching throughout\n• Functional front and rear pockets\n• Streetwear utility aesthetic\n\nStyle Notes:\n\nWear full-length with boots, sneakers, or chunky footwear for a tactical-inspired silhouette. Remove the lower-leg panels for a relaxed summer-ready cargo short look.\n\nFit & Sizing:\n\n• Oversized fit\n• Relaxed wide-leg profile\n• True-to-size waist\n• Designed for stacking over footwear\n• Unisex styling",
+    "gallery": [
+      "/images/bot-21_1.jpg",
+      "/images/bot-21_2.jpg",
+      "/images/bot-21_3.jpg",
+      "/images/bot-21_4.jpg",
+      "/images/bot-21_5.jpg",
+      "/images/bot-21_6.jpg"
+    ]
   },
   {
     "id": "bot-22",
     "name": "Athiri Tactical Camo Utility Denim",
     "price": 136500,
     "category": "bottoms",
-    "image": "/images/IMG_1825.jpg",
-    "secondaryImage": "/images/IMG_1829.jpg",
+    "image": "/images/bot-22_1.jpg",
+    "secondaryImage": "/images/bot-22_2.jpg",
     "badge": "",
-    "description": "The Athiri Tactical Camo Utility Denim is designed for those who appreciate functional design, military-inspired aesthetics, and contemporary oversized fits. Constructed from durable camouflage denim, the pants feature a distinctive panelled construction with articulated knee sections and reinforced stitching throughout.\n\nAdjustable waist straps provide a customizable fit while the wide-leg silhouette creates a relaxed drape that stacks naturally over footwear. The curved panel design and moto-inspired ribbed knee detailing add dimension and structure, making the piece ideal for streetwear styling.\n\nBuilt to balance utility and style, these jeans pair effortlessly with oversized graphic tees, hoodies, knitwear, and outerwear for a modern tactical-inspired look.\n\nFeatures:\n\n• Premium camouflage denim construction\n• Wide-leg oversized fit\n• Adjustable side waist straps\n• Articulated moto-style knee panels\n• Reinforced panel construction\n• Heavy-duty stitching details\n• Relaxed stacked leg profile\n• Functional front and rear pockets\n• Streetwear and utility-inspired design\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized washed tees, hoodies, bomber jackets, combat boots, or sneakers for a complete utility streetwear aesthetic. Designed to create a strong silhouette while maintaining everyday comfort.\n\nFit & Sizing:\n\n• Oversized fit\n• Wide-leg silhouette\n• Long stacked profile\n• True-to-size waist\n• Designed for relaxed everyday wear"
+    "description": "The Athiri Tactical Camo Utility Denim is designed for those who appreciate functional design, military-inspired aesthetics, and contemporary oversized fits. Constructed from durable camouflage denim, the pants feature a distinctive panelled construction with articulated knee sections and reinforced stitching throughout.\n\nAdjustable waist straps provide a customizable fit while the wide-leg silhouette creates a relaxed drape that stacks naturally over footwear. The curved panel design and moto-inspired ribbed knee detailing add dimension and structure, making the piece ideal for streetwear styling.\n\nBuilt to balance utility and style, these jeans pair effortlessly with oversized graphic tees, hoodies, knitwear, and outerwear for a modern tactical-inspired look.\n\nFeatures:\n\n• Premium camouflage denim construction\n• Wide-leg oversized fit\n• Adjustable side waist straps\n• Articulated moto-style knee panels\n• Reinforced panel construction\n• Heavy-duty stitching details\n• Relaxed stacked leg profile\n• Functional front and rear pockets\n• Streetwear and utility-inspired design\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized washed tees, hoodies, bomber jackets, combat boots, or sneakers for a complete utility streetwear aesthetic. Designed to create a strong silhouette while maintaining everyday comfort.\n\nFit & Sizing:\n\n• Oversized fit\n• Wide-leg silhouette\n• Long stacked profile\n• True-to-size waist\n• Designed for relaxed everyday wear",
+    "gallery": [
+      "/images/bot-22_1.jpg",
+      "/images/bot-22_2.jpg",
+      "/images/bot-22_3.jpg",
+      "/images/bot-22_4.jpg",
+      "/images/bot-22_5.jpg"
+    ]
   },
   {
     "id": "top-23",
     "name": "Exitmode Maverick Vintage Football Jersey – Red/White",
     "price": 115000,
     "category": "tops",
-    "image": "/images/IMG_1821.jpg",
-    "secondaryImage": "/images/IMG_1823.jpg",
+    "image": "/images/top-23_1.jpg",
+    "secondaryImage": "/images/top-23_2.jpg",
     "badge": "",
-    "description": "The Exitmode Maverick Vintage Football Jersey combines classic football aesthetics with contemporary streetwear styling. Designed with bold red and white vertical stripes, a washed vintage finish, and oversized proportions, this jersey delivers a standout look that blends sports heritage with modern fashion.\n\nFeaturing embroidered-style crest graphics, front and back numbering, and signature Maverick branding, the piece is designed for everyday wear while maintaining the visual appeal of classic football kits. The relaxed fit allows for effortless layering and pairs seamlessly with cargos, denim, shorts, and wide-leg trousers.\n\nConstructed from lightweight breathable fabric, the jersey offers all-day comfort while delivering a distinctive retro-inspired aesthetic.\n\nFeatures:\n\n• Vintage football jersey design\n• Red and white striped pattern\n• Washed distressed finish\n• Front and back graphic details\n• Crew neckline\n• Relaxed oversized fit\n• Lightweight breathable construction\n• Streetwear-inspired styling\n• Unisex design\n\nStyle Notes:\n\nWear with oversized cargos, distressed denim, utility pants, or shorts for a complete streetwear look. Layer under jackets or pair with statement footwear for a modern sports-inspired outfit.\n\nFit & Sizing:\n\n• Oversized fit\n• Relaxed silhouette\n• True-to-size length\n• Designed for comfortable everyday wear"
+    "description": "The Exitmode Maverick Vintage Football Jersey combines classic football aesthetics with contemporary streetwear styling. Designed with bold red and white vertical stripes, a washed vintage finish, and oversized proportions, this jersey delivers a standout look that blends sports heritage with modern fashion.\n\nFeaturing embroidered-style crest graphics, front and back numbering, and signature Maverick branding, the piece is designed for everyday wear while maintaining the visual appeal of classic football kits. The relaxed fit allows for effortless layering and pairs seamlessly with cargos, denim, shorts, and wide-leg trousers.\n\nConstructed from lightweight breathable fabric, the jersey offers all-day comfort while delivering a distinctive retro-inspired aesthetic.\n\nFeatures:\n\n• Vintage football jersey design\n• Red and white striped pattern\n• Washed distressed finish\n• Front and back graphic details\n• Crew neckline\n• Relaxed oversized fit\n• Lightweight breathable construction\n• Streetwear-inspired styling\n• Unisex design\n\nStyle Notes:\n\nWear with oversized cargos, distressed denim, utility pants, or shorts for a complete streetwear look. Layer under jackets or pair with statement footwear for a modern sports-inspired outfit.\n\nFit & Sizing:\n\n• Oversized fit\n• Relaxed silhouette\n• True-to-size length\n• Designed for comfortable everyday wear",
+    "gallery": [
+      "/images/top-23_1.jpg",
+      "/images/top-23_2.jpg",
+      "/images/top-23_3.jpg",
+      "/images/top-23_4.jpg"
+    ]
   },
   {
     "id": "bot-24",
     "name": "EXITMODE Contrast Panel Carpenter Cargo Pants – Khaki",
     "price": 133500,
     "category": "bottoms",
-    "image": "/images/IMG_0958.jpg",
-    "secondaryImage": "/images/IMG_0961.jpg",
+    "image": "/images/bot-24_1.jpg",
+    "secondaryImage": "/images/bot-24_2.jpg",
     "badge": "",
-    "description": "The EXITMODE Contrast Panel Carpenter Cargo Pants blend classic utility workwear with contemporary streetwear styling. Designed with a relaxed wide-leg fit, these pants feature contrast panel construction across the thighs and rear, highlighted by geometric reinforcement stitching for added visual depth and durability.\n\nLarge utility pockets and carpenter-inspired detailing provide both functionality and character, while the neutral khaki colorway makes styling effortless across seasons. Built for comfort and everyday wear, the oversized silhouette creates a modern stacked look that pairs perfectly with oversized tees, hoodies, shirts, and outerwear.\n\nWhether styled casually or as part of a fashion-forward streetwear fit, these cargo pants deliver a strong balance of utility, comfort, and statement design.\n\nFeatures:\n\n• Relaxed wide-leg fit\n• Contrast utility panel construction\n• Reinforced geometric stitching\n• Carpenter-inspired detailing\n• Multiple oversized utility pockets\n• Durable heavyweight construction\n• Neutral khaki colorway\n• Full-length stacked silhouette\n• Belt loop waistband\n• Unisex styling\n\nStyle Notes:\n\nWear with oversized graphic tees, heavyweight hoodies, workwear jackets, or relaxed shirts. Complements sneakers, boots, and contemporary streetwear footwear.\n\nFit & Sizing:\n\n• Oversized fit\n• Wide-leg silhouette\n• Full-length cut\n• True-to-size waist\n• Designed for a relaxed stacked look"
+    "description": "The EXITMODE Contrast Panel Carpenter Cargo Pants blend classic utility workwear with contemporary streetwear styling. Designed with a relaxed wide-leg fit, these pants feature contrast panel construction across the thighs and rear, highlighted by geometric reinforcement stitching for added visual depth and durability.\n\nLarge utility pockets and carpenter-inspired detailing provide both functionality and character, while the neutral khaki colorway makes styling effortless across seasons. Built for comfort and everyday wear, the oversized silhouette creates a modern stacked look that pairs perfectly with oversized tees, hoodies, shirts, and outerwear.\n\nWhether styled casually or as part of a fashion-forward streetwear fit, these cargo pants deliver a strong balance of utility, comfort, and statement design.\n\nFeatures:\n\n• Relaxed wide-leg fit\n• Contrast utility panel construction\n• Reinforced geometric stitching\n• Carpenter-inspired detailing\n• Multiple oversized utility pockets\n• Durable heavyweight construction\n• Neutral khaki colorway\n• Full-length stacked silhouette\n• Belt loop waistband\n• Unisex styling\n\nStyle Notes:\n\nWear with oversized graphic tees, heavyweight hoodies, workwear jackets, or relaxed shirts. Complements sneakers, boots, and contemporary streetwear footwear.\n\nFit & Sizing:\n\n• Oversized fit\n• Wide-leg silhouette\n• Full-length cut\n• True-to-size waist\n• Designed for a relaxed stacked look",
+    "gallery": [
+      "/images/bot-24_1.jpg",
+      "/images/bot-24_2.jpg",
+      "/images/bot-24_3.jpg",
+      "/images/bot-24_4.jpg",
+      "/images/bot-24_5.jpg",
+      "/images/bot-24_6.jpg"
+    ]
   },
   {
     "id": "bot-25",
@@ -277,10 +344,17 @@ const PRODUCTS = [
     "name": "California Raw Edge Vintage T-Shirt – Ivory",
     "price": 68450,
     "category": "collections",
-    "image": "/images/IMG_1803.jpg",
-    "secondaryImage": "/images/IMG_1807.jpg",
+    "image": "/images/col-28_1.jpg",
+    "secondaryImage": "/images/col-28_2.jpg",
     "badge": "New",
-    "description": "The California Raw Edge Vintage T-Shirt combines effortless vintage aesthetics with contemporary streetwear styling. Crafted from soft lightweight cotton, this piece features a faded California script graphic across the chest and subtle raw-edge detailing along the sleeves and hem for an authentic worn-in look.\n\nDesigned with a relaxed boxy fit, the tee drapes naturally for a casual silhouette that works perfectly with baggy denim, cargos, carpenter pants, or shorts. The lightly washed ivory finish enhances its vintage appeal while keeping the overall look clean and versatile.\n\nWhether worn on its own or layered beneath overshirts and jackets, this tee delivers understated character and everyday comfort.\n\nFeatures:\n\n• Soft lightweight cotton fabric\n• Vintage washed ivory finish\n• California script front graphic\n• Raw-edge sleeve and hem detailing\n• Relaxed boxy fit\n• Breathable construction\n• Minimalist vintage aesthetic\n• Unisex design\n• Easy everyday styling\n• Suitable for layering\n\nStyle Notes:\n\nPair with oversized denim, washed cargos, workwear pants, or vintage sneakers for a timeless streetwear-inspired outfit.\n\nFit & Sizing:\n\n• Relaxed fit\n• Slightly cropped boxy silhouette\n• Dropped shoulders\n• Unisex fit\n• True-to-size relaxed fit"
+    "description": "The California Raw Edge Vintage T-Shirt combines effortless vintage aesthetics with contemporary streetwear styling. Crafted from soft lightweight cotton, this piece features a faded California script graphic across the chest and subtle raw-edge detailing along the sleeves and hem for an authentic worn-in look.\n\nDesigned with a relaxed boxy fit, the tee drapes naturally for a casual silhouette that works perfectly with baggy denim, cargos, carpenter pants, or shorts. The lightly washed ivory finish enhances its vintage appeal while keeping the overall look clean and versatile.\n\nWhether worn on its own or layered beneath overshirts and jackets, this tee delivers understated character and everyday comfort.\n\nFeatures:\n\n• Soft lightweight cotton fabric\n• Vintage washed ivory finish\n• California script front graphic\n• Raw-edge sleeve and hem detailing\n• Relaxed boxy fit\n• Breathable construction\n• Minimalist vintage aesthetic\n• Unisex design\n• Easy everyday styling\n• Suitable for layering\n\nStyle Notes:\n\nPair with oversized denim, washed cargos, workwear pants, or vintage sneakers for a timeless streetwear-inspired outfit.\n\nFit & Sizing:\n\n• Relaxed fit\n• Slightly cropped boxy silhouette\n• Dropped shoulders\n• Unisex fit\n• True-to-size relaxed fit",
+    "gallery": [
+      "/images/col-28_1.jpg",
+      "/images/col-28_2.jpg",
+      "/images/col-28_3.jpg",
+      "/images/col-28_4.jpg",
+      "/images/col-28_5.jpg"
+    ]
   },
   {
     "id": "col-29",
@@ -327,60 +401,95 @@ const PRODUCTS = [
     "name": "Compost The Rich Limited Edition Spray Graphic T-Shirt",
     "price": 74145,
     "category": "tops",
-    "image": "/images/IMG_1725.jpg",
+    "image": "/images/top-33_1.jpg",
     "secondaryImage": "/images/IMG_1725.jpg",
     "badge": "",
-    "description": "The Compost The Rich Limited Edition Spray Graphic T-Shirt embraces raw self-expression through bold graffiti-inspired artwork and handcrafted streetwear aesthetics. Constructed from premium cotton, this white T-shirt features an oversized red spray-painted graphic across the front displaying the phrase “I’m Not Weird, I Am Limited Edition.”\n\nThe intentionally imperfect lettering, overspray details, and distressed paint effect create the appearance of authentic hand-applied street art. Designed to stand out while celebrating individuality, this piece blends underground DIY culture with contemporary fashion.\n\nIts minimalist white base provides the perfect canvas for the bold artwork, making it easy to style with baggy denim, distressed jeans, cargo pants, shorts, or layered streetwear outfits. Whether worn as a statement piece or incorporated into an everyday wardrobe, this T-shirt delivers attitude, personality, and originality.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Oversized front graphic artwork\n• Hand-sprayed graffiti-inspired design\n• Distressed spray paint effect\n• Statement typography graphic\n• Relaxed streetwear silhouette\n• Ribbed crew neckline\n• Lightweight everyday comfort\n• Durable print application\n• Contemporary streetwear aesthetic\n• Unisex styling\n• Easy layering piece\n• Versatile white colorway\n• Comfortable all-day wear\n\nStyle Notes:\n\nPair with oversized denim, distressed jeans, cargos, sneakers, combat boots, or layered outerwear for a bold streetwear-inspired look.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Suitable for layering\n• Unisex design\n• Everyday streetwear comfort"
+    "description": "The Compost The Rich Limited Edition Spray Graphic T-Shirt embraces raw self-expression through bold graffiti-inspired artwork and handcrafted streetwear aesthetics. Constructed from premium cotton, this white T-shirt features an oversized red spray-painted graphic across the front displaying the phrase “I’m Not Weird, I Am Limited Edition.”\n\nThe intentionally imperfect lettering, overspray details, and distressed paint effect create the appearance of authentic hand-applied street art. Designed to stand out while celebrating individuality, this piece blends underground DIY culture with contemporary fashion.\n\nIts minimalist white base provides the perfect canvas for the bold artwork, making it easy to style with baggy denim, distressed jeans, cargo pants, shorts, or layered streetwear outfits. Whether worn as a statement piece or incorporated into an everyday wardrobe, this T-shirt delivers attitude, personality, and originality.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Oversized front graphic artwork\n• Hand-sprayed graffiti-inspired design\n• Distressed spray paint effect\n• Statement typography graphic\n• Relaxed streetwear silhouette\n• Ribbed crew neckline\n• Lightweight everyday comfort\n• Durable print application\n• Contemporary streetwear aesthetic\n• Unisex styling\n• Easy layering piece\n• Versatile white colorway\n• Comfortable all-day wear\n\nStyle Notes:\n\nPair with oversized denim, distressed jeans, cargos, sneakers, combat boots, or layered outerwear for a bold streetwear-inspired look.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Suitable for layering\n• Unisex design\n• Everyday streetwear comfort",
+    "gallery": [
+      "/images/top-33_1.jpg"
+    ]
   },
   {
     "id": "top-34",
     "name": "Compost The Rich Rockstar Spray Graphic T-Shirt",
     "price": 82345,
     "category": "tops",
-    "image": "/images/IMG_1723.jpg",
-    "secondaryImage": "/images/IMG_1724.jpg",
+    "image": "/images/top-34_1.jpg",
+    "secondaryImage": "/images/top-34_2.jpg",
     "badge": "",
-    "description": "The Compost The Rich Rockstar Spray Graphic T-Shirt combines punk-inspired energy with raw streetwear aesthetics. Crafted from soft premium cotton, this cream-colored tee features six bold red stars across the front, finished with a spray-painted effect that gives the garment a handcrafted and rebellious character.\n\nThe back showcases oversized Rockstar graffiti artwork applied in a distressed spray-paint style with a red star accent integrated into the lettering. The intentionally imperfect finish captures the DIY spirit of underground street culture while creating a bold visual statement from every angle.\n\nIts relaxed silhouette and versatile colorway make it easy to style with distressed denim, oversized trousers, cargos, or layered streetwear pieces. Designed for those who appreciate expressive graphics and unconventional design, this T-shirt delivers standout appeal without sacrificing comfort.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Six-star front graphic\n• Spray-painted visual effect\n• Oversized Rockstar back artwork\n• Distressed graffiti-inspired design\n• Relaxed streetwear fit\n• Durable ribbed crew neckline\n• Lightweight everyday comfort\n• High-quality graphic application\n• Statement front and back graphics\n• Unisex styling\n• Easy layering piece\n• Contemporary streetwear aesthetic\n• Suitable for year-round wear\n\nStyle Notes:\n\nPair with oversized denim, baggy cargos, distressed jeans, sneakers, combat boots, or layered outerwear for a bold streetwear-inspired outfit.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Comfortable everyday wear\n• Suitable for layering\n• Unisex design"
+    "description": "The Compost The Rich Rockstar Spray Graphic T-Shirt combines punk-inspired energy with raw streetwear aesthetics. Crafted from soft premium cotton, this cream-colored tee features six bold red stars across the front, finished with a spray-painted effect that gives the garment a handcrafted and rebellious character.\n\nThe back showcases oversized Rockstar graffiti artwork applied in a distressed spray-paint style with a red star accent integrated into the lettering. The intentionally imperfect finish captures the DIY spirit of underground street culture while creating a bold visual statement from every angle.\n\nIts relaxed silhouette and versatile colorway make it easy to style with distressed denim, oversized trousers, cargos, or layered streetwear pieces. Designed for those who appreciate expressive graphics and unconventional design, this T-shirt delivers standout appeal without sacrificing comfort.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Six-star front graphic\n• Spray-painted visual effect\n• Oversized Rockstar back artwork\n• Distressed graffiti-inspired design\n• Relaxed streetwear fit\n• Durable ribbed crew neckline\n• Lightweight everyday comfort\n• High-quality graphic application\n• Statement front and back graphics\n• Unisex styling\n• Easy layering piece\n• Contemporary streetwear aesthetic\n• Suitable for year-round wear\n\nStyle Notes:\n\nPair with oversized denim, baggy cargos, distressed jeans, sneakers, combat boots, or layered outerwear for a bold streetwear-inspired outfit.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Comfortable everyday wear\n• Suitable for layering\n• Unisex design",
+    "gallery": [
+      "/images/top-34_1.jpg",
+      "/images/top-34_2.jpg"
+    ]
   },
   {
     "id": "top-35",
     "name": "Compost The Rich Cross Graphic T-Shirt",
     "price": 74145,
     "category": "tops",
-    "image": "/images/IMG_1722.jpg",
-    "secondaryImage": "/images/IMG_1721-1.jpg",
+    "image": "/images/top-35_1.jpg",
+    "secondaryImage": "/images/top-35_2.jpg",
     "badge": "",
-    "description": "The Compost The Rich Cross Graphic T-Shirt delivers a bold fusion of minimalist design and artistic symbolism. Crafted from soft premium cotton, the tee features a clean front design highlighted by a deep crimson cross positioned at the center chest, creating a striking yet understated aesthetic.\n\nThe back showcases a hand-drawn angelic graphic surrounded by radiant red accents, combining spiritual imagery with contemporary streetwear expression. The artwork's sketch-like execution gives the piece an authentic handcrafted feel while maintaining a modern and wearable silhouette.\n\nIts relaxed fit and versatile off-white colorway make it easy to pair with denim, cargos, shorts, or layered streetwear outfits. Whether worn as a statement piece or incorporated into an everyday wardrobe, this T-shirt offers comfort, individuality, and visual impact.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Front crimson cross graphic\n• Large back angel illustration\n• Radiating red accent artwork\n• High-quality graphic print\n• Durable neckline construction\n• Relaxed everyday fit\n• Lightweight and comfortable\n• Streetwear-inspired design\n• Unisex styling\n• Easy layering piece\n• Suitable for year-round wear\n• Minimalist front aesthetic\n• Statement back graphic\n\nStyle Notes:\n\nPair with distressed denim, wide-leg jeans, cargo trousers, sneakers, boots, or layered outerwear for a contemporary streetwear look.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Comfortable shoulder profile\n• Suitable for everyday wear\n• Unisex design"
+    "description": "The Compost The Rich Cross Graphic T-Shirt delivers a bold fusion of minimalist design and artistic symbolism. Crafted from soft premium cotton, the tee features a clean front design highlighted by a deep crimson cross positioned at the center chest, creating a striking yet understated aesthetic.\n\nThe back showcases a hand-drawn angelic graphic surrounded by radiant red accents, combining spiritual imagery with contemporary streetwear expression. The artwork's sketch-like execution gives the piece an authentic handcrafted feel while maintaining a modern and wearable silhouette.\n\nIts relaxed fit and versatile off-white colorway make it easy to pair with denim, cargos, shorts, or layered streetwear outfits. Whether worn as a statement piece or incorporated into an everyday wardrobe, this T-shirt offers comfort, individuality, and visual impact.\n\nFeatures:\n\n• Premium cotton construction\n• Soft and breathable fabric\n• Front crimson cross graphic\n• Large back angel illustration\n• Radiating red accent artwork\n• High-quality graphic print\n• Durable neckline construction\n• Relaxed everyday fit\n• Lightweight and comfortable\n• Streetwear-inspired design\n• Unisex styling\n• Easy layering piece\n• Suitable for year-round wear\n• Minimalist front aesthetic\n• Statement back graphic\n\nStyle Notes:\n\nPair with distressed denim, wide-leg jeans, cargo trousers, sneakers, boots, or layered outerwear for a contemporary streetwear look.\n\nFit & Sizing:\n\n• Relaxed fit\n• True-to-size silhouette\n• Comfortable shoulder profile\n• Suitable for everyday wear\n• Unisex design",
+    "gallery": [
+      "/images/top-35_1.jpg",
+      "/images/top-35_2.jpg"
+    ]
   },
   {
     "id": "top-36",
     "name": "Boneless 92 Performance Football Jersey T-Shirt",
     "price": 98995,
     "category": "tops",
-    "image": "/images/IMG_1715.jpg",
-    "secondaryImage": "/images/IMG_1716.jpg",
+    "image": "/images/top-36_1.jpg",
+    "secondaryImage": "/images/top-36_2.jpg",
     "badge": "",
-    "description": "The Boneless 92 Performance Football Jersey T-Shirt combines classic football jersey aesthetics with modern streetwear styling. Designed with a clean athletic silhouette, this jersey features bold Boneless branding across the chest, a premium embroidered crest, contrast piping details, and a large \"92\" graphic on the back for a vintage sports-inspired look.\n\nConstructed from lightweight performance fabric with a breathable mesh-lined interior, the jersey offers excellent airflow and all-day comfort whether worn casually or styled as part of a contemporary streetwear outfit. The raglan sleeve construction improves mobility while enhancing the athletic profile of the garment.\n\nThe minimalist black colorway is accented with crisp white graphics and subtle red interior mesh details, creating a clean yet striking appearance. Its relaxed fit makes it easy to pair with baggy denim, cargo pants, shorts, or layered streetwear looks.\n\nPerfect for everyday wear, sports-inspired styling, festivals, casual outings, and modern urban fashion.\n\nFeatures:\n\n• Lightweight performance fabric\n• Breathable mesh-lined interior\n• Boneless chest branding\n• Embroidered crest patch\n• Large \"92\" back graphic\n• Contrast piping details\n• Athletic football jersey design\n• Raglan sleeve construction\n• Relaxed oversized fit\n• Moisture-managing fabric\n• Soft and comfortable feel\n• Durable graphic application\n• Streetwear-inspired silhouette\n• Unisex design\n• Easy everyday styling\n\nStyle Notes:\n\nWear with oversized denim, cargo pants, parachute trousers, track pants, sneakers, or chunky footwear for a complete sportswear-meets-streetwear aesthetic.\n\nFit & Sizing:\n\n• Relaxed fit\n• Slightly oversized silhouette\n• True-to-size shoulders\n• Comfortable everyday wear\n• Suitable for layering"
+    "description": "The Boneless 92 Performance Football Jersey T-Shirt combines classic football jersey aesthetics with modern streetwear styling. Designed with a clean athletic silhouette, this jersey features bold Boneless branding across the chest, a premium embroidered crest, contrast piping details, and a large \"92\" graphic on the back for a vintage sports-inspired look.\n\nConstructed from lightweight performance fabric with a breathable mesh-lined interior, the jersey offers excellent airflow and all-day comfort whether worn casually or styled as part of a contemporary streetwear outfit. The raglan sleeve construction improves mobility while enhancing the athletic profile of the garment.\n\nThe minimalist black colorway is accented with crisp white graphics and subtle red interior mesh details, creating a clean yet striking appearance. Its relaxed fit makes it easy to pair with baggy denim, cargo pants, shorts, or layered streetwear looks.\n\nPerfect for everyday wear, sports-inspired styling, festivals, casual outings, and modern urban fashion.\n\nFeatures:\n\n• Lightweight performance fabric\n• Breathable mesh-lined interior\n• Boneless chest branding\n• Embroidered crest patch\n• Large \"92\" back graphic\n• Contrast piping details\n• Athletic football jersey design\n• Raglan sleeve construction\n• Relaxed oversized fit\n• Moisture-managing fabric\n• Soft and comfortable feel\n• Durable graphic application\n• Streetwear-inspired silhouette\n• Unisex design\n• Easy everyday styling\n\nStyle Notes:\n\nWear with oversized denim, cargo pants, parachute trousers, track pants, sneakers, or chunky footwear for a complete sportswear-meets-streetwear aesthetic.\n\nFit & Sizing:\n\n• Relaxed fit\n• Slightly oversized silhouette\n• True-to-size shoulders\n• Comfortable everyday wear\n• Suitable for layering",
+    "gallery": [
+      "/images/top-36_1.jpg",
+      "/images/top-36_2.jpg",
+      "/images/top-36_3.jpg",
+      "/images/top-36_4.jpg",
+      "/images/top-36_5.jpg",
+      "/images/top-36_6.jpg"
+    ]
   },
   {
     "id": "bot-37",
     "name": "Boneless Light Wash Distressed Wide Leg Jeans",
     "price": 109245,
     "category": "bottoms",
-    "image": "/images/IMG_1709.jpg",
-    "secondaryImage": "/images/IMG_1713.jpg",
+    "image": "/images/bot-37_1.jpg",
+    "secondaryImage": "/images/bot-37_2.jpg",
     "badge": "",
-    "description": "The Boneless Light Wash Distressed Wide Leg Jeans deliver a clean vintage-inspired aesthetic with contemporary oversized streetwear proportions. Crafted from premium washed denim, these jeans feature a soft faded light-blue finish enhanced by subtle distressing, paint splatter effects, embroidered graphic accents, and naturally worn detailing.\n\nDesigned with a relaxed wide-leg silhouette, the jeans provide a comfortable drape from hip to hem while maintaining a structured shape that complements modern streetwear styling. Adjustable side waist tabs offer improved fit customization, while the classic five-pocket construction preserves everyday functionality.\n\nThe carefully placed embroidered patches, distressed abrasions, paint markings, and faded wash treatment create a lived-in character that gives each pair a unique vintage appearance. The oversized leg opening allows effortless pairing with sneakers, skate shoes, chunky footwear, and contemporary casual looks.\n\nPerfect for everyday wear, these jeans combine comfort, versatility, and authentic street-inspired design, making them an essential addition to any modern wardrobe.\n\nFeatures:\n\n• Premium washed denim construction\n• Vintage-inspired light wash finish\n• Relaxed wide-leg silhouette\n• Oversized streetwear fit\n• Adjustable side waist tabs\n• Distressed detailing\n• Paint splatter accents\n• Embroidered graphic patches\n• Classic five-pocket design\n• Belt loop waistband\n• Button and zip closure\n• Soft faded treatment\n• Durable denim construction\n• Unisex streetwear styling\n• Everyday casual versatility\n\nStyle Notes:\n\nPair with oversized graphic tees, hoodies, flannel shirts, varsity jackets, bomber jackets, skate shoes, retro sneakers, or chunky footwear for a complete streetwear look.\n\nFit & Sizing:\n\n• Wide-leg fit\n• Relaxed through hip and thigh\n• Full-length silhouette\n• Slightly oversized profile\n• True-to-size waist\n• Comfortable everyday wear"
+    "description": "The Boneless Light Wash Distressed Wide Leg Jeans deliver a clean vintage-inspired aesthetic with contemporary oversized streetwear proportions. Crafted from premium washed denim, these jeans feature a soft faded light-blue finish enhanced by subtle distressing, paint splatter effects, embroidered graphic accents, and naturally worn detailing.\n\nDesigned with a relaxed wide-leg silhouette, the jeans provide a comfortable drape from hip to hem while maintaining a structured shape that complements modern streetwear styling. Adjustable side waist tabs offer improved fit customization, while the classic five-pocket construction preserves everyday functionality.\n\nThe carefully placed embroidered patches, distressed abrasions, paint markings, and faded wash treatment create a lived-in character that gives each pair a unique vintage appearance. The oversized leg opening allows effortless pairing with sneakers, skate shoes, chunky footwear, and contemporary casual looks.\n\nPerfect for everyday wear, these jeans combine comfort, versatility, and authentic street-inspired design, making them an essential addition to any modern wardrobe.\n\nFeatures:\n\n• Premium washed denim construction\n• Vintage-inspired light wash finish\n• Relaxed wide-leg silhouette\n• Oversized streetwear fit\n• Adjustable side waist tabs\n• Distressed detailing\n• Paint splatter accents\n• Embroidered graphic patches\n• Classic five-pocket design\n• Belt loop waistband\n• Button and zip closure\n• Soft faded treatment\n• Durable denim construction\n• Unisex streetwear styling\n• Everyday casual versatility\n\nStyle Notes:\n\nPair with oversized graphic tees, hoodies, flannel shirts, varsity jackets, bomber jackets, skate shoes, retro sneakers, or chunky footwear for a complete streetwear look.\n\nFit & Sizing:\n\n• Wide-leg fit\n• Relaxed through hip and thigh\n• Full-length silhouette\n• Slightly oversized profile\n• True-to-size waist\n• Comfortable everyday wear",
+    "gallery": [
+      "/images/bot-37_1.jpg",
+      "/images/bot-37_2.jpg",
+      "/images/bot-37_3.jpg",
+      "/images/bot-37_4.jpg",
+      "/images/bot-37_5.jpg",
+      "/images/bot-37_6.jpg"
+    ]
   },
   {
     "id": "acc-38",
     "name": "Censmade Camouflage Crescent Shoulder Bag",
     "price": 110000,
     "category": "accessories",
-    "image": "/images/IMG_0953.jpg",
-    "secondaryImage": "/images/IMG_0956.jpg",
+    "image": "/images/acc-38_1.jpg",
+    "secondaryImage": "/images/acc-38_2.jpg",
     "badge": "",
-    "description": "The Censmade Camouflage Crescent Shoulder Bag combines military-inspired aesthetics with modern streetwear functionality. Designed with a distinctive crescent silhouette, this oversized shoulder bag features a textured camouflage fabric that adds depth, character, and visual appeal to any outfit.\n\nIts relaxed slouchy construction creates a naturally draped shape while providing generous storage space for daily essentials. The wide integrated shoulder strap ensures comfortable wear throughout the day, making it ideal for commuting, travel, shopping, school, or casual everyday use.\n\nThe spacious interior offers ample room for phones, wallets, tablets, books, accessories, and other essentials while maintaining a lightweight and versatile profile. The camouflage pattern delivers a rugged urban aesthetic that pairs effortlessly with oversized denim, cargo pants, hoodies, graphic tees, workwear, and contemporary streetwear outfits.\n\nWhether worn as a statement accessory or a practical everyday carry bag, the Censmade Crescent Shoulder Bag balances functionality with modern fashion-forward design.\n\nFeatures:\n\n• Textured camouflage fabric construction\n• Oversized crescent shoulder bag design\n• Spacious main compartment\n• Comfortable wide shoulder strap\n• Lightweight everyday carry design\n• Soft slouchy silhouette\n• Large storage capacity\n• Streetwear-inspired aesthetic\n• Durable fabric construction\n• Easy-access opening\n• Unisex design\n• Travel-friendly profile\n• Daily essentials organizer\n• Contemporary urban styling\n\nStyle Notes:\n\nPerfectly pairs with oversized denim, cargo trousers, hoodies, utility jackets, graphic tees, workwear pieces, sneakers, combat boots, and contemporary streetwear outfits.\n\nFit & Capacity:\n\n• One-size design\n• Oversized silhouette\n• Relaxed draped structure\n• Large-capacity interior\n• Comfortable shoulder carry\n• Suitable for everyday essentials and accessories"
+    "description": "The Censmade Camouflage Crescent Shoulder Bag combines military-inspired aesthetics with modern streetwear functionality. Designed with a distinctive crescent silhouette, this oversized shoulder bag features a textured camouflage fabric that adds depth, character, and visual appeal to any outfit.\n\nIts relaxed slouchy construction creates a naturally draped shape while providing generous storage space for daily essentials. The wide integrated shoulder strap ensures comfortable wear throughout the day, making it ideal for commuting, travel, shopping, school, or casual everyday use.\n\nThe spacious interior offers ample room for phones, wallets, tablets, books, accessories, and other essentials while maintaining a lightweight and versatile profile. The camouflage pattern delivers a rugged urban aesthetic that pairs effortlessly with oversized denim, cargo pants, hoodies, graphic tees, workwear, and contemporary streetwear outfits.\n\nWhether worn as a statement accessory or a practical everyday carry bag, the Censmade Crescent Shoulder Bag balances functionality with modern fashion-forward design.\n\nFeatures:\n\n• Textured camouflage fabric construction\n• Oversized crescent shoulder bag design\n• Spacious main compartment\n• Comfortable wide shoulder strap\n• Lightweight everyday carry design\n• Soft slouchy silhouette\n• Large storage capacity\n• Streetwear-inspired aesthetic\n• Durable fabric construction\n• Easy-access opening\n• Unisex design\n• Travel-friendly profile\n• Daily essentials organizer\n• Contemporary urban styling\n\nStyle Notes:\n\nPerfectly pairs with oversized denim, cargo trousers, hoodies, utility jackets, graphic tees, workwear pieces, sneakers, combat boots, and contemporary streetwear outfits.\n\nFit & Capacity:\n\n• One-size design\n• Oversized silhouette\n• Relaxed draped structure\n• Large-capacity interior\n• Comfortable shoulder carry\n• Suitable for everyday essentials and accessories",
+    "gallery": [
+      "/images/acc-38_1.jpg",
+      "/images/acc-38_2.jpg",
+      "/images/acc-38_3.jpg",
+      "/images/acc-38_4.jpg",
+      "/images/acc-38_5.jpg",
+      "/images/acc-38_6.jpg"
+    ]
   },
   {
     "id": "bot-39",
@@ -407,60 +516,105 @@ const PRODUCTS = [
     "name": "Layered Plaid Short Sleeve Overshirt",
     "price": 74395,
     "category": "collections",
-    "image": "/images/IMG_1694.jpg",
-    "secondaryImage": "/images/IMG_1700.jpg",
+    "image": "/images/col-41_1.jpg",
+    "secondaryImage": "/images/col-41_2.jpg",
     "badge": "New",
-    "description": "The Layered Plaid Short Sleeve Overshirt combines classic flannel-inspired aesthetics with a contemporary layered streetwear approach. Crafted from soft plaid fabric in a rich burgundy and beige check pattern, the shirt features a built-in black inner tank top that creates a clean layered look without the need for additional styling pieces.\n\nDesigned with a relaxed silhouette, the shirt offers all-day comfort while maintaining a structured appearance through its camp collar, button-front closure, and chest pocket with diagonal plaid alignment. The integrated inner layer adds depth and contrast, making the garment stand out while simplifying outfit coordination.\n\nIts lightweight construction makes it ideal for warm-weather wear, casual outings, vacations, and everyday styling. Whether worn buttoned up or open, the layered design delivers a modern streetwear-inspired look with minimal effort.\n\nFeatures:\n\n• Integrated black inner tank top\n• Soft plaid woven fabric\n• Relaxed oversized fit\n• Classic camp collar\n• Button-front closure\n• Contrast layered construction\n• Matching chest pocket\n• Lightweight and breathable\n• Short sleeve design\n• Comfortable everyday wear\n• Easy-to-style color palette\n• Streetwear-inspired silhouette\n• Reinforced stitching\n• Unisex styling\n\nStyle Notes:\n\nWear with wide-leg denim, cargo trousers, carpenter pants, shorts, or relaxed chinos. Complete the look with sneakers, loafers, boots, or slides for a versatile casual outfit.\n\nFit:\n\n• Relaxed fit\n• Slightly oversized silhouette\n• Dropped shoulders\n• True-to-size fit\n• Size up for a more oversized look"
+    "description": "The Layered Plaid Short Sleeve Overshirt combines classic flannel-inspired aesthetics with a contemporary layered streetwear approach. Crafted from soft plaid fabric in a rich burgundy and beige check pattern, the shirt features a built-in black inner tank top that creates a clean layered look without the need for additional styling pieces.\n\nDesigned with a relaxed silhouette, the shirt offers all-day comfort while maintaining a structured appearance through its camp collar, button-front closure, and chest pocket with diagonal plaid alignment. The integrated inner layer adds depth and contrast, making the garment stand out while simplifying outfit coordination.\n\nIts lightweight construction makes it ideal for warm-weather wear, casual outings, vacations, and everyday styling. Whether worn buttoned up or open, the layered design delivers a modern streetwear-inspired look with minimal effort.\n\nFeatures:\n\n• Integrated black inner tank top\n• Soft plaid woven fabric\n• Relaxed oversized fit\n• Classic camp collar\n• Button-front closure\n• Contrast layered construction\n• Matching chest pocket\n• Lightweight and breathable\n• Short sleeve design\n• Comfortable everyday wear\n• Easy-to-style color palette\n• Streetwear-inspired silhouette\n• Reinforced stitching\n• Unisex styling\n\nStyle Notes:\n\nWear with wide-leg denim, cargo trousers, carpenter pants, shorts, or relaxed chinos. Complete the look with sneakers, loafers, boots, or slides for a versatile casual outfit.\n\nFit:\n\n• Relaxed fit\n• Slightly oversized silhouette\n• Dropped shoulders\n• True-to-size fit\n• Size up for a more oversized look",
+    "gallery": [
+      "/images/col-41_1.jpg",
+      "/images/col-41_2.jpg",
+      "/images/col-41_3.jpg",
+      "/images/col-41_4.jpg",
+      "/images/col-41_5.jpg",
+      "/images/col-41_6.jpg"
+    ]
   },
   {
     "id": "top-42",
     "name": "Exitmode Waffle Knit Patch Polo Shirt",
     "price": 121500,
     "category": "tops",
-    "image": "/images/IMG_1692.jpg",
-    "secondaryImage": "/images/IMG_1693.jpg",
+    "image": "/images/top-42_1.jpg",
+    "secondaryImage": "/images/top-42_2.jpg",
     "badge": "",
-    "description": "The Exitmode Waffle Knit Patch Polo Shirt delivers a unique blend of vintage motorsport influences and contemporary streetwear design. Constructed from a textured waffle-knit fabric, this polo offers enhanced comfort, breathability, and visual depth compared to traditional jersey polos.\n\nDesigned with a relaxed cropped silhouette, the shirt features multiple embroidered and woven patch details across the chest and sleeves, creating a race-inspired aesthetic that stands out without overwhelming the garment's clean design.\n\nThe structured polo collar and buttonless placket maintain a refined appearance, while the soft waffle texture provides all-day comfort. Its versatile grey colorway allows easy pairing with denim, cargo pants, shorts, and sneakers.\n\nIdeal for casual outings, summer styling, and everyday streetwear looks, this polo combines premium detailing with effortless wearability.\n\nFeatures:\n\n• Premium waffle knit fabric\n• Relaxed streetwear fit\n• Embroidered chest graphics\n• Multi-patch sleeve detailing\n• Textured construction\n• Classic polo collar\n• Soft and breathable fabric\n• Lightweight feel\n• Cropped silhouette\n• Reinforced seams\n• Comfortable everyday wear\n• Motorsport-inspired design\n• Unisex styling\n• Easy layering piece\n\nStyle Notes:\n\nPair with distressed denim, oversized shorts, cargos, or relaxed-fit trousers. Complete the look with sneakers, loafers, or sandals for an elevated casual outfit.\n\nFit:\n\n• Relaxed fit\n• Slightly cropped length\n• Dropped shoulders\n• True-to-size fit\n• Size up for a more oversized look"
+    "description": "The Exitmode Waffle Knit Patch Polo Shirt delivers a unique blend of vintage motorsport influences and contemporary streetwear design. Constructed from a textured waffle-knit fabric, this polo offers enhanced comfort, breathability, and visual depth compared to traditional jersey polos.\n\nDesigned with a relaxed cropped silhouette, the shirt features multiple embroidered and woven patch details across the chest and sleeves, creating a race-inspired aesthetic that stands out without overwhelming the garment's clean design.\n\nThe structured polo collar and buttonless placket maintain a refined appearance, while the soft waffle texture provides all-day comfort. Its versatile grey colorway allows easy pairing with denim, cargo pants, shorts, and sneakers.\n\nIdeal for casual outings, summer styling, and everyday streetwear looks, this polo combines premium detailing with effortless wearability.\n\nFeatures:\n\n• Premium waffle knit fabric\n• Relaxed streetwear fit\n• Embroidered chest graphics\n• Multi-patch sleeve detailing\n• Textured construction\n• Classic polo collar\n• Soft and breathable fabric\n• Lightweight feel\n• Cropped silhouette\n• Reinforced seams\n• Comfortable everyday wear\n• Motorsport-inspired design\n• Unisex styling\n• Easy layering piece\n\nStyle Notes:\n\nPair with distressed denim, oversized shorts, cargos, or relaxed-fit trousers. Complete the look with sneakers, loafers, or sandals for an elevated casual outfit.\n\nFit:\n\n• Relaxed fit\n• Slightly cropped length\n• Dropped shoulders\n• True-to-size fit\n• Size up for a more oversized look",
+    "gallery": [
+      "/images/top-42_1.jpg",
+      "/images/top-42_2.jpg",
+      "/images/top-42_3.jpg",
+      "/images/top-42_4.jpg"
+    ]
   },
   {
     "id": "col-43",
     "name": "Antidote World Tour Varsity Jacket",
     "price": 151950,
     "category": "collections",
-    "image": "/images/IMG_1683.jpg",
-    "secondaryImage": "/images/IMG_1681.jpg",
+    "image": "/images/col-43_1.jpg",
+    "secondaryImage": "/images/col-43_2.jpg",
     "badge": "New",
-    "description": "The Antidote World Tour Varsity Jacket combines classic collegiate aesthetics with contemporary streetwear styling. Crafted in a versatile black colorway, this jacket features multiple embroidered and chenille patches across the front, sleeves, and back, creating a bold varsity-inspired look.\n\nDesigned with a relaxed oversized fit, the jacket offers comfortable layering over hoodies, tees, and knitwear. Ribbed collar, cuffs, and hem provide structure while the snap-button front closure delivers timeless varsity jacket functionality.\n\nThe back showcases a large Antidote World Tour graphic, reinforcing the jacket’s statement appeal, while the premium patchwork detailing adds texture and visual depth throughout the garment.\n\nPerfect for cooler weather, casual outings, and elevated streetwear styling, this varsity jacket pairs effortlessly with baggy denim, cargo pants, and sneakers for a complete urban look.\n\nFeatures:\n\n• Premium varsity jacket construction\n• Oversized streetwear fit\n• Embroidered chenille patches\n• Large back graphic print\n• Snap-button front closure\n• Ribbed collar, cuffs, and hem\n• Multiple sleeve graphics\n• Soft interior lining\n• Durable outer fabric\n• Relaxed shoulder construction\n• Functional side pockets\n• Statement collegiate design\n• Layering-friendly silhouette\n• Unisex styling\n\nStyle Notes:\n\nWear with distressed denim, stacked jeans, cargo pants, oversized tees, hoodies, and sneakers for a complete streetwear-inspired outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed body\n• Dropped shoulders\n• True-to-size for oversized look\n• Size down for a more regular fit"
+    "description": "The Antidote World Tour Varsity Jacket combines classic collegiate aesthetics with contemporary streetwear styling. Crafted in a versatile black colorway, this jacket features multiple embroidered and chenille patches across the front, sleeves, and back, creating a bold varsity-inspired look.\n\nDesigned with a relaxed oversized fit, the jacket offers comfortable layering over hoodies, tees, and knitwear. Ribbed collar, cuffs, and hem provide structure while the snap-button front closure delivers timeless varsity jacket functionality.\n\nThe back showcases a large Antidote World Tour graphic, reinforcing the jacket’s statement appeal, while the premium patchwork detailing adds texture and visual depth throughout the garment.\n\nPerfect for cooler weather, casual outings, and elevated streetwear styling, this varsity jacket pairs effortlessly with baggy denim, cargo pants, and sneakers for a complete urban look.\n\nFeatures:\n\n• Premium varsity jacket construction\n• Oversized streetwear fit\n• Embroidered chenille patches\n• Large back graphic print\n• Snap-button front closure\n• Ribbed collar, cuffs, and hem\n• Multiple sleeve graphics\n• Soft interior lining\n• Durable outer fabric\n• Relaxed shoulder construction\n• Functional side pockets\n• Statement collegiate design\n• Layering-friendly silhouette\n• Unisex styling\n\nStyle Notes:\n\nWear with distressed denim, stacked jeans, cargo pants, oversized tees, hoodies, and sneakers for a complete streetwear-inspired outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed body\n• Dropped shoulders\n• True-to-size for oversized look\n• Size down for a more regular fit",
+    "gallery": [
+      "/images/col-43_1.jpg",
+      "/images/col-43_2.jpg",
+      "/images/col-43_3.jpg",
+      "/images/col-43_4.jpg",
+      "/images/col-43_5.jpg",
+      "/images/col-43_6.jpg"
+    ]
   },
   {
     "id": "bot-44",
     "name": "Black8Mob Vintage Wash Stacked Baggy Denim Jeans",
     "price": 135000,
     "category": "bottoms",
-    "image": "/images/IMG_1677.jpg",
-    "secondaryImage": "/images/IMG_1679.jpg",
+    "image": "/images/bot-44_1.jpg",
+    "secondaryImage": "/images/bot-44_2.jpg",
     "badge": "",
-    "description": "The Vintage Wash Stacked Baggy Denim Jeans are crafted for those who appreciate bold proportions and contemporary streetwear aesthetics. Featuring an oversized fit with an exaggerated stacked leg design, these jeans create a striking silhouette that embodies modern urban fashion.\n\nConstructed from durable denim and finished with a heavily faded vintage wash, the jeans showcase a naturally worn-in appearance with subtle distressing throughout. The oversized cut provides exceptional comfort while allowing the fabric to stack dramatically around footwear for a statement look.\n\nThe relaxed rise, roomy thigh construction, and wide-leg profile make these jeans ideal for pairing with oversized graphic tees, flannel shirts, hoodies, varsity jackets, and workwear-inspired boots. Distressed accents and washed effects add character without overwhelming the clean overall design.\n\nWhether styled casually or incorporated into a layered streetwear outfit, these jeans offer versatility while maintaining a distinctive fashion-forward presence.\n\nFeatures:\n\n• Premium heavyweight denim construction\n• Vintage light blue wash\n• Oversized baggy fit\n• Stacked leg design\n• Heavy fading and whiskering effects\n• Distressed detailing\n• Wide-leg silhouette\n• Relaxed rise\n• Classic five-pocket construction\n• Belt loop waistband\n• Durable reinforced seams\n• Streetwear-inspired proportions\n• Comfortable everyday wear\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped jackets, flannel overshirts, varsity jackets, or hoodies for a complete streetwear aesthetic. The stacked hem works especially well with Timberland boots, chunky sneakers, and statement footwear.\n\nFit:\n\n• Extra baggy fit\n• Wide leg opening\n• Extended stacking length\n• Relaxed through seat and thigh\n• True-to-size waist\n• Oversized silhouette"
+    "description": "The Vintage Wash Stacked Baggy Denim Jeans are crafted for those who appreciate bold proportions and contemporary streetwear aesthetics. Featuring an oversized fit with an exaggerated stacked leg design, these jeans create a striking silhouette that embodies modern urban fashion.\n\nConstructed from durable denim and finished with a heavily faded vintage wash, the jeans showcase a naturally worn-in appearance with subtle distressing throughout. The oversized cut provides exceptional comfort while allowing the fabric to stack dramatically around footwear for a statement look.\n\nThe relaxed rise, roomy thigh construction, and wide-leg profile make these jeans ideal for pairing with oversized graphic tees, flannel shirts, hoodies, varsity jackets, and workwear-inspired boots. Distressed accents and washed effects add character without overwhelming the clean overall design.\n\nWhether styled casually or incorporated into a layered streetwear outfit, these jeans offer versatility while maintaining a distinctive fashion-forward presence.\n\nFeatures:\n\n• Premium heavyweight denim construction\n• Vintage light blue wash\n• Oversized baggy fit\n• Stacked leg design\n• Heavy fading and whiskering effects\n• Distressed detailing\n• Wide-leg silhouette\n• Relaxed rise\n• Classic five-pocket construction\n• Belt loop waistband\n• Durable reinforced seams\n• Streetwear-inspired proportions\n• Comfortable everyday wear\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped jackets, flannel overshirts, varsity jackets, or hoodies for a complete streetwear aesthetic. The stacked hem works especially well with Timberland boots, chunky sneakers, and statement footwear.\n\nFit:\n\n• Extra baggy fit\n• Wide leg opening\n• Extended stacking length\n• Relaxed through seat and thigh\n• True-to-size waist\n• Oversized silhouette",
+    "gallery": [
+      "/images/bot-44_1.jpg",
+      "/images/bot-44_2.jpg",
+      "/images/bot-44_3.jpg",
+      "/images/bot-44_4.jpg",
+      "/images/bot-44_5.jpg"
+    ]
   },
   {
     "id": "top-45",
     "name": "Exitmode Reversible Plaid Varsity Shirt Jacket",
     "price": 139000,
     "category": "tops",
-    "image": "/images/IMG_1667.jpg",
-    "secondaryImage": "/images/IMG_1671.jpg",
+    "image": "/images/top-45_1.jpg",
+    "secondaryImage": "/images/top-45_2.jpg",
     "badge": "",
-    "description": "The Exitmode Reversible Plaid Varsity Shirt Jacket delivers exceptional versatility by combining two completely different aesthetics into a single statement piece. Designed for individuals who appreciate innovative fashion and adaptable styling, this reversible garment allows effortless transitions between classic plaid streetwear and bold varsity-inspired outerwear.\n\nOn one side, the jacket showcases a clean blue plaid flannel design crafted with a timeless tartan pattern. The shirt-inspired construction features a structured collar, relaxed silhouette, and subtle sleeve graphics including the Maverick lion artwork, creating a refined yet contemporary streetwear appearance.\n\nReverse the garment to reveal a varsity-inspired design featuring contrasting blue and white athletic stripe panels, embroidered chest branding, and a large “03” graphic on the back. This side embraces collegiate sportswear influences while maintaining a premium fashion-forward identity.\n\nConstructed with quality materials and precision craftsmanship, the reversible design offers two distinct outfits in one garment, maximizing styling possibilities without compromising comfort or durability. Whether paired with stacked denim, cargos, wide-leg trousers, or layered over essential basics, this piece serves as a standout addition to any modern wardrobe.\n\nFeatures:\n\n• Fully reversible two-in-one design\n• Blue plaid flannel exterior\n• Varsity-inspired reverse side\n• Premium dual-fabric construction\n• Relaxed oversized fit\n• Structured shirt collar\n• Button-front closure\n• Athletic stripe detailing\n• Embroidered branding elements\n• Large \"03\" back graphic\n• Maverick sleeve artwork\n• Long sleeves with relaxed cuffs\n• Durable reinforced stitching\n• Lightweight layering construction\n• Streetwear-inspired silhouette\n• Unisex styling\n\nReversible Styling Options:\n\nPlaid Side:\n• Classic tartan aesthetic\n• Everyday casual styling\n• Vintage-inspired streetwear look\n• Easy layering with denim and cargos\n\nVarsity Side:\n• Athletic collegiate influence\n• Bold graphic statement appearance\n• Sport-luxury streetwear styling\n• Elevated outerwear aesthetic\n\nStyle Notes:\n\nWear the plaid side for a clean, timeless streetwear look or reverse to the varsity side when a more graphic-driven outfit is desired. Perfectly complements distressed denim, stacked jeans, oversized trousers, utility pants, and statement footwear.\n\nFit:\n\n• Relaxed fit\n• Slightly cropped body length\n• Oversized shoulder profile\n• Comfortable layering silhouette\n• True-to-size fit\n• Unisex sizing"
+    "description": "The Exitmode Reversible Plaid Varsity Shirt Jacket delivers exceptional versatility by combining two completely different aesthetics into a single statement piece. Designed for individuals who appreciate innovative fashion and adaptable styling, this reversible garment allows effortless transitions between classic plaid streetwear and bold varsity-inspired outerwear.\n\nOn one side, the jacket showcases a clean blue plaid flannel design crafted with a timeless tartan pattern. The shirt-inspired construction features a structured collar, relaxed silhouette, and subtle sleeve graphics including the Maverick lion artwork, creating a refined yet contemporary streetwear appearance.\n\nReverse the garment to reveal a varsity-inspired design featuring contrasting blue and white athletic stripe panels, embroidered chest branding, and a large “03” graphic on the back. This side embraces collegiate sportswear influences while maintaining a premium fashion-forward identity.\n\nConstructed with quality materials and precision craftsmanship, the reversible design offers two distinct outfits in one garment, maximizing styling possibilities without compromising comfort or durability. Whether paired with stacked denim, cargos, wide-leg trousers, or layered over essential basics, this piece serves as a standout addition to any modern wardrobe.\n\nFeatures:\n\n• Fully reversible two-in-one design\n• Blue plaid flannel exterior\n• Varsity-inspired reverse side\n• Premium dual-fabric construction\n• Relaxed oversized fit\n• Structured shirt collar\n• Button-front closure\n• Athletic stripe detailing\n• Embroidered branding elements\n• Large \"03\" back graphic\n• Maverick sleeve artwork\n• Long sleeves with relaxed cuffs\n• Durable reinforced stitching\n• Lightweight layering construction\n• Streetwear-inspired silhouette\n• Unisex styling\n\nReversible Styling Options:\n\nPlaid Side:\n• Classic tartan aesthetic\n• Everyday casual styling\n• Vintage-inspired streetwear look\n• Easy layering with denim and cargos\n\nVarsity Side:\n• Athletic collegiate influence\n• Bold graphic statement appearance\n• Sport-luxury streetwear styling\n• Elevated outerwear aesthetic\n\nStyle Notes:\n\nWear the plaid side for a clean, timeless streetwear look or reverse to the varsity side when a more graphic-driven outfit is desired. Perfectly complements distressed denim, stacked jeans, oversized trousers, utility pants, and statement footwear.\n\nFit:\n\n• Relaxed fit\n• Slightly cropped body length\n• Oversized shoulder profile\n• Comfortable layering silhouette\n• True-to-size fit\n• Unisex sizing",
+    "gallery": [
+      "/images/top-45_1.jpg",
+      "/images/top-45_2.jpg",
+      "/images/top-45_3.jpg",
+      "/images/top-45_4.jpg",
+      "/images/top-45_5.jpg",
+      "/images/top-45_6.jpg"
+    ]
   },
   {
     "id": "top-46",
     "name": "DSWN Cross Graphic Plaid Overshirt",
     "price": 120000,
     "category": "tops",
-    "image": "/images/IMG_1659.jpg",
-    "secondaryImage": "/images/IMG_1660.jpg",
+    "image": "/images/top-46_1.jpg",
+    "secondaryImage": "/images/top-46_2.jpg",
     "badge": "",
-    "description": "The DSWN Cross Graphic Plaid Overshirt reimagines the classic flannel shirt through a contemporary streetwear lens. Designed with a bold yellow and navy plaid pattern, this piece delivers a strong visual presence while maintaining the versatility expected from an everyday layering essential.\n\nConstructed from heavyweight brushed cotton fabric, the overshirt offers structure, durability, and comfort. The front features dual flap chest pockets, custom metal snap buttons, and premium branded hardware that elevate the garment beyond a traditional plaid shirt. Subtle distressing along key seams enhances its worn-in character and gives the piece an authentic vintage-inspired appeal.\n\nAt the back, a large distressed cross graphic serves as the focal point of the design. The oversized artwork combines gothic influences, industrial aesthetics, and streetwear sensibilities, creating a striking contrast against the vibrant plaid background. The cracked print finish further reinforces the garment’s aged and rebellious identity.\n\nThe relaxed oversized silhouette allows effortless layering over tees, hoodies, and knitwear, making it suitable for year-round styling. Whether worn open as an outer layer or buttoned as a standalone statement piece, this overshirt brings depth, texture, and individuality to any wardrobe.\n\nFeatures:\n\n• Heavyweight brushed cotton construction\n• Yellow and navy plaid pattern\n• Relaxed oversized fit\n• Dual flap chest pockets\n• Custom branded metal hardware\n• Snap button front closure\n• Distressed seam detailing\n• Large back cross graphic print\n• Vintage-inspired cracked artwork finish\n• Structured collar design\n• Durable reinforced stitching\n• Layer-friendly silhouette\n• Streetwear and grunge-inspired aesthetic\n• Unisex design\n\nStyle Notes:\n\nLayer over a washed graphic tee, oversized hoodie, or thermal top. Pair with baggy denim, carpenter pants, cargos, or distressed jeans. Complete the look with combat boots, skate shoes, or vintage-inspired sneakers for a contemporary streetwear outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed shoulder construction\n• Straight body profile\n• Designed for layering\n• Unisex sizing\n• True-to-size oversized fit"
+    "description": "The DSWN Cross Graphic Plaid Overshirt reimagines the classic flannel shirt through a contemporary streetwear lens. Designed with a bold yellow and navy plaid pattern, this piece delivers a strong visual presence while maintaining the versatility expected from an everyday layering essential.\n\nConstructed from heavyweight brushed cotton fabric, the overshirt offers structure, durability, and comfort. The front features dual flap chest pockets, custom metal snap buttons, and premium branded hardware that elevate the garment beyond a traditional plaid shirt. Subtle distressing along key seams enhances its worn-in character and gives the piece an authentic vintage-inspired appeal.\n\nAt the back, a large distressed cross graphic serves as the focal point of the design. The oversized artwork combines gothic influences, industrial aesthetics, and streetwear sensibilities, creating a striking contrast against the vibrant plaid background. The cracked print finish further reinforces the garment’s aged and rebellious identity.\n\nThe relaxed oversized silhouette allows effortless layering over tees, hoodies, and knitwear, making it suitable for year-round styling. Whether worn open as an outer layer or buttoned as a standalone statement piece, this overshirt brings depth, texture, and individuality to any wardrobe.\n\nFeatures:\n\n• Heavyweight brushed cotton construction\n• Yellow and navy plaid pattern\n• Relaxed oversized fit\n• Dual flap chest pockets\n• Custom branded metal hardware\n• Snap button front closure\n• Distressed seam detailing\n• Large back cross graphic print\n• Vintage-inspired cracked artwork finish\n• Structured collar design\n• Durable reinforced stitching\n• Layer-friendly silhouette\n• Streetwear and grunge-inspired aesthetic\n• Unisex design\n\nStyle Notes:\n\nLayer over a washed graphic tee, oversized hoodie, or thermal top. Pair with baggy denim, carpenter pants, cargos, or distressed jeans. Complete the look with combat boots, skate shoes, or vintage-inspired sneakers for a contemporary streetwear outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed shoulder construction\n• Straight body profile\n• Designed for layering\n• Unisex sizing\n• True-to-size oversized fit",
+    "gallery": [
+      "/images/top-46_1.jpg",
+      "/images/top-46_2.jpg",
+      "/images/top-46_3.jpg",
+      "/images/top-46_4.jpg",
+      "/images/top-46_5.jpg",
+      "/images/top-46_6.jpg"
+    ]
   },
   {
     "id": "top-47",
@@ -477,40 +631,71 @@ const PRODUCTS = [
     "name": "4th3ex Performance Boxer Briefs",
     "price": 40000,
     "category": "collections",
-    "image": "/images/IMG_1644.jpg",
-    "secondaryImage": "/images/IMG_1643.jpg",
+    "image": "/images/col-48_1.jpg",
+    "secondaryImage": "/images/col-48_2.jpg",
     "badge": "New",
-    "description": "The 4th3ex Performance Boxer Briefs are designed to deliver exceptional comfort, support, and freedom of movement throughout the day. Combining athletic functionality with a clean minimalist aesthetic, these boxer briefs provide a premium foundation for everyday wear.\n\nCrafted from a lightweight stretch-performance fabric, the design conforms naturally to the body while maintaining breathability and flexibility. The smooth construction reduces friction and allows unrestricted movement whether worn during daily activities, travel, training sessions, or extended periods of wear.\n\nA standout feature is the oversized branded elastic waistband, engineered to provide a secure fit without excessive pressure. The dual-logo waistband creates a distinctive visual identity while ensuring long-lasting shape retention and comfort.\n\nThe streamlined silhouette offers a supportive fit through the waist and leg openings, helping maintain stability without restricting mobility. Flatlock seam construction minimizes irritation against the skin, while the moisture-wicking fabric assists in keeping the wearer cool and comfortable throughout the day.\n\nDesigned for those who value both performance and style, the 4th3ex Performance Boxer Briefs combine modern athletic technology with premium everyday comfort.\n\nFeatures:\n\n• Premium stretch-performance fabric\n• Soft-touch lightweight construction\n• Moisture-wicking technology\n• Breathable fabric structure\n• Supportive athletic fit\n• Signature branded elastic waistband\n• Four-way stretch mobility\n• Flatlock seam construction\n• Shape-retention waistband\n• Comfortable all-day wear\n• Lightweight feel\n• Smooth body-contouring fit\n• Minimalist modern design\n• Suitable for daily and active use\n\nStyle Notes:\n\nIdeal as an everyday essential beneath denim, trousers, activewear, or streetwear outfits. Designed to provide comfort and support without compromising mobility.\n\nFit:\n\n• Athletic fit\n• Mid-rise waist\n• Supportive stretch construction\n• True-to-size fit\n• Flexible movement\n• Comfortable all-day wear"
+    "description": "The 4th3ex Performance Boxer Briefs are designed to deliver exceptional comfort, support, and freedom of movement throughout the day. Combining athletic functionality with a clean minimalist aesthetic, these boxer briefs provide a premium foundation for everyday wear.\n\nCrafted from a lightweight stretch-performance fabric, the design conforms naturally to the body while maintaining breathability and flexibility. The smooth construction reduces friction and allows unrestricted movement whether worn during daily activities, travel, training sessions, or extended periods of wear.\n\nA standout feature is the oversized branded elastic waistband, engineered to provide a secure fit without excessive pressure. The dual-logo waistband creates a distinctive visual identity while ensuring long-lasting shape retention and comfort.\n\nThe streamlined silhouette offers a supportive fit through the waist and leg openings, helping maintain stability without restricting mobility. Flatlock seam construction minimizes irritation against the skin, while the moisture-wicking fabric assists in keeping the wearer cool and comfortable throughout the day.\n\nDesigned for those who value both performance and style, the 4th3ex Performance Boxer Briefs combine modern athletic technology with premium everyday comfort.\n\nFeatures:\n\n• Premium stretch-performance fabric\n• Soft-touch lightweight construction\n• Moisture-wicking technology\n• Breathable fabric structure\n• Supportive athletic fit\n• Signature branded elastic waistband\n• Four-way stretch mobility\n• Flatlock seam construction\n• Shape-retention waistband\n• Comfortable all-day wear\n• Lightweight feel\n• Smooth body-contouring fit\n• Minimalist modern design\n• Suitable for daily and active use\n\nStyle Notes:\n\nIdeal as an everyday essential beneath denim, trousers, activewear, or streetwear outfits. Designed to provide comfort and support without compromising mobility.\n\nFit:\n\n• Athletic fit\n• Mid-rise waist\n• Supportive stretch construction\n• True-to-size fit\n• Flexible movement\n• Comfortable all-day wear",
+    "gallery": [
+      "/images/col-48_1.jpg",
+      "/images/col-48_2.jpg",
+      "/images/col-48_3.jpg",
+      "/images/col-48_4.jpg",
+      "/images/col-48_5.jpg",
+      "/images/col-48_6.jpg",
+      "/images/col-48_7.jpg"
+    ]
   },
   {
     "id": "bot-49",
     "name": "Fourth3ex Layered Panel Wide-Leg Sweatpants",
     "price": 161800,
     "category": "bottoms",
-    "image": "/images/IMG_1632.jpg",
-    "secondaryImage": "/images/IMG_1634.jpg",
+    "image": "/images/bot-49_1.jpg",
+    "secondaryImage": "/images/bot-49_2.jpg",
     "badge": "",
-    "description": "The Layered Panel Wide-Leg Sweatpants combine vintage athletic influences with modern streetwear aesthetics. Designed with an oversized silhouette and innovative panel construction, these sweatpants deliver a bold statement while maintaining everyday comfort.\n\nCrafted from heavyweight cotton-blend fleece, the design features a distinctive double-waist effect that creates the illusion of layered garments. The exposed black side panels with contrast stripe detailing draw inspiration from classic track pants while introducing depth and visual movement to the silhouette.\n\nLarge patch pockets at the back enhance functionality while reinforcing the garment's utility-inspired appeal. The wide-leg construction allows the fabric to stack naturally over footwear, creating the relaxed drape associated with contemporary streetwear styling.\n\nThe soft grey body contrasts with the black athletic panels, resulting in a balanced design that feels both nostalgic and modern. The embroidered crest detail on the front adds a subtle statement element without overwhelming the overall aesthetic.\n\nPerfect for pairing with oversized jerseys, graphic tees, hoodies, and sneakers, these sweatpants offer versatility while remaining visually distinctive. Designed for those who appreciate experimental silhouettes and elevated casualwear, the Layered Panel Wide-Leg Sweatpants bring together comfort, function, and progressive design.\n\nFeatures:\n\n• Premium heavyweight cotton-blend fleece\n• Oversized relaxed fit\n• Double-waist layered effect\n• Wide-leg silhouette\n• Contrast side panel construction\n• Athletic stripe detailing\n• Elastic waistband\n• Large rear patch pockets\n• Soft brushed interior\n• Stacked leg profile\n• Reinforced seam construction\n• Comfortable everyday wear\n• Contemporary streetwear aesthetic\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized sports jerseys, graphic tees, hoodies, varsity jackets, or technical outerwear. Complete the look with chunky sneakers or skate-inspired footwear for a modern streetwear outfit.\n\nFit:\n\n• Oversized fit\n• Wide through hip and thigh\n• Extra-long stacked leg\n• Relaxed drape\n• Unisex design\n• True-to-size oversized silhouette"
+    "description": "The Layered Panel Wide-Leg Sweatpants combine vintage athletic influences with modern streetwear aesthetics. Designed with an oversized silhouette and innovative panel construction, these sweatpants deliver a bold statement while maintaining everyday comfort.\n\nCrafted from heavyweight cotton-blend fleece, the design features a distinctive double-waist effect that creates the illusion of layered garments. The exposed black side panels with contrast stripe detailing draw inspiration from classic track pants while introducing depth and visual movement to the silhouette.\n\nLarge patch pockets at the back enhance functionality while reinforcing the garment's utility-inspired appeal. The wide-leg construction allows the fabric to stack naturally over footwear, creating the relaxed drape associated with contemporary streetwear styling.\n\nThe soft grey body contrasts with the black athletic panels, resulting in a balanced design that feels both nostalgic and modern. The embroidered crest detail on the front adds a subtle statement element without overwhelming the overall aesthetic.\n\nPerfect for pairing with oversized jerseys, graphic tees, hoodies, and sneakers, these sweatpants offer versatility while remaining visually distinctive. Designed for those who appreciate experimental silhouettes and elevated casualwear, the Layered Panel Wide-Leg Sweatpants bring together comfort, function, and progressive design.\n\nFeatures:\n\n• Premium heavyweight cotton-blend fleece\n• Oversized relaxed fit\n• Double-waist layered effect\n• Wide-leg silhouette\n• Contrast side panel construction\n• Athletic stripe detailing\n• Elastic waistband\n• Large rear patch pockets\n• Soft brushed interior\n• Stacked leg profile\n• Reinforced seam construction\n• Comfortable everyday wear\n• Contemporary streetwear aesthetic\n• Unisex styling\n\nStyle Notes:\n\nPair with oversized sports jerseys, graphic tees, hoodies, varsity jackets, or technical outerwear. Complete the look with chunky sneakers or skate-inspired footwear for a modern streetwear outfit.\n\nFit:\n\n• Oversized fit\n• Wide through hip and thigh\n• Extra-long stacked leg\n• Relaxed drape\n• Unisex design\n• True-to-size oversized silhouette",
+    "gallery": [
+      "/images/bot-49_1.jpg",
+      "/images/bot-49_2.jpg",
+      "/images/bot-49_3.jpg",
+      "/images/bot-49_4.jpg",
+      "/images/bot-49_5.jpg",
+      "/images/bot-49_6.jpg",
+      "/images/bot-49_7.jpg"
+    ]
   },
   {
     "id": "bot-50",
     "name": "Chaos Script Utility Shorts",
     "price": 130000,
     "category": "bottoms",
-    "image": "/images/IMG_1627.jpg",
-    "secondaryImage": "/images/IMG_1631.jpg",
+    "image": "/images/bot-50_1.jpg",
+    "secondaryImage": "/images/bot-50_2.jpg",
     "badge": "",
-    "description": "The Chaos Script Utility Shorts redefine contemporary streetwear through a combination of utilitarian construction, experimental graphics, and artistic distressing. Crafted from durable cotton-blend fabric in a versatile khaki tone, these shorts deliver a distinctive visual identity inspired by underground fashion, industrial design, and deconstructed workwear aesthetics.\n\nAt the center of the design is an unconventional overlapping front panel that introduces depth, movement, and asymmetry to the garment. This layered construction creates a unique visual profile while reinforcing the shorts' avant-garde appeal. Distressed script graphics spread across the front and rear panels, producing a worn-in, rebellious character that feels both raw and intentional.\n\nHand-applied paint splatter effects in contrasting tones further enhance the garment’s artistic appearance, making every angle visually engaging. Functional utility pockets provide practical storage while maintaining the industrial-inspired design language that defines the piece.\n\nThe oversized silhouette offers generous volume throughout the leg, creating a relaxed drape that sits comfortably while allowing unrestricted movement. Inspired by military utility garments and modern experimental tailoring, these shorts bridge the gap between functionality and statement dressing.\n\nThe clean khaki base allows the distressed graphics and paint details to stand out, making the shorts easy to pair with oversized tees, distressed knitwear, graphic shirts, utility vests, or lightweight jackets. Whether styled casually or as part of a more fashion-forward look, the garment serves as an instant focal point.\n\nDesigned for individuals who appreciate unconventional silhouettes and artistic detailing, the Chaos Script Utility Shorts embody modern streetwear's ongoing evolution toward wearable art.\n\nFeatures:\n\n• Premium cotton-blend construction\n• Oversized relaxed fit\n• Asymmetric overlapping front panel\n• Distressed script graphic artwork\n• Hand-finished paint splatter detailing\n• Utility-inspired pocket configuration\n• Reinforced seam construction\n• Durable hardware accents\n• Wide-leg short silhouette\n• Artistic weathered finish\n• Lightweight yet structured feel\n• Contemporary avant-garde design\n• Functional everyday wearability\n• Statement streetwear aesthetic\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped shirts, distressed outerwear, utility vests, or minimalist sneakers. Complete the look with accessories such as chains, rings, or technical bags for a modern streetwear-inspired outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed through hip and thigh\n• Wide-leg silhouette\n• Falls below the knee\n• Designed for a loose draping effect\n• Unisex styling"
+    "description": "The Chaos Script Utility Shorts redefine contemporary streetwear through a combination of utilitarian construction, experimental graphics, and artistic distressing. Crafted from durable cotton-blend fabric in a versatile khaki tone, these shorts deliver a distinctive visual identity inspired by underground fashion, industrial design, and deconstructed workwear aesthetics.\n\nAt the center of the design is an unconventional overlapping front panel that introduces depth, movement, and asymmetry to the garment. This layered construction creates a unique visual profile while reinforcing the shorts' avant-garde appeal. Distressed script graphics spread across the front and rear panels, producing a worn-in, rebellious character that feels both raw and intentional.\n\nHand-applied paint splatter effects in contrasting tones further enhance the garment’s artistic appearance, making every angle visually engaging. Functional utility pockets provide practical storage while maintaining the industrial-inspired design language that defines the piece.\n\nThe oversized silhouette offers generous volume throughout the leg, creating a relaxed drape that sits comfortably while allowing unrestricted movement. Inspired by military utility garments and modern experimental tailoring, these shorts bridge the gap between functionality and statement dressing.\n\nThe clean khaki base allows the distressed graphics and paint details to stand out, making the shorts easy to pair with oversized tees, distressed knitwear, graphic shirts, utility vests, or lightweight jackets. Whether styled casually or as part of a more fashion-forward look, the garment serves as an instant focal point.\n\nDesigned for individuals who appreciate unconventional silhouettes and artistic detailing, the Chaos Script Utility Shorts embody modern streetwear's ongoing evolution toward wearable art.\n\nFeatures:\n\n• Premium cotton-blend construction\n• Oversized relaxed fit\n• Asymmetric overlapping front panel\n• Distressed script graphic artwork\n• Hand-finished paint splatter detailing\n• Utility-inspired pocket configuration\n• Reinforced seam construction\n• Durable hardware accents\n• Wide-leg short silhouette\n• Artistic weathered finish\n• Lightweight yet structured feel\n• Contemporary avant-garde design\n• Functional everyday wearability\n• Statement streetwear aesthetic\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped shirts, distressed outerwear, utility vests, or minimalist sneakers. Complete the look with accessories such as chains, rings, or technical bags for a modern streetwear-inspired outfit.\n\nFit:\n\n• Oversized fit\n• Relaxed through hip and thigh\n• Wide-leg silhouette\n• Falls below the knee\n• Designed for a loose draping effect\n• Unisex styling",
+    "gallery": [
+      "/images/bot-50_1.jpg",
+      "/images/bot-50_2.jpg",
+      "/images/bot-50_3.jpg",
+      "/images/bot-50_4.jpg",
+      "/images/bot-50_5.jpg"
+    ]
   },
   {
     "id": "bot-51",
     "name": "Hell System Paint Drip Cargo Pants",
     "price": 127500,
     "category": "bottoms",
-    "image": "/images/IMG_1625.jpg",
-    "secondaryImage": "/images/IMG_1623.jpg",
+    "image": "/images/bot-51_1.jpg",
+    "secondaryImage": "/images/bot-51_2.jpg",
     "badge": "",
-    "description": "The Hell System Paint Drip Cargo Pants deliver a fearless interpretation of modern streetwear through a fusion of utility design and artistic expression. Crafted from durable heavyweight cotton fabric, these trousers showcase a striking paint-drip treatment flowing naturally from the waistband and pocket areas, creating a handcrafted appearance that feels both rebellious and innovative.\n\nThe washed stone-grey finish serves as the perfect foundation for the contrasting black paint effect, producing a visually powerful design that immediately attracts attention. Every drip pattern appears intentional yet organic, giving the garment an experimental character that separates it from traditional cargo pants.\n\nBuilt around a relaxed wide-leg silhouette, the trousers provide generous room through the seat, thigh, and leg for unrestricted movement and effortless stacking over sneakers or boots. Utility-inspired cargo pockets positioned along both legs add both functionality and dimension, reinforcing the industrial workwear influence behind the design.\n\nThe deconstructed pocket flap detailing around the waistband further enhances the garment's unconventional aesthetic, while reinforced panel construction and durable hardware ensure long-lasting wear. Inspired by underground street culture, industrial environments, and avant-garde fashion, these trousers serve as both a wearable statement piece and a functional everyday garment.\n\nWhether styled with oversized graphic tees, distressed hoodies, technical jackets, leather outerwear, or combat-inspired footwear, these cargo pants become the focal point of any outfit. Their unique paint treatment and oversized proportions make them ideal for individuals who embrace boundary-pushing fashion.\n\nFeatures:\n\n• Premium heavyweight cotton construction\n• Signature hand-painted drip effect\n• Washed stone-grey finish\n• Oversized wide-leg silhouette\n• Utility-inspired cargo pocket system\n• Deconstructed waistband pocket detailing\n• Reinforced panel construction\n• Durable metal hardware\n• Relaxed streetwear fit\n• Functional storage compartments\n• Button and zip fly closure\n• Stack-friendly leg opening\n• Industrial-inspired design language\n• Statement artistic treatment\n\nStyle Notes:\n\nPair with oversized graphic tees, distressed knitwear, cropped jackets, technical outerwear, leather jackets, or heavyweight hoodies. Complete the look with combat boots, skate shoes, chunky sneakers, or futuristic footwear for maximum impact.\n\nFit:\n\n• Wide-leg fit\n• Relaxed through seat and thigh\n• Oversized streetwear proportions\n• Designed for natural stacking\n• True-to-size waist measurement\n• Unisex styling"
+    "description": "The Hell System Paint Drip Cargo Pants deliver a fearless interpretation of modern streetwear through a fusion of utility design and artistic expression. Crafted from durable heavyweight cotton fabric, these trousers showcase a striking paint-drip treatment flowing naturally from the waistband and pocket areas, creating a handcrafted appearance that feels both rebellious and innovative.\n\nThe washed stone-grey finish serves as the perfect foundation for the contrasting black paint effect, producing a visually powerful design that immediately attracts attention. Every drip pattern appears intentional yet organic, giving the garment an experimental character that separates it from traditional cargo pants.\n\nBuilt around a relaxed wide-leg silhouette, the trousers provide generous room through the seat, thigh, and leg for unrestricted movement and effortless stacking over sneakers or boots. Utility-inspired cargo pockets positioned along both legs add both functionality and dimension, reinforcing the industrial workwear influence behind the design.\n\nThe deconstructed pocket flap detailing around the waistband further enhances the garment's unconventional aesthetic, while reinforced panel construction and durable hardware ensure long-lasting wear. Inspired by underground street culture, industrial environments, and avant-garde fashion, these trousers serve as both a wearable statement piece and a functional everyday garment.\n\nWhether styled with oversized graphic tees, distressed hoodies, technical jackets, leather outerwear, or combat-inspired footwear, these cargo pants become the focal point of any outfit. Their unique paint treatment and oversized proportions make them ideal for individuals who embrace boundary-pushing fashion.\n\nFeatures:\n\n• Premium heavyweight cotton construction\n• Signature hand-painted drip effect\n• Washed stone-grey finish\n• Oversized wide-leg silhouette\n• Utility-inspired cargo pocket system\n• Deconstructed waistband pocket detailing\n• Reinforced panel construction\n• Durable metal hardware\n• Relaxed streetwear fit\n• Functional storage compartments\n• Button and zip fly closure\n• Stack-friendly leg opening\n• Industrial-inspired design language\n• Statement artistic treatment\n\nStyle Notes:\n\nPair with oversized graphic tees, distressed knitwear, cropped jackets, technical outerwear, leather jackets, or heavyweight hoodies. Complete the look with combat boots, skate shoes, chunky sneakers, or futuristic footwear for maximum impact.\n\nFit:\n\n• Wide-leg fit\n• Relaxed through seat and thigh\n• Oversized streetwear proportions\n• Designed for natural stacking\n• True-to-size waist measurement\n• Unisex styling",
+    "gallery": [
+      "/images/bot-51_1.jpg",
+      "/images/bot-51_2.jpg",
+      "/images/bot-51_3.jpg",
+      "/images/bot-51_4.jpg"
+    ]
   },
   {
     "id": "bot-52",
@@ -527,40 +712,69 @@ const PRODUCTS = [
     "name": "Distressed Pinstripe Carpenter Jeans",
     "price": 130000,
     "category": "bottoms",
-    "image": "/images/IMG_1613.jpg",
-    "secondaryImage": "/images/IMG_0360.jpg",
+    "image": "/images/bot-53_1.jpg",
+    "secondaryImage": "/images/bot-53_2.jpg",
     "badge": "",
-    "description": "The Distressed Pinstripe Carpenter Jeans combine classic workwear influences with contemporary streetwear design. Constructed from durable heavyweight denim, these trousers feature subtle vertical pinstripes that add texture and visual depth while maintaining a clean vintage-inspired appearance.\n\nDesigned with a relaxed wide-leg silhouette, the jeans offer a comfortable oversized fit that stacks naturally over sneakers and boots. Multiple distressed panels and frayed openings create an authentic worn-in aesthetic, giving each outfit a rebellious edge without sacrificing everyday wearability.\n\nUtility-inspired details such as carpenter pockets, side tool loops, contrast stitching, and reinforced construction pay homage to traditional workwear garments while elevating the overall design for modern streetwear styling. Vintage wash effects and faded treatments throughout the fabric further enhance the aged character of the piece.\n\nThe neutral cream pinstripe colorway makes these jeans highly versatile, pairing effortlessly with graphic tees, oversized hoodies, cropped jackets, leather outerwear, and statement accessories. Whether styled casually or incorporated into a more fashion-forward look, these jeans serve as a standout foundation piece.\n\nFeatures:\n\n• Heavyweight pinstripe denim construction\n• Vintage-inspired cream wash finish\n• Relaxed wide-leg silhouette\n• Distressed and ripped detailing throughout\n• Carpenter-style utility pockets\n• Functional side tool loop\n• Reinforced contrast stitching\n• Classic five-pocket construction\n• Button and zip fly closure\n• Streetwear-inspired oversized fit\n• Stack-friendly leg opening\n• Durable everyday wear construction\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped knitwear, leather jackets, varsity pieces, or vintage-inspired outerwear. Complete the look with Converse, chunky sneakers, work boots, or skate footwear for an authentic streetwear aesthetic.\n\nFit:\n\n• Wide-leg fit\n• Relaxed through the thigh and leg\n• Designed for natural stacking\n• True-to-size waist measurement"
+    "description": "The Distressed Pinstripe Carpenter Jeans combine classic workwear influences with contemporary streetwear design. Constructed from durable heavyweight denim, these trousers feature subtle vertical pinstripes that add texture and visual depth while maintaining a clean vintage-inspired appearance.\n\nDesigned with a relaxed wide-leg silhouette, the jeans offer a comfortable oversized fit that stacks naturally over sneakers and boots. Multiple distressed panels and frayed openings create an authentic worn-in aesthetic, giving each outfit a rebellious edge without sacrificing everyday wearability.\n\nUtility-inspired details such as carpenter pockets, side tool loops, contrast stitching, and reinforced construction pay homage to traditional workwear garments while elevating the overall design for modern streetwear styling. Vintage wash effects and faded treatments throughout the fabric further enhance the aged character of the piece.\n\nThe neutral cream pinstripe colorway makes these jeans highly versatile, pairing effortlessly with graphic tees, oversized hoodies, cropped jackets, leather outerwear, and statement accessories. Whether styled casually or incorporated into a more fashion-forward look, these jeans serve as a standout foundation piece.\n\nFeatures:\n\n• Heavyweight pinstripe denim construction\n• Vintage-inspired cream wash finish\n• Relaxed wide-leg silhouette\n• Distressed and ripped detailing throughout\n• Carpenter-style utility pockets\n• Functional side tool loop\n• Reinforced contrast stitching\n• Classic five-pocket construction\n• Button and zip fly closure\n• Streetwear-inspired oversized fit\n• Stack-friendly leg opening\n• Durable everyday wear construction\n\nStyle Notes:\n\nPair with oversized graphic tees, cropped knitwear, leather jackets, varsity pieces, or vintage-inspired outerwear. Complete the look with Converse, chunky sneakers, work boots, or skate footwear for an authentic streetwear aesthetic.\n\nFit:\n\n• Wide-leg fit\n• Relaxed through the thigh and leg\n• Designed for natural stacking\n• True-to-size waist measurement",
+    "gallery": [
+      "/images/bot-53_1.jpg",
+      "/images/bot-53_2.jpg",
+      "/images/bot-53_3.jpg",
+      "/images/bot-53_4.jpg",
+      "/images/bot-53_5.jpg",
+      "/images/bot-53_6.jpg"
+    ]
   },
   {
     "id": "acc-54",
     "name": "Groupmarek Ball Chain Wallet Chain",
     "price": 78000,
     "category": "accessories",
-    "image": "/images/IMG_1604.jpg",
-    "secondaryImage": "/images/IMG_1606.jpg",
+    "image": "/images/acc-54_1.jpg",
+    "secondaryImage": "/images/acc-54_2.jpg",
     "badge": "",
-    "description": "The Groupmarek Ball Chain Wallet Chain is a modern streetwear accessory that combines utility-driven design with bold visual impact. Crafted from polished silver-tone metal beads, the chain delivers a clean industrial aesthetic inspired by punk, skate, and contemporary street culture.\n\nDesigned with dual lobster clasp attachments, the piece can be secured to belt loops, wallets, keys, or bags, making it both a functional accessory and a styling statement. The metallic finish catches light effortlessly, creating subtle movement and detail that elevates even the simplest outfit.\n\nWhether paired with stacked denim, baggy jeans, cargo pants, or shorts, this chain adds depth, texture, and attitude to everyday looks. The signature Groupmarek branding further reinforces its premium streetwear identity while maintaining a minimalist aesthetic.\n\nFeatures:\n\n• Premium silver-tone metal construction\n• Ball chain design\n• Dual lobster clasp closures\n• Multi-purpose styling functionality\n• Can be attached to wallets, keys, belt loops, or bags\n• Durable hardware construction\n• Lightweight everyday wear\n• Industrial streetwear aesthetic\n• Signature Groupmarek branding\n• Suitable for both casual and statement styling\n\nStyle Notes:\n\nWear with baggy denim, wide-leg trousers, cargo pants, or distressed jeans for a complete streetwear-inspired look. Can also be attached to backpacks and crossbody bags as a styling accessory."
+    "description": "The Groupmarek Ball Chain Wallet Chain is a modern streetwear accessory that combines utility-driven design with bold visual impact. Crafted from polished silver-tone metal beads, the chain delivers a clean industrial aesthetic inspired by punk, skate, and contemporary street culture.\n\nDesigned with dual lobster clasp attachments, the piece can be secured to belt loops, wallets, keys, or bags, making it both a functional accessory and a styling statement. The metallic finish catches light effortlessly, creating subtle movement and detail that elevates even the simplest outfit.\n\nWhether paired with stacked denim, baggy jeans, cargo pants, or shorts, this chain adds depth, texture, and attitude to everyday looks. The signature Groupmarek branding further reinforces its premium streetwear identity while maintaining a minimalist aesthetic.\n\nFeatures:\n\n• Premium silver-tone metal construction\n• Ball chain design\n• Dual lobster clasp closures\n• Multi-purpose styling functionality\n• Can be attached to wallets, keys, belt loops, or bags\n• Durable hardware construction\n• Lightweight everyday wear\n• Industrial streetwear aesthetic\n• Signature Groupmarek branding\n• Suitable for both casual and statement styling\n\nStyle Notes:\n\nWear with baggy denim, wide-leg trousers, cargo pants, or distressed jeans for a complete streetwear-inspired look. Can also be attached to backpacks and crossbody bags as a styling accessory.",
+    "gallery": [
+      "/images/acc-54_1.jpg",
+      "/images/acc-54_2.jpg",
+      "/images/acc-54_3.jpg",
+      "/images/acc-54_4.jpg"
+    ]
   },
   {
     "id": "top-55",
     "name": "Group Marek Rich Boys Club Washed Polo",
     "price": 120000,
     "category": "tops",
-    "image": "/images/IMG_1602.jpg",
-    "secondaryImage": "/images/IMG_1602.jpg",
+    "image": "/images/top-55_1.jpg",
+    "secondaryImage": "/images/top-55_2.jpg",
     "badge": "",
-    "description": "The Rich Boys Club Washed Polo is designed for those who appreciate timeless silhouettes reworked through a contemporary streetwear perspective. Constructed from premium cotton and treated with a vintage wash process, the garment delivers a naturally aged appearance and a soft worn-in feel from the very first wear.\n\nThe relaxed oversized fit allows for effortless styling while maintaining comfort throughout the day. Embroidered red graphics on the chest and sleeve add subtle detailing, while the large Rich Boys Club embroidery across the back creates a strong visual identity that sets the piece apart.\n\nInspired by classic polo shirts but elevated with modern proportions and street culture influences, this piece transitions seamlessly from everyday casual wear to carefully curated statement outfits.\n\nFeatures:\n\n• Premium cotton construction\n• Vintage washed-black finish\n• Oversized relaxed fit\n• Classic polo collar\n• Button placket closure\n• Embroidered chest artwork\n• Embroidered sleeve detail\n• Large Rich Boys Club back embroidery\n• Soft breathable fabric\n• Everyday streetwear essential\n\nStyle Notes:\n\nPair with stacked denim, distressed jeans, cargo pants, or relaxed trousers for a complete contemporary streetwear look. Layer with outerwear during cooler seasons or wear alone for a clean statement fit."
+    "description": "The Rich Boys Club Washed Polo is designed for those who appreciate timeless silhouettes reworked through a contemporary streetwear perspective. Constructed from premium cotton and treated with a vintage wash process, the garment delivers a naturally aged appearance and a soft worn-in feel from the very first wear.\n\nThe relaxed oversized fit allows for effortless styling while maintaining comfort throughout the day. Embroidered red graphics on the chest and sleeve add subtle detailing, while the large Rich Boys Club embroidery across the back creates a strong visual identity that sets the piece apart.\n\nInspired by classic polo shirts but elevated with modern proportions and street culture influences, this piece transitions seamlessly from everyday casual wear to carefully curated statement outfits.\n\nFeatures:\n\n• Premium cotton construction\n• Vintage washed-black finish\n• Oversized relaxed fit\n• Classic polo collar\n• Button placket closure\n• Embroidered chest artwork\n• Embroidered sleeve detail\n• Large Rich Boys Club back embroidery\n• Soft breathable fabric\n• Everyday streetwear essential\n\nStyle Notes:\n\nPair with stacked denim, distressed jeans, cargo pants, or relaxed trousers for a complete contemporary streetwear look. Layer with outerwear during cooler seasons or wear alone for a clean statement fit.",
+    "gallery": [
+      "/images/top-55_1.jpg",
+      "/images/top-55_2.jpg",
+      "/images/top-55_3.jpg",
+      "/images/top-55_4.jpg",
+      "/images/top-55_5.jpg"
+    ]
   },
   {
     "id": "col-56",
     "name": "Loopson Ice Wash Wide Leg Denim",
     "price": 86000,
     "category": "collections",
-    "image": "/images/IMG_1594.jpg",
-    "secondaryImage": "/images/IMG_1591.jpg",
+    "image": "/images/col-56_1.jpg",
+    "secondaryImage": "/images/col-56_2.jpg",
     "badge": "New",
-    "description": "The Ice Wash Wide Leg Denim is designed for those who appreciate clean silhouettes, effortless styling, and timeless streetwear aesthetics. Featuring a soft ice-wash finish and a generously cut wide-leg profile, this denim delivers the perfect balance between vintage inspiration and modern oversized fashion.\n\nConstructed from durable premium denim, the jeans are designed to drape naturally from the waist down, creating a relaxed stacked effect around the hem that complements sneakers, boots, and chunky footwear alike. The light wash treatment gives the garment a worn-in appearance while maintaining a clean and refined look that can be styled across seasons.\n\nUnlike heavily distressed denim, the minimalist design allows the fit and wash to become the focal point, making these jeans an easy addition to any wardrobe. Whether paired with oversized hoodies, heavyweight tees, rugby shirts, knitwear, or technical outerwear, the Ice Wash Wide Leg Denim adapts seamlessly to a variety of streetwear and casual looks.\n\nThe classic five-pocket construction provides everyday functionality, while reinforced stitching and durable hardware ensure long-lasting wear. The relaxed fit through the seat and thighs enhances comfort without sacrificing structure, making it suitable for all-day use.\n\nKey Features:\n\n• Premium heavyweight denim construction\n• Vintage-inspired ice wash finish\n• Oversized wide-leg silhouette\n• Relaxed fit through seat and thigh\n• Full-length stacked leg profile\n• Classic five-pocket design\n• Durable button and zip fly closure\n• Clean minimalist aesthetic\n• Comfortable everyday wear\n• Easy to style across multiple outfits\n• Suitable for all-season wear\n• Unisex streetwear appeal\n\nStyle Notes:\n\nPair with oversized hoodies for a relaxed streetwear look, graphic tees for everyday casual wear, or rugby shirts and knitwear for a more elevated contemporary outfit. Complete the look with sneakers, loafers, or boots depending on the occasion.\n\nFit:\n\n• Wide Leg Fit\n• Relaxed Oversized Silhouette\n• Full Length\n• True to Size\n\nA versatile wardrobe essential built for effortless styling and everyday rotation."
+    "description": "The Ice Wash Wide Leg Denim is designed for those who appreciate clean silhouettes, effortless styling, and timeless streetwear aesthetics. Featuring a soft ice-wash finish and a generously cut wide-leg profile, this denim delivers the perfect balance between vintage inspiration and modern oversized fashion.\n\nConstructed from durable premium denim, the jeans are designed to drape naturally from the waist down, creating a relaxed stacked effect around the hem that complements sneakers, boots, and chunky footwear alike. The light wash treatment gives the garment a worn-in appearance while maintaining a clean and refined look that can be styled across seasons.\n\nUnlike heavily distressed denim, the minimalist design allows the fit and wash to become the focal point, making these jeans an easy addition to any wardrobe. Whether paired with oversized hoodies, heavyweight tees, rugby shirts, knitwear, or technical outerwear, the Ice Wash Wide Leg Denim adapts seamlessly to a variety of streetwear and casual looks.\n\nThe classic five-pocket construction provides everyday functionality, while reinforced stitching and durable hardware ensure long-lasting wear. The relaxed fit through the seat and thighs enhances comfort without sacrificing structure, making it suitable for all-day use.\n\nKey Features:\n\n• Premium heavyweight denim construction\n• Vintage-inspired ice wash finish\n• Oversized wide-leg silhouette\n• Relaxed fit through seat and thigh\n• Full-length stacked leg profile\n• Classic five-pocket design\n• Durable button and zip fly closure\n• Clean minimalist aesthetic\n• Comfortable everyday wear\n• Easy to style across multiple outfits\n• Suitable for all-season wear\n• Unisex streetwear appeal\n\nStyle Notes:\n\nPair with oversized hoodies for a relaxed streetwear look, graphic tees for everyday casual wear, or rugby shirts and knitwear for a more elevated contemporary outfit. Complete the look with sneakers, loafers, or boots depending on the occasion.\n\nFit:\n\n• Wide Leg Fit\n• Relaxed Oversized Silhouette\n• Full Length\n• True to Size\n\nA versatile wardrobe essential built for effortless styling and everyday rotation.",
+    "gallery": [
+      "/images/col-56_1.jpg",
+      "/images/col-56_2.jpg",
+      "/images/col-56_3.jpg",
+      "/images/col-56_4.jpg",
+      "/images/col-56_5.jpg",
+      "/images/col-56_6.jpg"
+    ]
   },
   {
     "id": "top-57",
@@ -577,10 +791,17 @@ const PRODUCTS = [
     "name": "Loopson Truth 01 Oversized Long Sleeve Jersey",
     "price": 100000,
     "category": "tops",
-    "image": "/images/IMG_1581.jpg",
-    "secondaryImage": "/images/IMG_1580.jpg",
+    "image": "/images/top-58_1.jpg",
+    "secondaryImage": "/images/top-58_2.jpg",
     "badge": "",
-    "description": "The Truth 01 Oversized Long Sleeve Jersey merges classic sportswear influences with contemporary streetwear styling. Designed with a relaxed oversized silhouette, this statement piece features bold \"TRUTH\" typography across the chest and a distressed \"01\" graphic on the back for a vintage team-inspired look.\n\nContrasting stripe details run from the shoulders through the sleeves, creating a dynamic athletic feel, while raw-edge accents and distressed patchwork elements add character and individuality. The clean black base allows the graphics to stand out while maintaining versatility for everyday styling.\n\nPerfect for layering or wearing as a standalone statement piece, this jersey delivers comfort, attitude, and effortless streetwear appeal.\n\nFeatures:\n\n• Oversized relaxed silhouette\n• Bold TRUTH front graphic\n• Distressed 01 back print\n• Athletic-inspired sleeve stripes\n• Vintage sportswear aesthetic\n• Raw-edge neckline detailing\n• Lightweight comfortable construction\n• Long sleeve design\n• Streetwear-focused fit\n• Unisex styling\n\nStyle Notes:\n\nPair with baggy denim, parachute pants, cargos, jorts, or track pants. Complete the look with sneakers, boots, or a fitted cap for a modern streetwear outfit.\n\nFit & Details:\n\n• Color: Black / Burgundy\n• Material: Cotton Polyester Blend\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Long Sleeve\n• Style: Streetwear, Sportswear, Casual\n• Gender: Unisex\n• Season: All Season"
+    "description": "The Truth 01 Oversized Long Sleeve Jersey merges classic sportswear influences with contemporary streetwear styling. Designed with a relaxed oversized silhouette, this statement piece features bold \"TRUTH\" typography across the chest and a distressed \"01\" graphic on the back for a vintage team-inspired look.\n\nContrasting stripe details run from the shoulders through the sleeves, creating a dynamic athletic feel, while raw-edge accents and distressed patchwork elements add character and individuality. The clean black base allows the graphics to stand out while maintaining versatility for everyday styling.\n\nPerfect for layering or wearing as a standalone statement piece, this jersey delivers comfort, attitude, and effortless streetwear appeal.\n\nFeatures:\n\n• Oversized relaxed silhouette\n• Bold TRUTH front graphic\n• Distressed 01 back print\n• Athletic-inspired sleeve stripes\n• Vintage sportswear aesthetic\n• Raw-edge neckline detailing\n• Lightweight comfortable construction\n• Long sleeve design\n• Streetwear-focused fit\n• Unisex styling\n\nStyle Notes:\n\nPair with baggy denim, parachute pants, cargos, jorts, or track pants. Complete the look with sneakers, boots, or a fitted cap for a modern streetwear outfit.\n\nFit & Details:\n\n• Color: Black / Burgundy\n• Material: Cotton Polyester Blend\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Long Sleeve\n• Style: Streetwear, Sportswear, Casual\n• Gender: Unisex\n• Season: All Season",
+    "gallery": [
+      "/images/top-58_1.jpg",
+      "/images/top-58_2.jpg",
+      "/images/top-58_3.jpg",
+      "/images/top-58_4.jpg",
+      "/images/top-58_5.jpg"
+    ]
   },
   {
     "id": "bot-59",
@@ -617,10 +838,19 @@ const PRODUCTS = [
     "name": "CSONLINE NATIONS-05-MESH-001",
     "price": 95000,
     "category": "tops",
-    "image": "/images/IMG_1561.webp",
-    "secondaryImage": "/images/IMG_1564.webp",
+    "image": "/images/top-62_1.jpg",
+    "secondaryImage": "/images/top-62_2.jpg",
     "badge": "",
-    "description": "The Nations 05 Vintage Mesh Long Sleeve Jersey blends motorsport aesthetics, football-inspired graphics, and modern streetwear into one standout piece. Designed with a washed charcoal finish and lightweight mesh construction, this jersey delivers a worn-in vintage appearance while remaining breathable and comfortable.\n\nThe front features signature script branding, racing-inspired patches, and heritage graphics, while the back is dominated by the oversized distressed \"05\" artwork and custom emblem detailing. Contrasting white panel accents add structure and visual depth, giving the jersey an authentic retro-sports feel.\n\nIts relaxed oversized silhouette makes it ideal for layering or wearing as a statement piece on its own.\n\nFeatures:\n\n• Lightweight breathable mesh construction\n• Vintage washed charcoal finish\n• Oversized distressed \"05\" back graphic\n• Racing and heritage-inspired artwork\n• Contrast side and sleeve panel details\n• Long sleeve jersey design\n• Relaxed oversized fit\n• Soft comfortable feel\n• Reinforced neckline construction\n• Streetwear and motorsport-inspired aesthetic\n\nStyle Notes:\n\nWear with baggy denim, cargo pants, carpenter jeans, or oversized shorts. Complete the look with sneakers, boots, or vintage accessories for a strong Y2K and streetwear-inspired outfit.\n\nFit & Details:\n\n• Color: Washed Charcoal / Off White\n• Material: Polyester Mesh Blend\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Long Sleeve\n• Style: Streetwear, Motorsport, Vintage Sportswear\n• Gender: Unisex\n• Season: All Season"
+    "description": "The Nations 05 Vintage Mesh Long Sleeve Jersey blends motorsport aesthetics, football-inspired graphics, and modern streetwear into one standout piece. Designed with a washed charcoal finish and lightweight mesh construction, this jersey delivers a worn-in vintage appearance while remaining breathable and comfortable.\n\nThe front features signature script branding, racing-inspired patches, and heritage graphics, while the back is dominated by the oversized distressed \"05\" artwork and custom emblem detailing. Contrasting white panel accents add structure and visual depth, giving the jersey an authentic retro-sports feel.\n\nIts relaxed oversized silhouette makes it ideal for layering or wearing as a statement piece on its own.\n\nFeatures:\n\n• Lightweight breathable mesh construction\n• Vintage washed charcoal finish\n• Oversized distressed \"05\" back graphic\n• Racing and heritage-inspired artwork\n• Contrast side and sleeve panel details\n• Long sleeve jersey design\n• Relaxed oversized fit\n• Soft comfortable feel\n• Reinforced neckline construction\n• Streetwear and motorsport-inspired aesthetic\n\nStyle Notes:\n\nWear with baggy denim, cargo pants, carpenter jeans, or oversized shorts. Complete the look with sneakers, boots, or vintage accessories for a strong Y2K and streetwear-inspired outfit.\n\nFit & Details:\n\n• Color: Washed Charcoal / Off White\n• Material: Polyester Mesh Blend\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Long Sleeve\n• Style: Streetwear, Motorsport, Vintage Sportswear\n• Gender: Unisex\n• Season: All Season",
+    "gallery": [
+      "/images/top-62_1.jpg",
+      "/images/top-62_2.jpg",
+      "/images/top-62_3.jpg",
+      "/images/top-62_4.webp",
+      "/images/top-62_5.webp",
+      "/images/top-62_6.webp",
+      "/images/top-62_7.webp"
+    ]
   },
   {
     "id": "bot-63",
@@ -677,10 +907,17 @@ const PRODUCTS = [
     "name": "Boneless Camo Graffiti Oversized Tee",
     "price": 75000,
     "category": "collections",
-    "image": "/images/IMG_1516.jpg",
-    "secondaryImage": "/images/IMG_1519.jpg",
+    "image": "/images/col-68_1.jpg",
+    "secondaryImage": "/images/col-68_2.jpg",
     "badge": "New",
-    "description": "The BONELESS Camo Graffiti Oversized Tee delivers classic military inspiration through a contemporary streetwear lens. Constructed from premium heavyweight cotton, this relaxed-fit T-shirt features an all-over woodland camouflage pattern paired with a bold graffiti-inspired chest logo that adds an urban edge.\n\nDesigned for everyday wear, the oversized silhouette provides comfort, versatility, and effortless styling. The camouflage edition offers a rugged aesthetic that pairs seamlessly with cargos, denim, shorts, and utility-inspired outfits.\n\nWhether worn as a standalone statement piece or layered into a streetwear rotation, this tee combines durability, comfort, and bold visual appeal.\n\nFeatures:\n\n• Premium heavyweight cotton construction\n• All-over woodland camouflage print\n• Signature graffiti chest graphic\n• Oversized relaxed fit\n• Ribbed crew neckline\n• Soft and breathable fabric\n• Durable print application\n• Streetwear-inspired design\n• Everyday comfort and versatility\n• Unisex styling\n\nStyle Notes:\n\nPair with baggy denim, cargo trousers, carpenter pants, or utility shorts. Complete the look with sneakers, boots, or a fitted cap for a modern streetwear outfit.\n\nFit & Details:\n\n• Color: Woodland Camo\n• Material: 100% Cotton\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Short Sleeve\n• Style: Streetwear, Military, Casual\n• Gender: Unisex\n• Season: All Season"
+    "description": "The BONELESS Camo Graffiti Oversized Tee delivers classic military inspiration through a contemporary streetwear lens. Constructed from premium heavyweight cotton, this relaxed-fit T-shirt features an all-over woodland camouflage pattern paired with a bold graffiti-inspired chest logo that adds an urban edge.\n\nDesigned for everyday wear, the oversized silhouette provides comfort, versatility, and effortless styling. The camouflage edition offers a rugged aesthetic that pairs seamlessly with cargos, denim, shorts, and utility-inspired outfits.\n\nWhether worn as a standalone statement piece or layered into a streetwear rotation, this tee combines durability, comfort, and bold visual appeal.\n\nFeatures:\n\n• Premium heavyweight cotton construction\n• All-over woodland camouflage print\n• Signature graffiti chest graphic\n• Oversized relaxed fit\n• Ribbed crew neckline\n• Soft and breathable fabric\n• Durable print application\n• Streetwear-inspired design\n• Everyday comfort and versatility\n• Unisex styling\n\nStyle Notes:\n\nPair with baggy denim, cargo trousers, carpenter pants, or utility shorts. Complete the look with sneakers, boots, or a fitted cap for a modern streetwear outfit.\n\nFit & Details:\n\n• Color: Woodland Camo\n• Material: 100% Cotton\n• Fit: Oversized\n• Neckline: Crew Neck\n• Sleeve Length: Short Sleeve\n• Style: Streetwear, Military, Casual\n• Gender: Unisex\n• Season: All Season",
+    "gallery": [
+      "/images/col-68_1.jpg",
+      "/images/col-68_2.jpg",
+      "/images/col-68_3.jpg",
+      "/images/col-68_4.jpg",
+      "/images/col-68_5.jpg"
+    ]
   },
   {
     "id": "top-69",
@@ -737,10 +974,18 @@ const PRODUCTS = [
     "name": "Eliot Emil Platform Tactical Lug Boots",
     "price": 550000,
     "category": "collections",
-    "image": "/images/IMG_1463.jpg",
-    "secondaryImage": "/images/IMG_1464.jpg",
+    "image": "/images/col-74_1.jpg",
+    "secondaryImage": "/images/col-74_2.jpg",
     "badge": "New",
-    "description": "The Eliot Emil Platform Tactical Lug Boots are built for those who appreciate elevated streetwear and avant-garde footwear. Combining a rugged outdoor-inspired silhouette with contemporary luxury detailing, these boots deliver a powerful visual presence while maintaining comfort and durability.\n\nCrafted with a premium mixed-material upper, the design features padded ankle support, heavy-duty metal D-ring hardware, and an oversized lug sole that provides both traction and a commanding stance. The monochromatic black finish allows the boot's sculptural shape and industrial detailing to take center stage.\n\nDesigned to bridge fashion and function, these boots pair effortlessly with cargo pants, oversized denim, technical outerwear, and modern streetwear fits. Whether worn as a statement piece or incorporated into a minimalist wardrobe, they offer versatility with unmistakable character.\n\nFeatures:\n\n• Premium leather and suede combination upper\n• Heavy-duty metal D-ring lacing system\n• Oversized platform lug outsole\n• Cushioned padded ankle collar\n• Durable traction-focused sole construction\n• Industrial-inspired hardware details\n• Reinforced toe protection\n• Contemporary tactical boot silhouette\n\nStyle Notes:\n\nPair with cargos, wide-leg trousers, stacked denim, oversized outerwear, or monochrome looks for a bold streetwear aesthetic. The aggressive sole and clean black finish make these boots an easy centerpiece for elevated everyday styling.\n\nFit & Details:\n\n• Color: Black\n• Upper: Premium Leather & Suede\n• Lining: Soft Textile Interior\n• Outsole: Heavy-Duty Rubber Lug Sole\n• Style: Tactical, Streetwear, Contemporary Fashion\n• Gender: Unisex\n• Closure: Lace-Up"
+    "description": "The Eliot Emil Platform Tactical Lug Boots are built for those who appreciate elevated streetwear and avant-garde footwear. Combining a rugged outdoor-inspired silhouette with contemporary luxury detailing, these boots deliver a powerful visual presence while maintaining comfort and durability.\n\nCrafted with a premium mixed-material upper, the design features padded ankle support, heavy-duty metal D-ring hardware, and an oversized lug sole that provides both traction and a commanding stance. The monochromatic black finish allows the boot's sculptural shape and industrial detailing to take center stage.\n\nDesigned to bridge fashion and function, these boots pair effortlessly with cargo pants, oversized denim, technical outerwear, and modern streetwear fits. Whether worn as a statement piece or incorporated into a minimalist wardrobe, they offer versatility with unmistakable character.\n\nFeatures:\n\n• Premium leather and suede combination upper\n• Heavy-duty metal D-ring lacing system\n• Oversized platform lug outsole\n• Cushioned padded ankle collar\n• Durable traction-focused sole construction\n• Industrial-inspired hardware details\n• Reinforced toe protection\n• Contemporary tactical boot silhouette\n\nStyle Notes:\n\nPair with cargos, wide-leg trousers, stacked denim, oversized outerwear, or monochrome looks for a bold streetwear aesthetic. The aggressive sole and clean black finish make these boots an easy centerpiece for elevated everyday styling.\n\nFit & Details:\n\n• Color: Black\n• Upper: Premium Leather & Suede\n• Lining: Soft Textile Interior\n• Outsole: Heavy-Duty Rubber Lug Sole\n• Style: Tactical, Streetwear, Contemporary Fashion\n• Gender: Unisex\n• Closure: Lace-Up",
+    "gallery": [
+      "/images/col-74_1.jpg",
+      "/images/col-74_2.jpg",
+      "/images/col-74_3.jpg",
+      "/images/col-74_4.jpg",
+      "/images/col-74_5.jpg",
+      "/images/col-74_6.jpg"
+    ]
   },
   {
     "id": "col-75",
@@ -757,10 +1002,18 @@ const PRODUCTS = [
     "name": "Aevis Bullet Hair Mule Clogs",
     "price": 200000,
     "category": "collections",
-    "image": "/images/IMG_1455.jpg",
-    "secondaryImage": "/images/IMG_1460.jpg",
+    "image": "/images/col-76_1.jpg",
+    "secondaryImage": "/images/col-76_2.jpg",
     "badge": "New",
-    "description": "The Aevis Bullet Hair Mule Clogs merge luxury craftsmanship with contemporary streetwear design. Crafted with a textured hair-finish upper, these statement mules feature striking bullet-hole inspired metallic embellishments arranged across the vamp, creating a bold yet refined visual identity.\n\nBuilt on a comfortable clog-inspired silhouette, the design incorporates an adjustable buckle strap for a secure fit while maintaining effortless slip-on functionality. The monochromatic black finish is elevated by polished silver-tone hardware, making these mules versatile enough for both casual styling and elevated fashion-forward looks.\n\nThe soft textured upper delivers a premium tactile feel, while the durable outsole provides everyday comfort and stability. Designed for individuals who appreciate distinctive footwear that balances luxury, edge, and contemporary street culture.\n\nFeatures:\n\n• Premium hair-texture upper\n• Bullet-hole inspired metal embellishments\n• Adjustable buckle closure\n• Slip-on clog silhouette\n• Cushioned comfort footbed\n• Durable non-slip outsole\n• Silver-tone hardware detailing\n• Lightweight construction\n• Statement luxury streetwear design\n• Unisex styling\n\nStyle Notes:\n\nPair with wide-leg trousers, cargos, washed denim, or tailored black pants for a refined streetwear aesthetic. The metallic detailing creates a strong focal point while the monochrome palette remains easy to style.\n\nFit & Details:\n\n• Upper: Hair-Texture Synthetic Leather\n• Lining: Soft Textile\n• Outsole: Rubber\n• Closure: Adjustable Buckle Strap\n• Color: Black\n• Hardware: Silver Tone\n• Style: Luxury Streetwear / Casual / Contemporary\n• Gender: Unisex"
+    "description": "The Aevis Bullet Hair Mule Clogs merge luxury craftsmanship with contemporary streetwear design. Crafted with a textured hair-finish upper, these statement mules feature striking bullet-hole inspired metallic embellishments arranged across the vamp, creating a bold yet refined visual identity.\n\nBuilt on a comfortable clog-inspired silhouette, the design incorporates an adjustable buckle strap for a secure fit while maintaining effortless slip-on functionality. The monochromatic black finish is elevated by polished silver-tone hardware, making these mules versatile enough for both casual styling and elevated fashion-forward looks.\n\nThe soft textured upper delivers a premium tactile feel, while the durable outsole provides everyday comfort and stability. Designed for individuals who appreciate distinctive footwear that balances luxury, edge, and contemporary street culture.\n\nFeatures:\n\n• Premium hair-texture upper\n• Bullet-hole inspired metal embellishments\n• Adjustable buckle closure\n• Slip-on clog silhouette\n• Cushioned comfort footbed\n• Durable non-slip outsole\n• Silver-tone hardware detailing\n• Lightweight construction\n• Statement luxury streetwear design\n• Unisex styling\n\nStyle Notes:\n\nPair with wide-leg trousers, cargos, washed denim, or tailored black pants for a refined streetwear aesthetic. The metallic detailing creates a strong focal point while the monochrome palette remains easy to style.\n\nFit & Details:\n\n• Upper: Hair-Texture Synthetic Leather\n• Lining: Soft Textile\n• Outsole: Rubber\n• Closure: Adjustable Buckle Strap\n• Color: Black\n• Hardware: Silver Tone\n• Style: Luxury Streetwear / Casual / Contemporary\n• Gender: Unisex",
+    "gallery": [
+      "/images/col-76_1.jpg",
+      "/images/col-76_2.jpg",
+      "/images/col-76_3.jpg",
+      "/images/col-76_4.jpg",
+      "/images/col-76_5.jpg",
+      "/images/col-76_6.jpg"
+    ]
   },
   {
     "id": "col-77",
@@ -777,30 +1030,53 @@ const PRODUCTS = [
     "name": "CSOnline Union Graphic Knit Beanie",
     "price": 90000,
     "category": "accessories",
-    "image": "/images/IMG_1441.jpg",
-    "secondaryImage": "/images/IMG_1445.jpg",
+    "image": "/images/acc-78_1.jpg",
+    "secondaryImage": "/images/acc-78_2.jpg",
     "badge": "",
-    "description": "The CSONLINE Union Graphic Knit Beanie blends British-inspired graphics with contemporary streetwear aesthetics. Constructed from a soft stretch-knit fabric, this fitted beanie delivers warmth, comfort, and a streamlined silhouette without unnecessary bulk.\n\nThe all-over distressed print combines oversized typography with a vintage-inspired Union Jack motif, creating a bold visual statement from every angle. Its lightweight construction makes it suitable for year-round wear, whether layered into winter fits or used as a statement accessory during cooler evenings.\n\nDesigned for versatility, the beanie conforms comfortably to the head while maintaining a clean, modern shape. The subtle embroidered OSONE branding completes the design with a premium finishing touch.\n\nFeatures:\n\n• Soft stretch-knit construction\n• Distressed Union Jack graphic print\n• Oversized typography detailing\n• Lightweight and breathable feel\n• Embroidered OSONE branding\n• Flexible one-size fit\n• Unisex design\n• Comfortable skull-cap silhouette\n\nStyle Notes:\n\nWear with oversized tees, hoodies, denim jackets, cargos, or layered streetwear outfits. The monochrome and red graphic combination makes it easy to pair with both neutral and statement pieces.\n\nFit & Details:\n\n• Material: Polyester Blend Knit\n• Color: Multi-Color Graphic Print\n• Fit: One Size Fits Most\n• Style: Streetwear, Casual, Urban\n• Gender: Unisex\n• Season: All Season"
+    "description": "The CSONLINE Union Graphic Knit Beanie blends British-inspired graphics with contemporary streetwear aesthetics. Constructed from a soft stretch-knit fabric, this fitted beanie delivers warmth, comfort, and a streamlined silhouette without unnecessary bulk.\n\nThe all-over distressed print combines oversized typography with a vintage-inspired Union Jack motif, creating a bold visual statement from every angle. Its lightweight construction makes it suitable for year-round wear, whether layered into winter fits or used as a statement accessory during cooler evenings.\n\nDesigned for versatility, the beanie conforms comfortably to the head while maintaining a clean, modern shape. The subtle embroidered OSONE branding completes the design with a premium finishing touch.\n\nFeatures:\n\n• Soft stretch-knit construction\n• Distressed Union Jack graphic print\n• Oversized typography detailing\n• Lightweight and breathable feel\n• Embroidered OSONE branding\n• Flexible one-size fit\n• Unisex design\n• Comfortable skull-cap silhouette\n\nStyle Notes:\n\nWear with oversized tees, hoodies, denim jackets, cargos, or layered streetwear outfits. The monochrome and red graphic combination makes it easy to pair with both neutral and statement pieces.\n\nFit & Details:\n\n• Material: Polyester Blend Knit\n• Color: Multi-Color Graphic Print\n• Fit: One Size Fits Most\n• Style: Streetwear, Casual, Urban\n• Gender: Unisex\n• Season: All Season",
+    "gallery": [
+      "/images/acc-78_1.jpg",
+      "/images/acc-78_2.jpg",
+      "/images/acc-78_3.jpg",
+      "/images/acc-78_4.jpg",
+      "/images/acc-78_5.jpg"
+    ]
   },
   {
     "id": "acc-79",
     "name": "LCE Striped Patch Balaclava Beanie",
     "price": 100000,
     "category": "accessories",
-    "image": "/images/IMG_1436.jpg",
-    "secondaryImage": "/images/IMG_1437.jpg",
+    "image": "/images/acc-79_1.jpg",
+    "secondaryImage": "/images/acc-79_2.jpg",
     "badge": "",
-    "description": "The LCE Striped Patch Balaclava Beanie combines motorsport influences, punk-inspired graphics, and contemporary streetwear styling into a standout headwear piece. Constructed from a soft knitted fabric, the design features bold black and white vertical stripes enhanced with embroidered statement patches including racing stars, flame graphics, tongue motifs, and logo detailing.\n\nDesigned with an extended silhouette and horn-inspired top points, this balaclava delivers a distinctive futuristic look while providing warmth and comfort. The stretch-knit construction ensures a secure fit, making it suitable for everyday wear, styling shoots, festivals, and fashion-forward streetwear outfits.\n\nWhether worn with oversized hoodies, leather jackets, racing-inspired pieces, or technical outerwear, this piece instantly elevates any outfit with a rebellious and expressive edge.\n\nFeatures:\n\n• Premium stretch-knit construction\n• Black and white striped design\n• Embroidered graphic patches\n• Balaclava-style coverage\n• Extended horn-tip silhouette\n• Soft and comfortable fit\n• Breathable knit fabric\n• Unisex design\n• Y2K-inspired aesthetic\n• Motorsport and punk influences\n\nStyle Notes:\n\nPair with oversized hoodies, leather jackets, cargo pants, distressed denim, or motocross-inspired pieces for a complete underground streetwear look. Ideal for creating bold statement outfits and layered winter styling.\n\nFit & Details:\n\n• Material: Acrylic Knit Blend\n• Color: Black / White\n• Graphics: Embroidered Patches\n• Style: Balaclava Beanie\n• Fit: Stretch Fit\n• Gender: Unisex\n• Season: Autumn / Winter / All Season Styling\n• Aesthetic: Streetwear, Punk, Motorsport, Y2K"
+    "description": "The LCE Striped Patch Balaclava Beanie combines motorsport influences, punk-inspired graphics, and contemporary streetwear styling into a standout headwear piece. Constructed from a soft knitted fabric, the design features bold black and white vertical stripes enhanced with embroidered statement patches including racing stars, flame graphics, tongue motifs, and logo detailing.\n\nDesigned with an extended silhouette and horn-inspired top points, this balaclava delivers a distinctive futuristic look while providing warmth and comfort. The stretch-knit construction ensures a secure fit, making it suitable for everyday wear, styling shoots, festivals, and fashion-forward streetwear outfits.\n\nWhether worn with oversized hoodies, leather jackets, racing-inspired pieces, or technical outerwear, this piece instantly elevates any outfit with a rebellious and expressive edge.\n\nFeatures:\n\n• Premium stretch-knit construction\n• Black and white striped design\n• Embroidered graphic patches\n• Balaclava-style coverage\n• Extended horn-tip silhouette\n• Soft and comfortable fit\n• Breathable knit fabric\n• Unisex design\n• Y2K-inspired aesthetic\n• Motorsport and punk influences\n\nStyle Notes:\n\nPair with oversized hoodies, leather jackets, cargo pants, distressed denim, or motocross-inspired pieces for a complete underground streetwear look. Ideal for creating bold statement outfits and layered winter styling.\n\nFit & Details:\n\n• Material: Acrylic Knit Blend\n• Color: Black / White\n• Graphics: Embroidered Patches\n• Style: Balaclava Beanie\n• Fit: Stretch Fit\n• Gender: Unisex\n• Season: Autumn / Winter / All Season Styling\n• Aesthetic: Streetwear, Punk, Motorsport, Y2K",
+    "gallery": [
+      "/images/acc-79_1.jpg",
+      "/images/acc-79_2.jpg",
+      "/images/acc-79_3.jpg",
+      "/images/acc-79_4.jpg",
+      "/images/acc-79_5.jpg",
+      "/images/acc-79_6.jpg"
+    ]
   },
   {
     "id": "acc-80",
     "name": "Esoteric Thing Chase Graphic Cap",
     "price": 160000,
     "category": "accessories",
-    "image": "/images/IMG_1434.jpg",
-    "secondaryImage": "/images/IMG_1433.jpg",
+    "image": "/images/acc-80_1.jpg",
+    "secondaryImage": "/images/acc-80_2.jpg",
     "badge": "",
-    "description": "The Esoteric Thing Chase Graphic Cap pushes conventional headwear into artistic territory. Covered in an immersive all-over print featuring abstract graffiti-inspired artwork, surreal facial imagery, and layered visual elements, this cap is designed to stand out from every angle.\n\nBuilt with a structured six-panel construction, the cap combines contemporary streetwear styling with experimental graphic design. The curved visor provides everyday wearability while the adjustable rear strap ensures a secure and comfortable fit.\n\nIts vivid blend of lime green, blue, black, and muted pink tones creates a wearable art piece that pairs effortlessly with oversized silhouettes, cargo pants, technical outerwear, and contemporary streetwear staples.\n\nFeatures:\n\n• All-over graphic artwork print\n• Structured six-panel construction\n• Curved visor design\n• Adjustable rear strap closure\n• Lightweight and comfortable fit\n• High-definition printed graphics\n• Durable everyday construction\n• Unisex styling\n• Statement streetwear accessory\n• Suitable for all seasons\n\nStyle Notes:\n\nPerfect for elevating minimalist outfits or complementing experimental streetwear looks. Pair with oversized tees, washed denim, cargos, technical jackets, or graphic-heavy pieces for maximum impact.\n\nFit & Details:\n\n• Material: Polyester Blend\n• Color: Multi-Color Graphic Print\n• Closure: Adjustable Strap\n• Crown: Structured 6-Panel\n• Visor: Curved Brim\n• Fit: One Size Fits Most\n• Gender: Unisex\n• Style: Streetwear, Contemporary, Graphic, Avant-Garde"
+    "description": "The Esoteric Thing Chase Graphic Cap pushes conventional headwear into artistic territory. Covered in an immersive all-over print featuring abstract graffiti-inspired artwork, surreal facial imagery, and layered visual elements, this cap is designed to stand out from every angle.\n\nBuilt with a structured six-panel construction, the cap combines contemporary streetwear styling with experimental graphic design. The curved visor provides everyday wearability while the adjustable rear strap ensures a secure and comfortable fit.\n\nIts vivid blend of lime green, blue, black, and muted pink tones creates a wearable art piece that pairs effortlessly with oversized silhouettes, cargo pants, technical outerwear, and contemporary streetwear staples.\n\nFeatures:\n\n• All-over graphic artwork print\n• Structured six-panel construction\n• Curved visor design\n• Adjustable rear strap closure\n• Lightweight and comfortable fit\n• High-definition printed graphics\n• Durable everyday construction\n• Unisex styling\n• Statement streetwear accessory\n• Suitable for all seasons\n\nStyle Notes:\n\nPerfect for elevating minimalist outfits or complementing experimental streetwear looks. Pair with oversized tees, washed denim, cargos, technical jackets, or graphic-heavy pieces for maximum impact.\n\nFit & Details:\n\n• Material: Polyester Blend\n• Color: Multi-Color Graphic Print\n• Closure: Adjustable Strap\n• Crown: Structured 6-Panel\n• Visor: Curved Brim\n• Fit: One Size Fits Most\n• Gender: Unisex\n• Style: Streetwear, Contemporary, Graphic, Avant-Garde",
+    "gallery": [
+      "/images/acc-80_1.jpg",
+      "/images/acc-80_2.jpg",
+      "/images/acc-80_3.jpg",
+      "/images/acc-80_4.jpg",
+      "/images/acc-80_5.jpg",
+      "/images/acc-80_6.jpg"
+    ]
   },
   {
     "id": "acc-81",
@@ -1275,9 +1551,12 @@ document.addEventListener('DOMContentLoaded', () => {
       slideshowWrapper.innerHTML = '';
       if (dotsContainer) dotsContainer.innerHTML = '';
 
-      const images = [];
-      if (product.image) images.push(product.image);
-      if (product.secondaryImage) images.push(product.secondaryImage);
+      let images = product.gallery || [];
+      if (images.length === 0) {
+        images = [];
+        if (product.image) images.push(product.image);
+        if (product.secondaryImage) images.push(product.secondaryImage);
+      }
 
       let slideIndex = 0;
 
@@ -2025,8 +2304,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Build Slideshow Images
     slideshowWrapper.innerHTML = '';
-    const images = [product.image];
-    if (product.secondaryImage) images.push(product.secondaryImage);
+    let images = product.gallery || [];
+    if (images.length === 0) {
+      images = [product.image];
+      if (product.secondaryImage) images.push(product.secondaryImage);
+    }
     
     images.forEach((img, idx) => {
       const slide = document.createElement('img');
