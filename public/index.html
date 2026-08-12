@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>234 DISTRICT | Official Streetwear Brand</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore the latest collections from 234 District. High-end vintage football jerseys, avant-garde mules, graphic statement belts, and premium urban apparel.">
+  <meta name="keywords" content="234 District, Streetwear, Fashion, Football Jersey, Clogs, Mules, Belts, Nigeria Fashion, Luxury Apparel">
+  <meta property="og:title" content="234 DISTRICT | Official Streetwear Brand">
+  <meta property="og:description" content="Explore avant-garde streetwear, vintage football jerseys, mule clogs, and accessories.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,700;1,800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="/css/main.css?v=55">
+  <link rel="stylesheet" href="/css/home.css?v=55">
+</head>
+<body class="dark-theme">
+
+  <!-- ==========================================
+     1. CUSTOM NEON INVERTED CURSOR
+     ========================================== -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+  <div class="custom-cursor-ring" id="custom-ring"></div>
+
+  <!-- ==========================================
+     2. SPLIT-SCREEN DIGIT PRELOADER
+     ========================================== -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-wrap">
+      <div class="loader-number" id="loader-num">00</div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar" id="loader-bar"></div>
+      </div>
+      <div class="loader-slogan">SAME DISTRICT • NEW COLLECTION</div>
+    </div>
+    <div class="preloader-slide-left" id="preloader-left"></div>
+    <div class="preloader-slide-right" id="preloader-right"></div>
+  </div>
+
+  <!-- ==========================================
+     3. ANNOUNCEMENT BAR
+     ========================================== -->
+  <div class="announcement-bar" id="announcement-bar">
+    Free Shipping Nationwide on Orders Over ₦150,000.00
+  </div>
+
+  <!-- ==========================================
+     4. FLOATING DOCK HEADER / NAVIGATION
+     ========================================== -->
+  <header class="main-header" id="main-header">
+    <div class="header-container">
+      
+      <!-- Left Column: Actions + Nav Left -->
+      <div class="header-col-left">
+        <div class="nav-actions-left">
+          <button class="action-btn" id="cart-btn" data-drawer-trigger="cart-drawer" title="Shopping Bag">
+            <svg viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+            <span class="cart-badge" id="cart-badge">0</span>
+          </button>
+          <button class="action-btn" id="search-btn" title="Search">
+            <svg viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </button>
+          <div class="currency-selector-wrapper">
+            <select id="currency-select" class="currency-select" title="Change Currency">
+              <option value="NGN">₦ NGN</option>
+              <option value="USD">$ USD</option>
+              <option value="GBP">£ GBP</option>
+              <option value="EUR">€ EUR</option>
+            </select>
+          </div>
+        </div>
+        <nav class="nav-menu nav-left">
+          <a href="/index.html" class="nav-link active">Home</a>
+          <a href="/shop" class="nav-link">Shop</a>
+          <a href="/shop?category=collections" class="nav-link">New Arrivals</a>
+          <div class="nav-dropdown-wrapper">
+            <a href="#" class="nav-link dropdown-trigger">Men's Wear</a>
+            <div class="nav-dropdown-menu">
+              <a href="/shop?category=tops">Tops</a>
+              <a href="/shop?category=bottoms">Bottoms</a>
+              <a href="/shop?category=accessories">Footwear</a>
+            </div>
+          </div>
+          <a href="#" class="nav-link" id="nav-size-guide-trigger">Size Guide</a>
+        </nav>
+      </div>
+
+      <!-- Center Column: Logo -->
+      <a href="/index.html" class="logo-link">
+        <img src="/images/logo.png?v=2" alt="234 DISTRICT" class="header-logo-img">
+      </a>
+
+      <!-- Right Column: Nav Right + Mobile Toggle -->
+      <div class="header-col-right">
+        <nav class="nav-menu nav-right">
+          <div class="nav-dropdown-wrapper">
+            <a href="#" class="nav-link dropdown-trigger">Bags & Accessories</a>
+            <div class="nav-dropdown-menu">
+              <a href="/shop?category=accessories">Bags</a>
+              <a href="/shop?category=accessories">Accessories</a>
+            </div>
+          </div>
+          <a href="/shop?category=home-decor" class="nav-link">Home Decor</a>
+          <a href="/index.html#journal" class="nav-link">Journal</a>
+          <a href="#" class="nav-link" data-drawer-trigger="account-drawer">My account</a>
+        </nav>
+        <div class="mobile-nav-toggle" id="mobile-toggle" data-drawer-trigger="mobile-menu-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ==========================================
+     5. HERO SECTION (WITH SLIDESHOW)
+     ========================================== -->
+  <section class="hero-section" id="hero-banner">
+    <div class="hero-bg-slideshow">
+      <img src="/images/hero-1.jpg" class="hero-slide active" alt="Hero Slide 1">
+      <img src="/images/hero-2.jpg" class="hero-slide" alt="Hero Slide 2" loading="lazy">
+      <img src="/images/hero-3.jpg" class="hero-slide" alt="Hero Slide 3" loading="lazy">
+      <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM.jpeg" class="hero-slide" alt="Hero Slide 4" loading="lazy">
+      <img src="/images/WhatsApp-Image-2026-05-08-at-12.55.22-AM.jpeg" class="hero-slide" alt="Hero Slide 5" loading="lazy">
+      <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM.jpeg" class="hero-slide" alt="Hero Slide 6" loading="lazy">
+      <img src="/images/WhatsApp-Image-2026-05-08-at-12.43.59-AM-3.jpeg" class="hero-slide" alt="Hero Slide 7" loading="lazy">
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const slides = document.querySelectorAll('.hero-slide');
+          if (slides.length < 2) return;
+          let currentIndex = 0;
+          const showSlide = (index) => {
+            slides.forEach((slide, idx) => {
+              if (idx === index) {
+                slide.style.transition = 'none';
+                slide.style.transform = 'scale(1.02)';
+                slide.style.opacity = '0';
+                slide.offsetHeight; // force layout reflow
+                slide.style.transition = 'opacity 1.5s ease-in-out, transform 5.5s ease-in-out';
+                slide.classList.add('active');
+                slide.style.opacity = '1';
+                slide.style.transform = 'scale(1.12)';
+              } else {
+                slide.classList.remove('active');
+                slide.style.transition = 'opacity 1.5s ease-in-out';
+                slide.style.opacity = '0';
+              }
+            });
+          };
+          showSlide(currentIndex);
+          setInterval(() => {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+          }, 5000);
+        });
+      </script>
+    </div>
+    
+    <div class="hero-content">
+      <h2 class="hero-title">SAME DISTRICT<br>NEW COLLECTION</h2>
+      <div class="hero-cta">
+        <a href="#collections-section" class="btn-black btn-hero-custom">GET YOURS</a>
+      </div>
+    </div>
+    
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     6. INFINITE MARQUEE TICKER (OUTLINED HOLLOW TEXT)
+     ========================================== -->
+  <div class="marquee-ticker">
+    <div class="marquee-content">
+      <span>234 DISTRICT • SAME DISTRICT NEW COLLECTION • LAGOS STREETWEAR • DESIGNED TO EVOLVE • 234 DISTRICT • SAME DISTRICT NEW COLLECTION • LAGOS STREETWEAR • DESIGNED TO EVOLVE • </span>
+      <span>234 DISTRICT • SAME DISTRICT NEW COLLECTION • LAGOS STREETWEAR • DESIGNED TO EVOLVE • 234 DISTRICT • SAME DISTRICT NEW COLLECTION • LAGOS STREETWEAR • DESIGNED TO EVOLVE • </span>
+    </div>
+  </div>
+
+  <!-- ==========================================
+     7. NEW ARRIVALS / COLLECTIONS SECTION
+     ========================================== -->
+  <section class="section-padding product-section" id="collections-section">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#collections-section">New Arrivals</a></h2>
+        <hr class="section-divider">
+      </div>
+      <div class="slider-wrapper-custom">
+        <button class="slider-nav-btn prev" onclick="slideGrid('grid-collections', -1)" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <ul class="products-grid-custom products-slider-custom" id="grid-collections">
+          <!-- Loaded dynamically -->
+        </ul>
+        <button class="slider-nav-btn next" onclick="slideGrid('grid-collections', 1)" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     8. ACCESSORIES SECTION
+     ========================================== -->
+  <!-- ACCESSORIES PARALLAX BANNER -->
+  <div class="category-parallax-banner">
+    <div class="banner-bg" style="background-image: url('/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM.jpeg');"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <h2 class="parallax-title">Accessories</h2>
+      <div class="double-layer-btn-wrapper">
+        <a href="#accessories-section" class="double-layer-btn">
+          <span class="btn-front">➔ GET YOURS</span>
+          <span class="btn-back-shadow"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-padding product-section" id="accessories-section">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#accessories-section">Bags & Accessories</a></h2>
+        <hr class="section-divider">
+      </div>
+      <div class="slider-wrapper-custom">
+        <button class="slider-nav-btn prev" onclick="slideGrid('grid-accessories', -1)" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <ul class="products-grid-custom products-slider-custom" id="grid-accessories">
+          <!-- Loaded dynamically -->
+        </ul>
+        <button class="slider-nav-btn next" onclick="slideGrid('grid-accessories', 1)" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     9. TOPS SECTION
+     ========================================== -->
+  <!-- TOPS PARALLAX BANNER -->
+  <div class="category-parallax-banner">
+    <div class="banner-bg" style="background-image: url('/images/WhatsApp-Image-2026-05-08-at-12.55.22-AM.jpeg');"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <h2 class="parallax-title">Tops</h2>
+      <div class="double-layer-btn-wrapper">
+        <a href="#tops-section" class="double-layer-btn">
+          <span class="btn-front">➔ GET YOURS</span>
+          <span class="btn-back-shadow"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-padding product-section" id="tops-section">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#tops-section">Tops</a></h2>
+        <hr class="section-divider">
+      </div>
+      <div class="slider-wrapper-custom">
+        <button class="slider-nav-btn prev" onclick="slideGrid('grid-tops', -1)" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <ul class="products-grid-custom products-slider-custom" id="grid-tops">
+          <!-- Loaded dynamically -->
+        </ul>
+        <button class="slider-nav-btn next" onclick="slideGrid('grid-tops', 1)" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     10. BOTTOMS SECTION
+     ========================================== -->
+  <!-- BOTTOMS PARALLAX BANNER -->
+  <div class="category-parallax-banner">
+    <div class="banner-bg" style="background-image: url('/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM.jpeg');"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <h2 class="parallax-title">Bottoms</h2>
+      <div class="double-layer-btn-wrapper">
+        <a href="#bottoms-section" class="double-layer-btn">
+          <span class="btn-front">➔ GET YOURS</span>
+          <span class="btn-back-shadow"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-padding product-section" id="bottoms-section">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#bottoms-section">Bottoms</a></h2>
+        <hr class="section-divider">
+      </div>
+      <div class="slider-wrapper-custom">
+        <button class="slider-nav-btn prev" onclick="slideGrid('grid-bottoms', -1)" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <ul class="products-grid-custom products-slider-custom" id="grid-bottoms">
+          <!-- Loaded dynamically -->
+        </ul>
+        <button class="slider-nav-btn next" onclick="slideGrid('grid-bottoms', 1)" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     11. HOME DECOR SECTION
+     ========================================== -->
+  <!-- HOME DECOR PARALLAX BANNER -->
+  <div class="category-parallax-banner">
+    <div class="banner-bg" style="background-image: url('/images/WhatsApp-Image-2026-05-08-at-12.43.59-AM-3.jpeg');"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <h2 class="parallax-title">Home Decor</h2>
+      <div class="double-layer-btn-wrapper">
+        <a href="#home-decor-section" class="double-layer-btn">
+          <span class="btn-front">➔ GET YOURS</span>
+          <span class="btn-back-shadow"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section-padding product-section" id="home-decor-section">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#home-decor-section">Home Decor</a></h2>
+        <hr class="section-divider">
+      </div>
+      <div class="slider-wrapper-custom">
+        <button class="slider-nav-btn prev" onclick="slideGrid('grid-home-decor', -1)" aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <ul class="products-grid-custom products-slider-custom" id="grid-home-decor">
+          <!-- Loaded dynamically -->
+        </ul>
+        <button class="slider-nav-btn next" onclick="slideGrid('grid-home-decor', 1)" aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     12. OUTFIT OF THE WEEK (INTERACTIVE LOOKBOOK)
+     ========================================== -->
+  <section class="section-padding lookbook-section" id="weekly-lookbook">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#weekly-lookbook">Outfit of the Week</a></h2>
+        <hr class="section-divider">
+      </div>
+      
+      <div class="lookbook-grid">
+        <!-- Left: Interactive model with hotspots -->
+        <div class="lookbook-visual-wrapper">
+          <img src="/images/WhatsApp-Image-2026-05-08-at-12.43.59-AM-3.jpeg" alt="Outfit of the Week Lookbook" class="lookbook-model-img" loading="lazy">
+          
+          <!-- Hotspots -->
+          <!-- Hat Dot -->
+          <div class="lookbook-dot" style="top: 16%; left: 49%;" data-product-id="look-1">
+            <span class="dot-ripple"></span>
+            <div class="dot-popover">
+              <img src="/images/IMG_1876.jpg" alt="Preview" class="popover-thumb">
+              <div class="popover-meta">
+                <span class="popover-name">Far Archive Distressed Hat</span>
+                <span class="popover-price" data-price="69899">₦69,899.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- Hoodie Dot -->
+          <div class="lookbook-dot" style="top: 36%; left: 52%;" data-product-id="look-2">
+            <span class="dot-ripple"></span>
+            <div class="dot-popover">
+              <img src="/images/IMG_1715.jpg" alt="Preview" class="popover-thumb">
+              <div class="popover-meta">
+                <span class="popover-name">Melancholy Hoodie</span>
+                <span class="popover-price" data-price="232850">₦232,850.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- Jorts Dot -->
+          <div class="lookbook-dot" style="top: 62%; left: 45%;" data-product-id="look-3">
+            <span class="dot-ripple"></span>
+            <div class="dot-popover">
+              <img src="/images/IMG_1852.jpg" alt="Preview" class="popover-thumb">
+              <div class="popover-meta">
+                <span class="popover-name">Distressed Layered Jorts</span>
+                <span class="popover-price" data-price="145000">₦145,000.00</span>
+              </div>
+            </div>
+          </div>
+          <!-- Shoes Dot -->
+          <div class="lookbook-dot" style="top: 86%; left: 49%;" data-product-id="look-4">
+            <span class="dot-ripple"></span>
+            <div class="dot-popover">
+              <img src="/images/IMG_1455.jpg" alt="Preview" class="popover-thumb">
+              <div class="popover-meta">
+                <span class="popover-name">Speedcat OG - Red</span>
+                <span class="popover-price" data-price="179550">₦179,550.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Outfit details -->
+        <div class="lookbook-details-wrapper">
+          <div class="lookbook-intro">
+            <h3 class="lookbook-intro-title">A Founder's Edit</h3>
+            <p class="lookbook-intro-desc">A curated weekly styling drop combining custom cut-and-sew distressed layers with statement retro footwear. Hover the model indicators to isolate individual pieces.</p>
+          </div>
+          <ul class="lookbook-product-list" id="grid-lookbook">
+            <!-- Loaded dynamically by home.js -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     13. PHILOSOPHY / STATEMENT SECTION
+     ========================================== -->
+  <section class="quote-section-custom" id="style-statement">
+    <div class="container">
+      <div class="quote-content-custom">
+        <p class="quote-text-custom">Trends fade, evolve, disappear, and return in different forms, but style is everlasting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     14. CUSTOMER REVIEWS & RATINGS SYSTEM
+     ========================================== -->
+  <section class="section-padding reviews-section" id="customer-reviews">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#customer-reviews">Customer Reviews</a></h2>
+        <hr class="section-divider">
+      </div>
+
+      <div class="reviews-layout">
+        <!-- Left: Reviews List -->
+        <div class="reviews-list-container">
+          <ul class="reviews-list" id="reviews-list-target">
+            <li class="review-card">
+              <div class="review-header-info">
+                <span class="reviewer-name">Emeka O.</span>
+                <span class="review-verified-badge">
+                  <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  Verified Buyer
+                </span>
+                <span class="review-date">July 2, 2026</span>
+              </div>
+              <div class="review-stars-wrap">
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+              </div>
+              <p class="review-body-text">The exitmode football jersey fits perfectly. Heavy weight mesh fabric and clean print details. Definitely buying again.</p>
+            </li>
+
+            <li class="review-card">
+              <div class="review-header-info">
+                <span class="reviewer-name">Tunde S.</span>
+                <span class="review-verified-badge">
+                  <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  Verified Buyer
+                </span>
+                <span class="review-date">June 28, 2026</span>
+              </div>
+              <div class="review-stars-wrap">
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star full">&#9733;</span>
+                <span class="review-star empty">&#9733;</span>
+              </div>
+              <p class="review-body-text">Mule clogs look amazing, very comfortable footbed. UK size 9 fits exactly right. Sizing chart in the header helped a lot.</p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right: Submit Review Form -->
+        <div class="review-form-container">
+          <h3 class="review-form-title">Leave a Review</h3>
+          <form class="review-form" id="new-review-form">
+            <div class="form-group">
+              <label for="review-author">Your Name</label>
+              <input type="text" id="review-author" class="form-input" placeholder="e.g. Ebuka A." required>
+            </div>
+            
+            <div class="form-group">
+              <label>Overall Rating</label>
+              <div class="star-rating-selector" id="star-rating-selector">
+                <span class="star-select-btn" data-value="1">&#9733;</span>
+                <span class="star-select-btn" data-value="2">&#9733;</span>
+                <span class="star-select-btn" data-value="3">&#9733;</span>
+                <span class="star-select-btn" data-value="4">&#9733;</span>
+                <span class="star-select-btn" data-value="5">&#9733;</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="review-content">Your Review</label>
+              <textarea id="review-content" class="form-input review-textarea" placeholder="Tell others about your experience with 234 District..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-black" style="width:100%; margin-top:10px;">Submit Review</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+     15. JOURNAL / BLOG SECTION
+     ========================================== -->
+  <section class="section-padding" id="journal">
+    <div class="container">
+      <div class="section-header-custom">
+        <h2 class="section-title-custom"><a href="#journal">Journal</a></h2>
+        <hr class="section-divider">
+      </div>
+
+      <div class="journal-grid">
+        <article class="journal-card" id="post-card-1">
+          <div class="journal-img-wrapper">
+            <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM.jpeg" alt="Journal Post" class="journal-img" loading="lazy">
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">May 7, 2026</span>
+            <h4 class="journal-title"><a href="#" data-drawer-trigger="journal-drawer">You’re Not ‘Badly Dressed’, You’re Just Wearing The Wrong Clothes.</a></h4>
+            <a href="#" class="journal-link" data-drawer-trigger="journal-drawer">
+              Read Article
+              <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="journal-card" id="post-card-2">
+          <div class="journal-img-wrapper">
+            <img src="/images/WhatsApp-Image-2026-05-08-at-12.55.22-AM.jpeg" alt="Journal Post" class="journal-img" loading="lazy">
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">April 29, 2026</span>
+            <h4 class="journal-title"><a href="#" data-drawer-trigger="journal-drawer">The Evolution of Streetwear Clogs in Modern Avant-Garde Style.</a></h4>
+            <a href="#" class="journal-link" data-drawer-trigger="journal-drawer">
+              Read Article
+              <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="journal-card" id="post-card-3">
+          <div class="journal-img-wrapper">
+            <img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM.jpeg" alt="Journal Post" class="journal-img" loading="lazy">
+          </div>
+          <div class="journal-info">
+            <span class="journal-date">March 18, 2026</span>
+            <h4 class="journal-title"><a href="#" data-drawer-trigger="journal-drawer">Styling Statement Accessories: Web Belts, Holsters, and Metal Utility.</a></h4>
+            <a href="#" class="journal-link" data-drawer-trigger="journal-drawer">
+              Read Article
+              <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobile Menu Sidebar Drawer -->
+  <div class="drawer mobile-menu-drawer" id="mobile-menu-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Navigation</span>
+      <button class="drawer-close" id="close-mobile-menu" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="drawer-content">
+      <nav class="mobile-nav-links">
+        <a href="/index.html" class="mobile-nav-link active">Home</a>
+        <a href="/shop" class="mobile-nav-link">Shop</a>
+        <a href="/shop?category=collections" class="mobile-nav-link">New Arrivals</a>
+        
+        <!-- Mobile Submenus -->
+        <div class="mobile-group-title">Men's Wear</div>
+        <a href="/shop?category=tops" class="mobile-sub-link">- Tops</a>
+        <a href="/shop?category=bottoms" class="mobile-sub-link">- Bottoms</a>
+        <a href="/shop?category=accessories" class="mobile-sub-link">- Footwear</a>
+        
+        <div class="mobile-group-title">Bags & Accessories</div>
+        <a href="/shop?category=accessories" class="mobile-sub-link">- Bags</a>
+        <a href="/shop?category=accessories" class="mobile-sub-link">- Accessories</a>
+        
+        <a href="/shop?category=home-decor" class="mobile-nav-link" style="margin-top: 10px;">Home Decor</a>
+        <a href="/index.html#journal" class="mobile-nav-link">Journal</a>
+      </nav>
+      <div class="mobile-menu-meta">
+        <a href="#" data-drawer-trigger="account-drawer">My Account</a>
+        <a href="#" data-drawer-trigger="cart-drawer">Shopping Bag (<span id="cart-badge-mobile">0</span>)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping Cart Drawer -->
+  <div class="drawer cart-drawer" id="cart-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Shopping Bag</span>
+      <button class="drawer-close" id="close-cart" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    
+    <div class="drawer-content" id="cart-drawer-content">
+      <div class="cart-items-list" id="cart-items-list">
+        <div class="cart-empty-message">Your shopping bag is empty.</div>
+      </div>
+    </div>
+
+    <!-- Cart Drawer Checkout Footer -->
+    <div class="drawer-footer">
+      <div class="cart-summary-row">
+        <span>Subtotal:</span>
+        <span id="cart-subtotal">₦0.00</span>
+      </div>
+
+      <!-- Bank Details Hidden Until Checkout Page -->
+
+      <a href="/checkout.html?v=35" class="btn-black cart-checkout-btn" style="display: block; text-align: center; text-decoration: none; line-height: 48px;">Proceed to Checkout</a>
+
+      <!-- Paystack Secured badge -->
+      <div class="paystack-secure-badge">
+        <svg class="secure-shield-icon" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Secured by <strong>Paystack</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- User Account Profile Drawer -->
+  <div class="drawer account-drawer" id="account-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">My Account</span>
+      <button class="drawer-close" id="close-account" aria-label="Close account">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="drawer-content" id="account-drawer-content">
+      <!-- Populated dynamically by home.js -->
+    </div>
+  </div>
+
+  <!-- SIZING CHART MODAL POPUP -->
+  <div class="modal-overlay" id="size-chart-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">District Sizing Guidelines</h3>
+        <button class="modal-close" id="close-size-modal">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal-content">
+        <!-- Chest / Waist Sizing Table -->
+        <h4 class="size-table-title">TOPS / OUTERWEAR</h4>
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>SIZE</th>
+              <th>UK Size</th>
+              <th>CHEST (cm)</th>
+              <th>WAIST (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>S</td><td>34/36</td><td>91-94</td><td>79-83</td></tr>
+            <tr><td>M</td><td>36/38</td><td>95-99</td><td>84-88</td></tr>
+            <tr><td>L</td><td>38/40</td><td>100-105</td><td>88-92</td></tr>
+            <tr><td>XL</td><td>42/44</td><td>106-111</td><td>93-98</td></tr>
+            <tr><td>XXL</td><td>46/48</td><td>112-118</td><td>99-105</td></tr>
+            <tr><td>XXXL</td><td>50/52</td><td>119-126</td><td>106-113</td></tr>
+          </tbody>
+        </table>
+
+        <h4 class="size-table-title" style="margin-top: 24px;">SHORTS / PANTS</h4>
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>SIZE</th>
+              <th>UK Size</th>
+              <th>WAIST (cm)</th>
+              <th>HIPS (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>S</td><td>30-32</td><td>79-83</td><td>82-86</td></tr>
+            <tr><td>M</td><td>32-34</td><td>84-88</td><td>87-91</td></tr>
+            <tr><td>L</td><td>34-36</td><td>88-92</td><td>92-96</td></tr>
+            <tr><td>XL</td><td>36-38</td><td>93-98</td><td>97-112</td></tr>
+            <tr><td>XXL</td><td>40-42</td><td>99-105</td><td>113-119</td></tr>
+            <tr><td>XXXL</td><td>42-44</td><td>106-113</td><td>120-127</td></tr>
+          </tbody>
+        </table>
+
+        <!-- Footwear Sizing Table -->
+        <h4 class="size-table-title" style="margin-top: 24px;">SHOE SIZE CHART</h4>
+        <table class="size-table">
+          <thead>
+            <tr>
+              <th>UK</th>
+              <th>EU</th>
+              <th>US</th>
+              <th>FOOT LENGTH (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>5</td><td>39</td><td>6</td><td>24</td></tr>
+            <tr><td>6</td><td>40</td><td>7</td><td>25</td></tr>
+            <tr><td>7</td><td>41</td><td>8</td><td>26</td></tr>
+            <tr><td>8</td><td>42</td><td>9</td><td>27</td></tr>
+            <tr><td>9</td><td>43</td><td>10</td><td>28</td></tr>
+            <tr><td>10</td><td>44</td><td>11</td><td>29</td></tr>
+            <tr><td>11</td><td>45</td><td>12</td><td>30</td></tr>
+            <tr><td>12</td><td>46</td><td>13</td><td>31</td></tr>
+            <tr><td>13</td><td>47</td><td>14</td><td>32</td></tr>
+          </tbody>
+        </table>
+        
+        <p class="size-chart-help">Need sizing assistance? Chat with us live or contact support.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- BUILT-IN POLICY DRAWER OVERLAYS -->
+  <div class="drawer policy-drawer" id="privacy-drawer">
+    <div class="drawer-header"><span class="drawer-title">Privacy Policy</span><button class="drawer-close-policy drawer-close"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-content">
+      <p>234 District respects your privacy and is committed to protecting your personal information.</p>
+      
+      <h4>Information We Collect</h4>
+      <p>We may collect:</p>
+      <ul>
+        <li>Name</li>
+        <li>Email address</li>
+        <li>Phone number</li>
+        <li>Shipping and billing address</li>
+        <li>Payment information (processed securely through third-party payment providers)</li>
+        <li>Order history</li>
+      </ul>
+      
+      <h4>How We Use Your Information</h4>
+      <p>We use your information to:</p>
+      <ul>
+        <li>Process and deliver orders.</li>
+        <li>Provide customer support.</li>
+        <li>Improve our website and services.</li>
+        <li>Send order updates and promotional communications (where permitted).</li>
+      </ul>
+      
+      <h4>Data Security</h4>
+      <p>We implement reasonable security measures to protect your personal information. However, no internet transmission or electronic storage method is completely secure.</p>
+      
+      <h4>Sharing Information</h4>
+      <p>We do not sell your personal information. We may share it with trusted service providers, including payment processors and shipping partners, solely to fulfill your orders.</p>
+      
+      <h4>Cookies</h4>
+      <p>Our website may use cookies to improve user experience and website functionality.</p>
+      
+      <h4>Your Rights</h4>
+      <p>You may request access to, correction of, or deletion of your personal information by contacting us.</p>
+      
+      <h4>Changes</h4>
+      <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page.</p>
+    </div>
+  </div>
+
+  <div class="drawer policy-drawer" id="terms-drawer">
+    <div class="drawer-header"><span class="drawer-title">Terms & Conditions</span><button class="drawer-close-policy drawer-close"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-content">
+      <p>Welcome to 234 District. By accessing or purchasing from our website, you agree to these Terms & Conditions.</p>
+      
+      <h4>1. General</h4>
+      <p>These Terms govern your use of our website and services. By placing an order, you confirm that you are at least 18 years old or have permission from a parent or guardian.</p>
+      
+      <h4>2. Products</h4>
+      <p>We strive to display our products as accurately as possible. However, actual colors may vary depending on your device's display. Product availability is subject to change without notice.</p>
+      
+      <h4>3. Pricing</h4>
+      <p>All prices are listed in Nigerian Naira (₦) unless otherwise stated. We reserve the right to change prices at any time without prior notice.</p>
+      
+      <h4>4. Orders</h4>
+      <p>We reserve the right to refuse or cancel any order for reasons including product availability, pricing errors, suspected fraud, or payment issues.</p>
+      
+      <h4>5. Payment</h4>
+      <p>Payment must be completed before orders are processed. We accept the payment methods displayed during checkout.</p>
+      
+      <h4>6. Shipping</h4>
+      <p>Shipping timelines are estimates and may vary due to courier delays, public holidays, weather conditions, or unforeseen circumstances.</p>
+      
+      <h4>7. Returns & Refunds</h4>
+      <p>Returns and refunds are governed by our Refund Policy.</p>
+      
+      <h4>8. Intellectual Property</h4>
+      <p>All content on this website, including logos, images, text, graphics, and designs, is the property of 234 District and may not be copied or reproduced without prior written permission.</p>
+      
+      <h4>9. Limitation of Liability</h4>
+      <p>234 District shall not be liable for any indirect, incidental, or consequential damages arising from the use of our products or website.</p>
+      
+      <h4>10. Governing Law</h4>
+      <p>These Terms shall be governed by the laws of the Federal Republic of Nigeria.</p>
+      
+      <h4>11. Changes</h4>
+      <p>We reserve the right to update these Terms at any time. Continued use of the website constitutes acceptance of the updated Terms.</p>
+    </div>
+  </div>
+
+  <div class="drawer policy-drawer" id="refund-drawer">
+    <div class="drawer-header"><span class="drawer-title">Refund Policy</span><button class="drawer-close-policy drawer-close"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-content">
+      <p>At 234 District, customer satisfaction is important to us.</p>
+      
+      <h4>Eligibility</h4>
+      <p>You may request a return within 7 days of receiving your order if:</p>
+      <ul>
+        <li>The item is damaged or defective.</li>
+        <li>You received the wrong item.</li>
+        <li>The item is unworn, unused, unwashed, and in its original packaging with all tags attached.</li>
+      </ul>
+      
+      <h4>Non-Returnable Items</h4>
+      <p>The following items cannot be returned:</p>
+      <ul>
+        <li>Sale or clearance items.</li>
+        <li>Gift cards.</li>
+        <li>Customized or personalized products.</li>
+        <li>Items showing signs of wear, washing, or alteration.</li>
+      </ul>
+      
+      <h4>Refund Process</h4>
+      <p>Once we receive and inspect your returned item, we will notify you of the approval or rejection of your refund.</p>
+      <p>Approved refunds will be processed to your original payment method within 5–10 business days, depending on your payment provider.</p>
+      <p>Shipping fees are non-refundable unless the return is due to our error.</p>
+      
+      <h4>Exchanges</h4>
+      <p>If you receive the wrong size or a defective item, we may offer an exchange subject to stock availability.</p>
+    </div>
+  </div>
+
+  <div class="drawer policy-drawer" id="shipping-drawer">
+    <div class="drawer-header"><span class="drawer-title">Shipping Policy</span><button class="drawer-close-policy drawer-close"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-content">
+      <h4>Processing Time</h4>
+      <p>Orders are processed within 1–3 business days after payment confirmation.</p>
+      
+      <h4>Delivery Time</h4>
+      <ul>
+        <li>Lagos: 1–3 business days</li>
+        <li>Other Nigerian states: 2–7 business days</li>
+        <li>International orders: 7–21 business days, depending on destination and customs processing.</li>
+      </ul>
+      
+      <h4>Shipping Costs</h4>
+      <p>Shipping fees are calculated during checkout based on your delivery location.</p>
+      
+      <h4>Order Tracking</h4>
+      <p>Tracking information will be provided once your order has been shipped, where available.</p>
+      
+      <h4>Delays</h4>
+      <p>Delivery estimates are not guaranteed. Delays caused by couriers, customs, weather, public holidays, or other circumstances beyond our control may occur.</p>
+      
+      <h4>Incorrect Address</h4>
+      <p>Customers are responsible for providing accurate shipping information. 234 District is not responsible for delays or losses resulting from incorrect or incomplete addresses.</p>
+    </div>
+  </div>
+
+  <div class="drawer policy-drawer" id="contact-drawer">
+    <div class="drawer-header"><span class="drawer-title">Contact Us</span><button class="drawer-close-policy drawer-close"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>
+    <div class="drawer-content">
+      <p>If you have any questions about your order, shipping, returns, or our products, we'd love to hear from you.</p>
+      
+      <h4>234 District</h4>
+      <p><strong>Phone / WhatsApp:</strong> +234 813 004 8010</p>
+      <p><strong>Business Hours:</strong><br>Monday – Friday: 9:00 AM – 6:00 PM (WAT)</p>
+    </div>
+  </div>
+
+  <!-- ==========================================
+     15B. JOURNAL / ARTICLE READER DRAWER
+     ========================================== -->
+  <div class="drawer journal-drawer" id="journal-drawer">
+    <div class="drawer-header">
+      <span class="drawer-title">Style Journal</span>
+      <button class="drawer-close" id="close-journal-drawer" aria-label="Close journal article">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="drawer-content journal-reader-content">
+      <h2 class="journal-read-title">You’re Not ‘Badly Dressed’, You’re Just Wearing The Wrong Clothes.</h2>
+      <div class="journal-read-meta">Published on May 7, 2026 &bull; by 234 District Editor</div>
+      
+      <p class="journal-read-quote">“Trends fade, evolve, disappear, and return in different forms, but style is everlasting.”</p>
+      
+      <p class="journal-read-paragraph">A curated space where fashion meets identity, the Style Journal explores personal style, modern aesthetics, timeless fashion. Our latest drop highlights visual intersections of minimalist streetwear, custom distressed textures, and bold silhouettes, showcasing that true style is built through intentionality rather than following temporary trends.</p>
+      
+      <div class="journal-read-gallery">
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.55.23-AM-1.jpeg" alt="Style Visual 1" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.55.22-AM.jpeg" alt="Style Visual 2" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM.jpeg" alt="Style Visual 3" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.20-AM-1.jpeg" alt="Style Visual 4" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.19-AM.jpeg" alt="Style Visual 5" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM.jpeg" alt="Style Visual 6" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM-3.jpeg" alt="Style Visual 7" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM-2.jpeg" alt="Style Visual 8" loading="lazy"></div>
+        <div class="gallery-item"><img src="/images/WhatsApp-Image-2026-05-08-at-12.53.15-AM-1.jpeg" alt="Style Visual 9" loading="lazy"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+     16. MAIN FOOTER
+     ========================================== -->
+  <footer class="main-footer" id="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Col 1: Brand Logo & Quote -->
+        <div class="footer-col brand-col" id="foot-col-1">
+          <img src="/images/logo.png?v=2" alt="234 DISTRICT" class="footer-logo">
+          <p class="footer-quote">Trends fade, evolve, disappear, and return in different forms, but style is everlasting.</p>
+        </div>
+
+        <!-- Col 2: Recent Posts -->
+        <div class="footer-col recent-posts-col" id="foot-col-2">
+          <h4 class="footer-col-title">RECENT POSTS</h4>
+          <div class="footer-post-item">
+            <a href="/index.html#journal" class="footer-post-link">You're Not 'Badly Dressed', You're Just Wearing The Wrong Clothes.</a>
+            <span class="footer-post-date">May 7, 2026</span>
+          </div>
+        </div>
+
+        <!-- Col 3: Category Links -->
+        <div class="footer-col categories-col" id="foot-col-3">
+          <h4 class="footer-col-title">CATEGORY</h4>
+          <ul class="footer-links">
+            <li><a href="/shop?category=collections" class="footer-link">New collection</a></li>
+            <li><a href="/shop?category=accessories" class="footer-link">Accessories</a></li>
+            <li><a href="/shop?category=bottoms" class="footer-link">Bottoms</a></li>
+            <li><a href="/shop?category=tops" class="footer-link">Tops</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Social Capsule Buttons -->
+        <div class="footer-col socials-col" id="foot-col-4">
+          <div class="social-capsule-grid">
+            <a href="https://www.facebook.com/share/1bR9daE1hC/?mibextid=wwXIfr" target="_blank" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a href="https://twitter.com/234district" target="_blank" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <span>X</span>
+            </a>
+            <a href="https://www.instagram.com/234district" target="_blank" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.tiktok.com/@234fashiondistrict" target="_blank" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.17-2.86-.74-3.99-1.72-.08-.07-.17-.14-.24-.22v6.56c.06 1.83-.4 3.73-1.5 5.17-1.4 1.87-3.79 2.92-6.14 2.81-2.33-.02-4.63-1.07-5.89-3.03-1.57-2.31-1.63-5.59-.14-7.98 1.2-1.99 3.42-3.23 5.76-3.27.05 1.29.01 2.58.02 3.87-1.24.03-2.52.54-3.27 1.56-.88 1.14-.94 2.82-.16 4.02.66 1.07 1.95 1.72 3.21 1.65 1.25-.01 2.45-.63 3.03-1.73.54-.95.55-2.12.53-3.19.01-4.57.01-9.15.01-13.73v-.08z"/></svg>
+              <span>TikTok</span>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              <span>YouTube</span>
+            </a>
+            <a href="mailto:contact@234district.com" class="social-capsule-btn">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <span class="copyright-label">&copy; 234District 2026</span>
+        <div class="footer-bottom-links">
+          <a href="#" data-drawer-trigger="shipping-drawer" class="footer-bottom-link">Shipping Policy</a>
+          <span class="footer-separator">&bull;</span>
+          <a href="#" data-drawer-trigger="refund-drawer" class="footer-bottom-link">Refund & Exchange</a>
+          <span class="footer-separator">&bull;</span>
+          <a href="#" data-drawer-trigger="privacy-drawer" class="footer-bottom-link">Privacy Policy</a>
+          <span class="footer-separator">&bull;</span>
+          <a href="#" data-drawer-trigger="terms-drawer" class="footer-bottom-link">Terms & Conditions</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================
+     17. SCROLL TO TOP BUTTON
+     ========================================== -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24"><path d="M5 15l7-7 7 7"/></svg>
+  </button>
+
+  <!-- ==========================================
+     18. STICKY CONTACT CHAT WIDGET
+     ========================================== -->
+  <div class="sticky-chat-widget" id="sticky-chat-widget">
+    <div class="chat-popup-card" id="chat-popup-card">
+      <div class="chat-popup-header">How would you like to contact us?</div>
+      <div class="chat-popup-body">
+        <div class="chat-popup-welcome">Welcome!</div>
+        <a href="https://wa.me/2348067180220" target="_blank" class="chat-popup-row chat-whatsapp">
+          <div class="chat-icon-circle whatsapp-green">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:+2348067180220" class="chat-popup-row chat-phone">
+          <div class="chat-icon-circle phone-blue">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.15 15.15 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </div>
+          <span>Phone</span>
+        </a>
+      </div>
+    </div>
+    
+    <div class="chat-toggle-btn-wrap">
+      <button class="chat-toggle-trigger" id="chat-toggle-trigger" aria-label="Open contact links">
+        <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+      </button>
+      <button class="chat-close-trigger" id="chat-close-trigger" aria-label="Close contact links">
+        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- ==========================================
+     CUSTOM PRODUCT OPTIONS MODAL (SCREENSHOT 2 STYLE)
+     ========================================== -->
+  <div class="modal-overlay" id="product-options-modal">
+    <div class="modal-container options-modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="options-modal-title">Product Details</h3>
+        <button class="modal-close" id="close-options-modal" aria-label="Close options">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2.5" fill="none"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <div class="modal-content options-modal-content">
+        <!-- Image & Description -->
+        <div class="options-modal-visual">
+          <div class="modal-slideshow-container">
+            <div class="modal-slideshow-wrapper" id="modal-slideshow-wrapper">
+              <!-- Dynamically populated with <img class="modal-slide-img"> -->
+            </div>
+            <!-- Slideshow Arrows -->
+            <button class="modal-slide-prev" id="modal-slide-prev" aria-label="Previous image">
+              <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+            </button>
+            <button class="modal-slide-next" id="modal-slide-next" aria-label="Next image">
+              <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+            </button>
+            <!-- Slideshow Dots -->
+            <div class="modal-slide-dots" id="modal-slide-dots"></div>
+          </div>
+        </div>
+        <div class="options-modal-details">
+          <h2 class="options-product-name" id="options-product-name">Product Name</h2>
+          <div class="options-product-brand">234 DISTRICT</div>
+          <div class="options-product-price" id="options-product-price">₦0.00</div>
+          <p class="options-product-description" id="options-product-description"></p>
+          
+          <!-- Size selection row -->
+          <div class="options-size-section">
+            <div class="options-size-header">
+              <span class="size-label">SIZE</span>
+              <a href="#" class="size-chart-link" id="options-size-chart-trigger">SIZE CHART</a>
+            </div>
+            <div class="options-size-row" id="options-size-buttons">
+              <!-- Populated dynamically by home.js -->
+            </div>
+          </div>
+          
+          <!-- Action Buttons -->
+          <button class="btn-black-action" id="options-add-to-cart-btn">ADD TO CART</button>
+          <button class="btn-gray-action" id="options-buy-it-now-btn">BUY IT NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button (Bottom-Left) -->
+  <button class="back-to-top-btn" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+  </button>
+
+  <!-- ==========================================
+     19. CLIENT SCRIPTS
+     ========================================== -->
+  <script src="/js/main.js?v=55"></script>
+  <script src="/js/home.js?v=55"></script>
+</body>
+</html>
