@@ -1212,24 +1212,24 @@
   margin-top: 10px !important;
 }
 
-.size-select-label {
+.options-modal-container .size-select-label {
   color: #ffffff !important;
   font-size: 0.8rem !important;
   font-weight: 700 !important;
 }
 
-.size-select-btn {
+.options-modal-container .size-select-btn {
   background: transparent !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   color: #ffffff !important;
   transition: all 0.2s ease !important;
 }
 
-.size-select-btn:hover {
+.options-modal-container .size-select-btn:hover {
   border-color: #ffffff !important;
 }
 
-.size-select-btn.selected {
+.options-modal-container .size-select-btn.selected {
   background: #ffffff !important;
   color: #000000 !important;
   border-color: #ffffff !important;
