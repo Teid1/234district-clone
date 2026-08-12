@@ -411,6 +411,21 @@ html, body {
   overflow-x: hidden;
 }
 
+/* ==========================================
+   HIDE ANNOUNCEMENT / MARQUEE (Removes sliding banner that causes mobile overflow)
+   ========================================== */
+.announcement-bar,
+.marquee,
+.marquee-ticker,
+.marquee-content {
+  display: none !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+
+
 .product-page-content,
 .modal-slideshow-container,
 .modal-slideshow-wrapper,
