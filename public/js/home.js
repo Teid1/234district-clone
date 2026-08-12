@@ -2284,17 +2284,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!slideshowWrapper) return;
 
     const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('id');
+    let productId = urlParams.get('id');
+    
+    // Default to the featured 4th3ex Boxer Briefs if no product ID is specified
     if (!productId) {
-      window.location.href = '/shop';
-      return;
+      productId = 'col-48';
     }
 
-    const product = PRODUCTS.find(p => p.id === productId);
-    if (!product) {
-      window.location.href = '/shop';
-      return;
-    }
+    const product = PRODUCTS.find(p => p.id === productId) || PRODUCTS[0];
 
     // Populate metadata and info fields
     document.title = `${product.name} — 234 DISTRICT`;
