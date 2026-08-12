@@ -472,6 +472,34 @@ html, body {
   }
 }
 
+/* Tighten product page visuals to avoid auto-zooming and white gaps */
+.product-page-content {
+  overflow: hidden !important;
+}
+
+.product-page-visual {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.modal-slideshow-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.modal-slideshow-wrapper img,
+.modal-slideshow-wrapper picture,
+.modal-slideshow-wrapper video {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
+
+
 
 /* Dock scroll state */
 .main-header.scrolled {
