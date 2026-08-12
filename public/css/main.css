@@ -2354,3 +2354,9 @@ img {
     max-height: 75vh;
   }
 }
+
+/* Premium Text Justification for balanced screen flow */
+.product-page-description, #options-product-description, .footer-quote, .lookbook-desc, .journal-post-desc, .blog-content p, .checkout-section p {
+  text-align: justify !important;
+  text-justify: inter-word;
+}
