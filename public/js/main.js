@@ -496,10 +496,12 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.className = 'lightbox-overlay';
     overlay.innerHTML = `
       <button class="lightbox-close" id="lightbox-close-btn" aria-label="Close lightbox">&times;</button>
-      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn" aria-label="Previous image">&#10094;</button>
       <img class="lightbox-content" id="lightbox-img" src="" alt="Expanded View">
-      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn" aria-label="Next image">&#10095;</button>
       <div class="lightbox-caption" id="lightbox-caption"></div>
+      <div class="lightbox-nav-container">
+        <button class="lightbox-btn lightbox-prev-btn" id="lightbox-prev-btn" aria-label="Previous image">Go to the Back</button>
+        <button class="lightbox-btn lightbox-next-btn" id="lightbox-next-btn" aria-label="Next image">Go to the Front</button>
+      </div>
     `;
 
     document.body.appendChild(overlay);
