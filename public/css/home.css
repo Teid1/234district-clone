@@ -1395,7 +1395,7 @@
 }
 
 .product-page-visual .modal-slide-img {
-  object-fit: contain !important;
+  object-fit: cover !important;
   background-color: var(--color-bg-white) !important;
 }
 
