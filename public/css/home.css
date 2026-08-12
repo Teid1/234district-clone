@@ -1248,7 +1248,7 @@
 }
 
 /* Responsive configurations for mobile */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .options-modal-content {
     flex-direction: column !important;
     gap: 20px !important;
@@ -1399,7 +1399,7 @@
   background-color: var(--color-bg-white) !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .product-page-content {
     flex-direction: column !important;
     gap: 30px !important;
