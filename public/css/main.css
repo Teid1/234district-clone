@@ -48,6 +48,7 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   background-color: var(--color-bg-light);
+  overflow-x: hidden;
 }
 
 body {
@@ -323,6 +324,31 @@ img {
   text-transform: uppercase;
   position: relative;
   z-index: 1001;
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: announcementMarquee 25s linear infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  padding-right: 48px;
+  white-space: nowrap;
+}
+
+@keyframes announcementMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .main-header {
