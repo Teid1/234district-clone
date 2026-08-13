@@ -34,6 +34,50 @@
   --container-width: 1290px;
 }
 
+/* Final strict guard: ensure the page shell never grows wider than the viewport */
+html, body {
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+/* Ensure main sections and footer never exceed viewport width */
+section, .section-padding, .shop-page-title-section, .main-footer {
+  max-width: 100vw !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure action buttons don't create tiny scroll overflow */
+.action-btn {
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Strong small-screen header alignment guard to avoid off-canvas whitespace */
+@media (max-width: 1024px) {
+  .main-header {
+    left: 6px !important;
+    right: 6px !important;
+    transform: none !important;
+    width: calc(100% - 12px) !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Ensure body/HTML min-width matches viewport to avoid visual gaps when zooming */
+html, body {
+  min-width: 100vw !important;
+  background-color: var(--color-bg-light) !important;
+}
+
+/* Enforce no horizontal scrolling and restrict touch pan to vertical only */
+html, body {
+  overflow-x: hidden !important;
+  touch-action: pan-y !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
 /* ==========================================
    2. RESET & BASE
    ========================================== */
@@ -129,13 +173,6 @@ img {
   margin: 0 auto;
   padding: 0 40px;
   width: 100%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 1200px) {
-  .container {
-    padding: 0 32px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -149,12 +186,6 @@ img {
     width: 100%;
     max-width: 100vw;
     overflow-x: hidden;
-  }
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 0 8px;
   }
 }
 
@@ -411,11 +442,22 @@ img {
 }
 
 /* ==========================================
-   RESPONSIVE LAYOUT & MEDIA GUARD
-   Prevent accidental horizontal overflow. Consolidate all responsive rules here.
+   99. RESPONSIVENESS GUARDS
+   Prevent accidental horizontal overflow and ensure images/slides
+   do not force the browser to auto-zoom out on narrow viewports.
+   These rules are intentionally conservative and target common
+   culprits (slides, large images, wrappers) while keeping layout.
    ========================================== */
 
-/* Announcement bar is hidden site-wide */
+html, body {
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ==========================================
+   HIDE ANNOUNCEMENT / MARQUEE (Removes sliding banner that causes mobile overflow)
+   ========================================== */
 .announcement-bar,
 .marquee,
 .marquee-ticker,
@@ -427,48 +469,15 @@ img {
   overflow: hidden !important;
 }
 
-/* Product page responsive layout */
-@media (max-width: 768px) {
-  .product-page-content {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    align-items: stretch;
-  }
 
-  .product-page-visual,
-  .product-page-details {
-    width: 100%;
-    max-width: 100%;
-  }
-}
-
-/* Product page visual sizing - consistent across all breakpoints */
-.product-page-content {
-  box-sizing: border-box;
-  overflow: hidden;
-  max-width: 100%;
-  width: 100%;
-}
-
-.product-page-visual {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-}
-
-.product-page-details {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-}
-
-/* Modal slideshow wrapper and images */
+.product-page-content,
 .modal-slideshow-container,
-.modal-slideshow-wrapper {
+.modal-slideshow-wrapper,
+.hero-bg-slideshow,
+.shop-page-title-slideshow,
+.marquee-content {
   box-sizing: border-box;
-  max-width: 100%;
+  max-width: 100vw;
   width: 100%;
   overflow-x: hidden;
 }
@@ -485,18 +494,47 @@ img {
   object-fit: cover;
 }
 
-/* Sections never exceed viewport */
-section, 
-.section-padding, 
-.shop-page-title-slideshow,
-.hero-bg-slideshow {
-  box-sizing: border-box;
-  max-width: 100vw;
-  width: 100%;
-  overflow-x: hidden;
+@media (max-width: 768px) {
+  .product-page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: stretch;
+  }
+
+  .product-page-visual,
+  .product-page-details {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 }
 
+/* Tighten product page visuals to avoid auto-zooming and white gaps */
+.product-page-content {
+  overflow: hidden !important;
+}
 
+.product-page-visual {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.modal-slideshow-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  overflow: hidden !important;
+}
+
+.modal-slideshow-wrapper img,
+.modal-slideshow-wrapper picture,
+.modal-slideshow-wrapper video {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
 
 
 
@@ -707,7 +745,29 @@ section,
   }
 }
 
+/* Further tighten product page spacing on very small screens */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
 
+  .product-page-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .product-page-visual,
+  .product-page-details {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
 
 /* ==========================================
    6. DESKTOP NAVIGATION DROPDOWNS (LIGHT GLASS)
