@@ -708,6 +708,30 @@ html, body {
   }
 }
 
+/* Further tighten product page spacing on very small screens */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .product-page-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+
+  .product-page-visual,
+  .product-page-details {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
 /* ==========================================
    6. DESKTOP NAVIGATION DROPDOWNS (LIGHT GLASS)
    ========================================== */
