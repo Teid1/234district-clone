@@ -40,6 +40,14 @@ html, body, .container, .product-page-content, .product-page-content * {
   box-sizing: border-box !important;
 }
 
+/* Ensure main sections and footer never exceed viewport width */
+section, .section-padding, .shop-page-title-section, .main-footer {
+  max-width: 100vw !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
 /* Ensure action buttons don't create tiny scroll overflow */
 .action-btn {
   min-width: 0 !important;
