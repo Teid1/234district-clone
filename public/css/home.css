@@ -428,14 +428,14 @@
 
 @media (max-width: 480px) {
   .product-page-content {
-    gap: 14px;
+    gap: 20px;
   }
   .product-page-visual {
     order: 1;
   }
   .product-page-details {
     order: 2;
-    padding-bottom: 12px;
+    padding-bottom: 18px;
   }
   .product-page-name {
     font-size: 1.15rem;

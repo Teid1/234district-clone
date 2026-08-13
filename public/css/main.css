@@ -462,11 +462,11 @@ html, body {
 .marquee,
 .marquee-ticker,
 .marquee-content {
-  display: none !important;
-  height: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  overflow: hidden !important;
+  display: none;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
 
@@ -498,7 +498,7 @@ html, body {
   .product-page-content {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 24px;
     align-items: stretch;
   }
 
@@ -509,21 +509,24 @@ html, body {
   }
 }
 
-/* Tighten product page visuals to avoid auto-zooming and white gaps */
+/* Product page visuals - responsive without cut-off */
 .product-page-content {
-  overflow: hidden !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 .product-page-visual {
-  max-width: 100% !important;
-  width: 100% !important;
-  overflow: hidden !important;
+  max-width: 100%;
+  width: 100%;
+  overflow: visible;
 }
 
 .modal-slideshow-wrapper {
-  max-width: 100% !important;
-  width: 100% !important;
-  overflow: hidden !important;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .modal-slideshow-wrapper img,
@@ -762,7 +765,7 @@ html, body {
 
   .product-page-visual,
   .product-page-details {
-    padding: 0 !important;
+    padding: 12px !important;
     margin: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
