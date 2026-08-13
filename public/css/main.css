@@ -71,6 +71,13 @@ html, body {
   background-color: var(--color-bg-light) !important;
 }
 
+/* Enforce no horizontal scrolling and restrict touch pan to vertical only */
+html, body {
+  overflow-x: hidden !important;
+  touch-action: pan-y !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
 /* ==========================================
    2. RESET & BASE
    ========================================== */
