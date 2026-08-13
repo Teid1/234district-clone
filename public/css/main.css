@@ -1282,6 +1282,21 @@ html, body {
   max-width: 520px;
 }
 
+/* Hide drawers from layout when not active to avoid contributing to scroll width */
+.drawer {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3000;
+  max-width: 520px;
+}
+
+.drawer.active {
+  display: block;
+  transform: translateX(0) !important;
+}
+
 .mobile-group-title {
   font-family: var(--font-heading);
   font-weight: 800;
