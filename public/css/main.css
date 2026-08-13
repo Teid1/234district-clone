@@ -46,6 +46,23 @@ html, body, .container, .product-page-content, .product-page-content * {
   overflow: hidden !important;
 }
 
+/* Strong small-screen header alignment guard to avoid off-canvas whitespace */
+@media (max-width: 1024px) {
+  .main-header {
+    left: 6px !important;
+    right: 6px !important;
+    transform: none !important;
+    width: calc(100% - 12px) !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Ensure body/HTML min-width matches viewport to avoid visual gaps when zooming */
+html, body {
+  min-width: 100vw !important;
+  background-color: var(--color-bg-light) !important;
+}
+
 /* ==========================================
    2. RESET & BASE
    ========================================== */
