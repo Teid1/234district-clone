@@ -1,6 +1,6 @@
 {
   "name": "234district-clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom build of 234 District web application",
   "main": "server.js",
   "scripts": {
