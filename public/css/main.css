@@ -34,6 +34,18 @@
   --container-width: 1290px;
 }
 
+/* Final strict guard: ensure no element can grow wider than the viewport */
+html, body, .container, .product-page-content, .product-page-content * {
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure action buttons don't create tiny scroll overflow */
+.action-btn {
+  min-width: 0 !important;
+  overflow: hidden !important;
+}
+
 /* ==========================================
    2. RESET & BASE
    ========================================== */
